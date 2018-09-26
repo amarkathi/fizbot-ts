@@ -1,0 +1,552 @@
+@font-face {
+	font-family: "Harringt";
+	src: url("../fonts/HARRINGT.TTF");
+}
+
+.bot-heading {
+	font-weight: normal!important;
+    color: #003b42!important;
+    letter-spacing: 0.2px;
+    font-size: 38px!important;
+    text-align: center;
+}
+
+/* #inner-chat-window {
+  min-height: 330px;
+  max-height: 330px;
+  overflow-y: scroll;
+  border-top: thin grey solid;
+  border-bottom: thin grey solid;
+  padding: 5px 0;
+  padding-top: 10px;
+} */
+
+.ui-error-message {
+	text-align: center;
+    position: absolute;
+    top: 18px;
+    z-index: 2;
+    margin-left: -110px;
+    left: 50%;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 3px;	
+}
+
+.regression-success-msg {
+    display: none;
+    padding: 10px;
+}
+.top-heading {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.topbar {background:url(../images/end-user.png);	height:5px;	top: 0;width: 100%;z-index: 1000;}
+
+.fadeInLeftBig {
+  -webkit-animation-name: fadeInLeftBig;
+  animation-name: fadeInLeftBig;
+}
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.navbar-fixed-top{top: 5px;}
+
+.panel .slidedown .glyphicon, .chat .glyphicon
+{
+    margin-right: 5px;
+}
+
+.panel-body1
+{
+    overflow-y: scroll;
+    height: 480px;
+    margin-top: -12px;
+}
+.panel-default>.panel-heading {
+  background: none;
+  border: none;  
+  padding-left: 5px;
+}
+
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+  border:none;
+}
+
+.panel-title {
+  margin-top: 18px;
+}
+
+.panel-primary {
+  border:none;
+}
+/* ::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+    width: 9px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+} */
+.panel-primary>.panel-heading {
+    color: black;
+    background-color: white;
+    border-color: grey;
+    /* background-image: linear-gradient(to bottom,#d65e5e 0,#a24848 100%); */
+}
+
+.panel-default {
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+ /* .botImage {
+	background: url(../images/sathy.png) no-repeat;
+	width : 45px;
+	height: 40px;
+	background-size: 85%;
+} */
+
+.userImage {
+	background: url(../images/end-user.png) no-repeat;
+	width : 45px;
+	height: 40px;
+	background-size: 85%;
+	margin-left: 6px;
+}
+.testbg {
+  background: url(../images/end-user.png);
+}
+.new-conversation-icon {
+  background: url(../images/end-user.png) no-repeat;
+  margin-top: -12px;
+  left: 4px;
+  position: relative;
+  float: right;
+  width: 48px;
+  height: 50px;
+  background-size: 83% 82%;
+  cursor: pointer;
+   -moz-transform: scaleX(-1);
+   -o-transform: scaleX(-1);
+   -webkit-transform: scaleX(-1);
+   transform: scaleX(-1);
+   filter: FlipH;
+   -ms-filter: "FlipH";
+   top: 5px;
+}
+
+ul.chat {
+  width: 100%;
+  padding-left: 0!important;
+}
+ul.chat > li {
+  padding: 10px;
+  display: inline-flex;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  transition: all 0.18s ease-in;
+  position: relative;
+  border-bottom: none;
+  padding-bottom: 20px;
+}
+/* ul.chat li img {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  margin-top: 4px;
+} */
+ul.chat li .message {
+  padding: 10px 10px 10px 20px;
+  font-size: 0.9em;
+  /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); */
+  /* box-shadow:0 5px 7px rgba(0, 0, 0, 0.12), 0 4px 5px rgba(0, 0, 0, 0.24); */
+  width: 60%;
+  /* width:80%; */
+  position: relative;
+  background: white;
+  border-radius: 5px;
+}
+/* ul.chat li .message:after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 8px 8px 8px 0;
+  border-color: transparent white;
+  display: block;
+  width: 0;
+  z-index: 1;
+  left: -8px;
+   top: 3px;
+}*/
+ul.chat li.left {
+  flex-direction: row;
+}
+/* ul.chat li.left .message {
+  background-color: #d6ecf0;
+  display: table;
+  word-break: break-word; 
+} */
+
+ul.chat li.right {
+  flex-direction: row-reverse;
+  padding-right: 0px
+}
+/* ul.chat li.right .message {
+  background: #fdf8e5;
+  display: table;
+  color: #fff; 
+} */
+
+/*ul.chat li.left .message:after {
+   right: -8px;
+  left: auto; 
+  border-width: 8px 0 8px 8px;
+  border-color: transparent #d6ecf0;
+  transform: rotate(180deg);
+}*/
+
+
+ /* ul.chat li.right .message:after {
+  right: -8px;
+  left: auto;
+  border-width: 8px 0 8px 8px;
+  border-color: transparent #fdf8e5;
+} */
+
+.bot-typing {
+	padding-top: 0px!important;
+    padding-bottom: 7px!important;
+    animation-name: blink;
+    animation-duration: 1.7s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    background-color: #337ab7!important;
+    color: #fff;
+    /* height: 32px; */
+} 
+.bot-askQ-microphone {
+	right: 18%;
+    top: 5px;
+	color: #999;
+    font-size: 20px!important;
+    position: absolute;
+    z-index: 2;
+    opacity: 0.7;
+    cursor: pointer;
+}
+.feedback-form {
+	float: left; margin-right: 20px;
+}
+.feedback-heading {
+	margin-bottom: 8px; font-weight: 700;
+}
+
+/* .thumbs-up-div {
+	background-color: #78be42;
+    border-radius: 100%;
+    width: 38px;
+    padding-left: 7px;
+    height: 36px;
+    padding-top: 5px;
+    cursor: pointer;
+    float: left;
+    margin-right: 15px;
+}
+
+.thumbs-down-div {
+	background-color: #e1343a;
+    border-radius: 100%;
+    width: 38px;
+    padding-left: 8px;
+    height: 36px;
+    padding-top: 5px;
+    cursor: pointer;
+    float: left;
+} */
+
+/* .thumbs-up {
+	font-size: 2em;
+	color:#fff;
+}
+
+.thumbs-up-div:hover {
+	background-color: #008000;
+}
+
+.thumbs-down {
+	font-size: 2em;
+	color:#fff;
+}
+
+.thumbs-down-div:hover {
+	background-color: #aa0000;
+} */
+
+.resolutionHyperlink {
+	color: #337ab7!important;
+    text-decoration: underline!important;
+    word-break: break-word;
+}
+
+.morelink {
+	font-size: 10px;
+	background: #666;
+	padding: 0 5px;
+	border-radius: 9px;
+	color: #fff;
+	display: inline-block !important;
+	padding-bottom: 1.5px;
+}
+
+.resolutionHyperlink {
+	color: #337ab7!important;
+    text-decoration: underline!important;
+}
+
+.btn-info {
+    background-image: -webkit-linear-gradient(top,#5bc0de 0,#2aabd2 100%);
+    background-image: -o-linear-gradient(top,#5bc0de 0,#2aabd2 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#5bc0de),to(#2aabd2));
+    background-image: linear-gradient(to bottom,#5bc0de 0,#2aabd2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bc0de', endColorstr='#ff2aabd2', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    background-repeat: repeat-x;
+    border-color: #28a4c9;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 1px rgba(0,0,0,.075);
+}
+
+.btn-danger, .btn-default, .btn-primary, .btn-success, .btn-warning {
+    text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 1px rgba(0,0,0,.075);
+}
+@keyframes blink {
+    /**
+     * At the start of the animation the dot
+     * has an opacity of .2
+     */
+    0% {
+      opacity: .2;
+    }
+    /**
+     * At 20% the dot is fully visible and
+     * then fades out slowly
+     */
+    20% {
+      opacity: 1;
+    }
+    /**
+     * Until it reaches an opacity of .2 and
+     * the animation can start again
+     */
+    100% {
+      opacity: .2;
+    }
+}
+
+.saving span {
+	font-size:25px;
+    /**
+     * Use the blink animation, which is defined above
+     */
+    animation-name: blink;
+    /**
+     * The animation should take 1.4 seconds
+     */
+    animation-duration: 1.4s;
+    /**
+     * It will repeat itself forever
+     */
+    animation-iteration-count: infinite;
+    /**
+     * This makes sure that the starting style (opacity: .2)
+     * of the animation is applied before the animation starts.
+     * Otherwise we would see a short flash or would have
+     * to set the default styling of the dots to the same
+     * as the animation. Same applies for the ending styles.
+     */
+    animation-fill-mode: both;
+}
+
+.saving span:nth-child(2) {
+    /**
+     * Starts the animation of the third dot
+     * with a delay of .2s, otherwise all dots
+     * would animate at the same time
+     */
+    animation-delay: .2s;
+}
+
+.saving span:nth-child(3) {
+    /**
+     * Starts the animation of the third dot
+     * with a delay of .4s, otherwise all dots
+     * would animate at the same time
+     */
+    animation-delay: .4s;
+}
+
+.dropdown {
+    background:#fff;
+    border:1px solid #ccc;
+    border-radius:4px;
+    width:200px;    
+}
+.dropdown-menu>li>a {
+    color:#428bca;
+}
+.dropdown ul.dropdown-menu {
+    border-radius:4px;
+    box-shadow:none;
+    margin-top:12px;
+    width:200px;
+    background-color: #f5f5f5;
+}
+.dropdown ul.dropdown-menu:before {
+    content: "";
+    border-bottom: 10px solid #fff;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    position: absolute;
+    top: -10px;
+    right: 16px;
+    z-index: 10;
+}
+.dropdown ul.dropdown-menu:after {
+    content: "";
+    border-bottom: 12px solid #ccc;
+    border-right: 12px solid transparent;
+    border-left: 12px solid transparent;
+    position: absolute;
+    top: -12px;
+    right: 14px;
+    z-index: 9;
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+	background-image: linear-gradient(to bottom,#f5f5f5 0,#aaaaaa 100%);
+}
+
+.chatwindow-scroll::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+.chatwindow-scroll::-webkit-scrollbar
+{
+    width: 9px;
+    background-color: #F5F5F5;
+}
+
+.chatwindow-scroll::-webkit-scrollbar-thumb
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+
+.customer-time {
+	bottom: 5px!important;
+    /* left: 56px;
+    color: #767676;
+    font-size: 11px; */
+    right: 50px;
+}
+.btn-disable{
+	background-image: -webkit-linear-gradient(top,#5bc0de 0,#2aabd2 100%);
+    background-image: -o-linear-gradient(top,#5bc0de 0,#2aabd2 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#5bc0de),to(#2aabd2));
+    background-image: linear-gradient(to bottom,#5bc0de 0,#2aabd2 100%);
+    text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+}
+
+.tooltip > .tooltip-inner {
+      background-color: #fff; 
+      color: #000; 
+      border: 1px solid gray; 
+      padding: 10px;
+      font-size: 12px;
+      font-family: 'Open Sans', arial, sans-serif;
+  }
+  .email{
+    width: 23px;
+    margin-right: 10px;
+    margin-bottom: 12px;
+    height: 28px;
+  }
+  /* Tooltip on top */
+ .tooltip.left > .tooltip-arrow {
+      border-top: 5px solid green;
+  }
+  
+  .bot-home-bg {
+  width: 100%;transform: scaleX(-1);
+  }
+  .bot-header {
+  position: absolute;top: 0px;padding: 7px;margin: 5px;width:99.6%}
+  
+  .bot-display-name {
+  padding: 8px!important; background: #3174ae; color: #fff;background: none}
+  .bot-display-name-icon {
+  font-size: 19px;opacity: 0.9;}
+  .bot-chat-panel {
+  margin-bottom: 0px; background-color: #ffffff9e;}
+  .bot-chat-header {
+      padding: 10px 0px 7px 10px!important;
+      box-shadow: 0 8px 34px -6px black;
+      border-bottom: none!important;
+      color:black!important;
+      background-color:#337ab7;
+  }
+  
+  /* For IE */
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none){
+    .bot-chat-container {
+        margin-right: 0px!important;position: absolute;max-height: 577px;height:400px;width: 474px;margin-bottom: 0px!important;}
+        .bot-time {
+            font-weight: 400;position: absolute;bottom: 1%;right: 62px;left: 67px;color: #767676;font-size: 11px;}
+  }
+
+  /* For chrome */
+@media screen and (-webkit-min-device-pixel-ratio:0){
+    /* .bot-chat-container {
+        margin-right: 0px!important;position: absolute;height: 100%;width: 100%;margin-bottom: 0px!important;} */
+        .bot-chat-container {
+            margin-right: 0px!important;position: absolute;height: 100%;width: 100%;margin-bottom: 0px!important;}
+            .bot-time {
+                font-weight: 400;position: absolute;bottom: 1%;right: 62px;left: 67px;color: #767676;font-size: 11px;}
+}
+  
+  
+  .bot-panel-default {
+  float: right;margin-bottom: 0px;background-color: #ffffff9e;}
+  .bot-info {
+  color: #3c99aa;font-size: 25px;margin-right: 4px;margin-top: 2px;}
+  .bot-refresh-conv {
+  color: #3c99aa;font-size: 22px;margin-right: 15px;margin-top: 2px;cursor:pointer }
+  .bot-max-min {
+  color: #3c99aa;font-size: 25px;margin-right: 15px;margin-top: 2px;cursor:pointer;}
+  .bot-domain {
+  line-height: 20px;background: rgb(247, 170, 97)!important; color: #000000!important;font-size: 13px!important;}
+
+  .tooltip > .tooltip-inner {
+   text-align:left;
+ }

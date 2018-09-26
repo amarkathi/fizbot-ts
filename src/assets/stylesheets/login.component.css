@@ -1,0 +1,178 @@
+/* .login {
+  width: 40%;
+}
+
+.login-container {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  margin: 0 auto;
+  margin-top: 12%;
+}
+
+.login-heading {
+  margin: 20px 0px;
+}
+
+.mBot25 {
+  margin-bottom: 25px;
+}
+ */
+ 
+ @font-face {
+	font-family: "Harringt";
+	src: url("../fonts/HARRINGT.TTF");
+}
+ 
+ .loaderContainer {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10000;
+	opacity: 0.5;
+	-webkit-transition: opacity 1.4s;
+	-moz-transition: opacity 1.4s;
+	-ms-transition: opacity 1.4s;
+	-o-transition: opacity 1.4s;
+	transition: opacity 1.4s;
+	background: rgba(0,0,0,.95);
+	height: 100%;
+}
+ .loginWrapper {
+	background-image: url(../images/robo-bg.jpg);
+	background-size: 100% 100%;
+}
+.mainLogin .wrapper {
+	margin-top: 60px;
+	margin-bottom: 80px;
+}
+.mainLogin .form-signin {
+	max-width: 380px;
+	padding: 10px 25px 30px 25px;
+	margin: 0 auto;
+	background-color: #fff;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	opacity: 0.8;
+}
+.mainLogin .form-signin .form-signin-heading, .mainLogin .form-signin .checkbox {
+	margin-bottom: 30px;
+}
+.mainLogin .form-signin .checkbox {
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+.mainLogin .form-signin .form-control {
+	position: relative;
+	font-size: 14px;
+	height: auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.mainLogin .form-signin .form-control:focus {
+	z-index: 2;
+}
+.mainLogin .form-signin input[type="password"] {
+	margin-bottom: 20px;
+}
+.loginWrapper .footer {
+	color: #aaaaaa !important;
+}
+.loginWrapper .checkbox label {
+	padding-left: 0;
+}
+.acip-login {
+	font-weight: normal!important;
+    color: #003b42!important;
+    letter-spacing: 0.2px;
+    font-size: 38px!important;
+    text-align: center;
+}
+
+.hvr-sweep-to-bottom {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+	position: relative;
+	-webkit-transition-property: color;
+	transition-property: color;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+}
+.hvr-sweep-to-bottom:before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	-webkit-transform: scaleY(0);
+	transform: scaleY(0);
+	-webkit-transform-origin: 50% 0;
+	transform-origin: 50% 0;
+	-webkit-transition-property: transform;
+	transition-property: transform;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+}
+.sweep-to-bottom-green:before {
+	background: #027736!important;
+}
+.sweep-to-bottom-blue:before {
+	background: #2e6da4;
+}
+.hvr-sweep-to-bottom:hover, .hvr-sweep-to-bottom:focus, .hvr-sweep-to-bottom:active {
+	color: white;
+}
+.hvr-sweep-to-bottom:hover:before, .hvr-sweep-to-bottom:focus:before, .hvr-sweep-to-bottom:active:before {
+	-webkit-transform: scaleY(1);
+	transform: scaleY(1);
+}
+.btn-green {
+	color: #fff;
+	background-color: #03a94d;
+	border-color: #039042;
+}
+.form-signin .input {
+	position: relative
+}
+.form-signin .input span {
+	position: absolute;
+	display: block;
+	color: #d4d4d4;
+	left: 10px;
+	top: 8px;
+	font-size: 20px;
+}
+.input input {
+	width: 100%;
+	padding: 8px 5px 8px 35px;
+	display: block;
+	border-radius: 4px;
+	transition: 0.2s ease-out;
+}
+.input input:focus {
+	padding: 8px 5px 8px 10px;
+	outline: 0;
+	border-color: #66afe9;
+}
+
+#footer {
+	clear: both;
+}
+.footer {
+	text-align: center;
+	width: 100%;
+	margin: 0;
+	border-top: 1px solid #eee;
+	padding: 10px 0
+}
