@@ -1,1 +1,139 @@
 /* You can add global styles to this file, and also import other style files */
+.bot-typing {
+  padding-top: 0px!important;
+  padding-bottom: 7px!important;
+  animation-name: blink;
+  animation-duration: 1.7s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  background-color: #337ab7!important;
+  color: #fff;
+  /* height: 32px; */
+}
+.bot-askQ-microphone {
+  right: 18%;
+  top: 5px;
+  color: #999;
+  font-size: 20px!important;
+  position: absolute;
+  z-index: 2;
+  opacity: 0.7;
+  cursor: pointer;
+}
+ul.chat li .message {
+  padding: 10px 10px 10px 20px;
+  font-size: 0.9em;
+  /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); */
+  /* box-shadow:0 5px 7px rgba(0, 0, 0, 0.12), 0 4px 5px rgba(0, 0, 0, 0.24); */
+  width: 60%;
+  /* width:80%; */
+  position: relative;
+  background: white;
+  border-radius: 5px;
+}
+ul.chat li .message {
+  padding: 10px 10px 10px 20px;
+  font-size: 0.9em;
+  /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); */
+  /* box-shadow:0 5px 7px rgba(0, 0, 0, 0.12), 0 4px 5px rgba(0, 0, 0, 0.24); */
+  /* width: 72%; */
+  width: 400px;
+  /* width:80%; */
+  position: relative;
+  background: white;
+  border-radius: 5px;
+}
+ul.chat li .message:after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 8px 8px 8px 0;
+  border-color: transparent  #1981FB;
+  display: block;
+  width: 0;
+  z-index: 1;
+  left: -6px;
+  top: 10px;
+}
+ul.chat li.left {
+  flex-direction: row;
+}
+.botImage {
+  background: url(./assets/images/chatbot-final.png) no-repeat;
+  width: 45px;
+  height: 40px;
+  background-size: 85%;
+}
+.chat
+{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-right: 10px;
+  padding-left: 6px;
+}
+@keyframes blink {
+  /**
+   * At the start of the animation the dot
+   * has an opacity of .2
+   */
+  0% {
+    opacity: .2;
+  }
+  /**
+   * At 20% the dot is fully visible and
+   * then fades out slowly
+   */
+  20% {
+    opacity: 1;
+  }
+  /**
+   * Until it reaches an opacity of .2 and
+   * the animation can start again
+   */
+  100% {
+    opacity: .2;
+  }
+}
+
+.saving span {
+  font-size:25px;
+  /**
+   * Use the blink animation, which is defined above
+   */
+  animation-name: blink;
+  /**
+   * The animation should take 1.4 seconds
+   */
+  animation-duration: 1.4s;
+  /**
+   * It will repeat itself forever
+   */
+  animation-iteration-count: infinite;
+  /**
+   * This makes sure that the starting style (opacity: .2)
+   * of the animation is applied before the animation starts.
+   * Otherwise we would see a short flash or would have
+   * to set the default styling of the dots to the same
+   * as the animation. Same applies for the ending styles.
+   */
+  animation-fill-mode: both;
+}
+
+.saving span:nth-child(2) {
+  /**
+   * Starts the animation of the third dot
+   * with a delay of .2s, otherwise all dots
+   * would animate at the same time
+   */
+  animation-delay: .2s;
+}
+
+.saving span:nth-child(3) {
+  /**
+   * Starts the animation of the third dot
+   * with a delay of .4s, otherwise all dots
+   * would animate at the same time
+   */
+  animation-delay: .4s;
+}
