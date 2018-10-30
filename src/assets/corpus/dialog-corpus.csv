@@ -1,0 +1,1311 @@
+Intent,Final Resolution,
+Unable_to_approve_Requisition,"To approve a Requisition:
+1. Navigate to Main Menu > eProcurement > Manage Requisition Approvals
+2. Enter the Requisition ID and Business Unit
+3. Select from the list the Requisition to be approved
+4. Click “Approve”",
+Speed_Charts,"Your Department's Accounting Team is responsible for entering Speed Charts into FI$Cal for your department.
+
+Please check:
+1.Whether Accounting has entered the desired Speed Charts in system with SetID as your business unit
+2.If the SetID for the Speed Charts is ""STATE,"" the Speed Charts will not be available to select onyour transaction. They must be deactivated and a new Speed Chart must be created with SetID equal to your department's business unit
+3.The security option checkbox must be selected for ""Universal ( All Users )""
+If you still have issues regarding Speed Charts after checking on the above mentioned points with your department's accounting team, then raise an incident with the FI$Cal Service Center",
+Chart_field_not_appearing_,"When a Buyer leaves a department, FI$Cal will not allow any other Buyers to create and save receipts for POs created by that Buyer. To resolve this issue, raise a ticket with the FI$Cal Service Center via email (fiscalservicecenter@fiscal.ca.gov ) or ServiceNow for further assistance.",
+Budget_Check_Requisition_,"To budget check a requisition: 
+1. Navigate to Main Menu > eProcurement > Manage Requisitions
+2. Enter you Business Unit and Requisition ID and click on Search
+3. Select your requisition ID
+4. Scroll to the Right and select the action ""Check Budget"" from the Drop down menu and click on ""Go"" button
+5. Verify whether the budget Check status is ""Valid""",
+Change_Conflict_error_,"The “Change Conflict” error occurs when the data you have entered is conflicting with already saved data. In Conflicting change errors you can check the subcontracting link to see if there are two rows present for the same supplier and if in both rows the primary vendor flag has been checked. If so:
+
+1. Open the PO and click on the subcontracting link 
+2. Click on the Supplier Search and then select any Bidder ID 
+3. Click on ""OK"" 
+4. Again Click on ""OK"" 
+5. Click on the Subcontracting link again 
+6. Delete the 2nd row which has the Bidder ID selected in above steps 
+7. Click on ""OK"" and save the PO. This time the error message will not appear
+
+You can also refer to Knowledge Article KB0062197 in ServiceNow for additional details. If there is not a duplicate Supplier row in the Subcontracting link, then raise a ticket with the FI$Cal Service Center.",
+Requisition_Attachments,"Requisition header attachments are not visible from the Approver's Navigation in PeopleSoft.To view the Header Attachment:
+
+1. Navigate to eProcurement > Manage Requisition 
+2. Enter the Business Unit and Requisition ID and click on Search
+3. Click on the Requisition ID
+4. Click on the Header Comments Attachment and the Line Comments Attachment Icon to view attachments at the Header and Line respectively",
+Accounting_Date_issue_,"FI$Cal does not allow users to save any changes made to a PO which has its Accounting Date in a Closed Period. To change the Accounting date of a PO:
+
+1. Open the PO
+2. Click on Header Details
+3. Make the Accounting Date as the current date and then click on ""OK"" 
+4. Try to save the PO
+
+Follow the link below for a job aid that explains the steps to change an accounting date of a PO:
+
+http://www.fiscal.ca.gov/access-fiscal/documents/FISCAL.303-AmendingaPOthathasaClosedAccountingPeriod1.0.docx",
+PO_Closure_,"Once a PO is closed and budget checked is in ""Valid"" status, the the system liquidates the outstanding encumbrance for that PO. Steps to Close a PO:
+
+1. Navigate to Main Menu > Purchasing > Purchase Orders > Buyer’s Workbench
+2. Enter the Business Unit and Workbench ID then click on ""Add""
+3. Enter the PO ID and click on ""Search"". Enter the Description, check the PO Number box and click on ""Close""
+4. Click the PO Number box in the ""Not Qualified"" column
+5. Click on arrow icon to push it into qualified column
+6. Click on ""Yes"" and it will Close the PO
+7. Click on Budget Check once the PO is Closed
+8. Click on ""Yes"" when asked to proceed
+9. Navigate to Main Menu > Purchasing > Purchase Orders > Review PO Information > PO to check if the PO has been closed and disencumbered successfully
+
+Refer to job aid ""FI$Cal.362"" that provides department users with instructions on how to close POs:
+
+http://www.fiscal.ca.gov/access-fiscal/procurementjobaids.html",
+Chart_fields_grayed_out,"You must create a Change Order on a PO to edit the chart fields. If the Chart Fields of a PO are not editable even after creating a Change Order, then check whether any Receipts or Vouchers have been created from the PO lines. The system does not allows any modifications of chart fields if there are any Receipts or Vouchers created from one of the PO lines. To edit the Chart Fields for such PO's:
+
+1. Delete any Voucher associated with the PO line that needs to be modified
+2. Cancel any Receipt created from PO line that needs to be modified
+
+If you continue to face issues after following the above mentioned steps then submit a ticket to the FI$Cal Service Center for further assistance.",
+Discount_on_PO,"If you need to create a PO discounted amount but you need the Sales Tax to be calculated on the original amount, follow these steps:
+
+1. Create a PO with two PO Lines 
+2. In the first line put the original amount of the item and apply sales tax on it. The system will calculate the sales tax on the original amount of the item.
+3. In the second line provide the discount given by the supplier as a negative amount and make this line as ""Item Exempt.""
+
+EXAMPLE: Your item's cost is $100 and the sales tax is 8.75%. The supplier has provided you with a discount of $20. Create a PO with two PO lines. Enter the first line as $100 and the system will calculate the appropriate 8.75% sales tax. In the second line put the amount as $-20, and check line 2 as ""Item exempt"" (making line 2 non-taxable). The PO calculates sales tax amount of $8.75 and the merchandise amount $80.",
+Speed_Charts,"Speed Charts are entered and maintained in FI$Cal by your department's accounting team. If you are experiencing issues with Speed Charts, please ask your accounting team:
+
+1.Whether they have entered the desired Speed Charts in system under SetID as your business unit.
+2. If the SetID for the Speed Chart is ""STATE."" If so, the Speed Chart will not be available for selection on transactions and it must be deactivated and a new Speed Chart must be created under SetID equal to your department's business unit.
+3. The security option checkbox must be selected for ""Universal ( All Users )""
+
+If you still have issues regarding Speed Charts after checking on the above mentioned points with your department's accounting team,raise a ticket with the FI$Cal Service Center via email (fiscalservicecenter@fiscal.ca.gov ) or via ServiceNow for further assistance.",
+Change_Conflict_error_,"Change Conflict error comes when your data is conflicting with already saved data. If you receive a conflicting change error, check the subcontracting link. If there are two rows present for same supplier and in both rows the primary vendor flag has been checked, then:
+
+1. Open PO and click on subcontracting link
+2. Click on supplier search and then select any bidder ID
+3. Click on 'OK'
+4. Again Click on OK
+5. click on subcontracting link Again
+6. Delete 2nd row having bidder ID selected in above steps
+7. Click on OK and save the PO. This time error message will not appear
+
+If there is'nt a duplicate row of supplier at Subcontracting link, raise a ticket with the FI$Cal Service Center via email (fiscalservicecenter@fiscal.ca.gov ) or ServiceNow for further assistance.",
+Event_amendments,"To add attachments, comments or make any changes to a posted Event, you have to create a new version of the Event from Event Workbench. In the new version, add attachments, comments and make other changes. Then submit the Event for approval. Once the Event is approved, your added comments, attachment and changes will be visible. For more details, see the link below:
+
+http://www.fiscal.ca.gov/upk/PO383_v2.1.0/html/tpc/fcfa13b3-1079-40f1-9321-c935dbd02517/topic.html",
+View_Printable_Version_,"If you are using the ""View Printable Version"" link to create a PDF print of a PO, the PDF generated will always show ""DRAFT"" and ""Unauthorized"" signature because it for reference purposes only. The only valid printable version is generated from FI$Cal when a user dispatches a PO, which creates a PDF file with departmental logo and signature in the Report Manager.",
+SCPRS_Entry_,"While uploading SCPRS data during the SCPRS upload process for large data files it is recommended to split larger files into small files to find errors. Use below link for assistance on SCPRS upload batch process:
+
+https://www.dgs.ca.gov/pd/Programs/eprocurement/SUPERTool.aspx
+
+Also, for further assistance on Fiscal SCPRS batch process you can contact DGS Procurement: eprocure@dgs.ca.gov",
+Split_Chart_Fields_,"To create a Requisition with multiple chartfield rows, click on Requisition Settings and follow these steps:
+1. Select the Override box as default options
+2. Add multiple rows for chartfields lines in accounting defaults and click OK. This action will copy the chartfield rows to all Requisition lines
+
+After modifying the Requisition Settings, create a PO and follow these steps:
+1. Click on PO Defaults
+2. Select the Override box as default options.
+3. Add multiple rows for chartfields lines in Distributions and click OK. This action will copy chart field rows to all of the PO lines.",
+Error_Message:_Custom_Price_on_PO_lines,"The ""Custom Price on PO"" line error message appears when a PO has been created from a contract and the Buyer tries to change the merchandise amount on the PO. In such situations follow these steps: 
+1. Open the PO.
+2. Navigate to the Price Adjustment tab.
+3. Change Adjustment amount to your desired amount and click ""OK."" 
+4. Click on the ""Save"" button.
+5. Once saved, you can budget check the PO.",
+Change_order_History_,"Change Order is the process to make a change to a dispatched PO. The Change Order must be in ""Approved"" status for the Review Changes page to show details of the changes made to a the PO.
+To view changes made to a dispatched PO, navigate to:
+Purchasing > Purchase Orders > Manage Change Orders > Review Changes",
+PO_Access_,"The error message ""No Add-Update Access"" occurs when a Buyer is attempting to access and update another Buyer's PO. It indicates that you have not been set up to access transactions entered by that Buyer.
+To resolve the issue, raise a ticket with the FI$Cal Service Center via ServiceNow or by emailing fiscalservicecenter@fiscal.ca.gov",
+Activity_Summary,"The Activity Log of a PO provides the following information:
+1. Who created the PO and when
+2. Who approved the PO and when
+3. Who modified the PO and when
+To check the Activity Log of a PO, scroll down to the bottom of the PO and at the ""Go to"" drop down menu, select ""Activity Log.""
+To find the details for the Receipts, Vouchers, and Matched Invoices created from a PO please click on the ""Activity Summary"" link on the PO page.",
+Re-Trigger_Approval,"To resubmit a Requisition for approval a user will need to retrigger approval workflow. A workflow is retriggered when there is any change to price or quantity of a Requisition. The steps to retrigger approval workflow of a Requisition are as follows: 
+1. Navigate to eProcurement > Manage Requisitions and provide the Business unit and Requisition ID and then click on Search.
+2. Select the Requisition ID and click the Edit Requisition button.
+3. Make changes to the price or quantity of any Requisition line and click the Save & Submit button.
+4. Revert the changes made in previous step and click on Save & Submit button. Once a Requisition is saved the workflow is retriggered.
+
+To resubmit a PO for approval a user will need to retrigger approval workflow. A workflow is retriggered when there is any change to price or quantity of a PO. The steps to retrigger the approval workflow of a PO are as follows: 
+1. Navigate to eProcurement > Buyer Center > Manage PO and provide the Business unit and PO ID and click on Search.
+2. Select The PO ID.
+3. Make changes to the price or quantity of any PO line and click the Save button.
+4. Revert the changes made in previous step and click the Save button. Once a PO is saved the workflow is retriggered.",
+Allow_Open_Item_Error,"The system will not allow the creation of multiple contracts for the same supplier with the same start and end date nor allow two or more contracts to have ""Open Item"" checked. Check the following:
+1. Check the Supplier ID that has been provided on the Procurement contract.
+2. Check whether there is another procurement contract open for same supplier and with same start and end date as provided in current contract.
+
+If ""Open Item"" is already checked on another contract for the same supplier with the same start date and end date, then it will need to be unchecked for this contract.",
+Rounding_Off_,The tax calculation on a PO is calculated at Line level not at PO Header level; this is the delivered functionality as different tax rates can be applied to different lines and items. ,
+Account_Change,To change the value of account in PO distribution lines a user will have to clear the value in Alt Account and then try to change the value in Account field. You can also refer to Knowledge Article KB0062071 in ServiceNow for additional details.,
+Receiving_Required_,"""Receiving Required"" or ""Receipt is Required"" exception on a Voucher means the receiving option was set to ""Required"" on the PO. Create the receipt by copying the PO and then attach the receipt in the Voucher. Once the receipt is attached, re-start the matching process.",
+PO_Defaults_on_Contracts_,"When a Procurement contract does not have a business unit specified under ""PO Defaults"" link on Contract Entry page, the system displays the error message ""Missing Business unit setup"" while trying to save the contract. To resolve this, click on the ""PO Defaults"" link, specify the Business unit, and save the contract.",
+Contract_New_version,"There is a maximum amount on the contract header. A PO cannot be created for more than the maximum amount of the contract. If a PO of maximum amount has already been created from a contract, then the contract would not be available to be copied into another PO. In this case, create a new version of contract to increase its max amount:
+
+1. Navigate to Mani Menu > Procurement contracts > LPA/Departmental Contract Search
+2. Open the Contract in edit mode
+3. Click on 'New Version' 
+4. Increase the Max amount and make any other changes as per your requirement
+5. Save and Submit the contract for approval. Once the Contract is approved it will be available to be copied in a PO",
+Incorrect_Encumbrance,"The Encumbrance on a PO is calculated in the Budget Check process. If the Encumbrance on a PO is not displayed correctly then verify the Budget Status is ""Valid."" If the Budget Status is ""Error,"" verify with your departmental accounting team that a budget exists for the chartfield combination provided on the PO. If the Budget Status is ""Not Checked” then proceed to Budget Check the PO. If the issue still persists, raise a ticket with the FI$Cal Service Center via email (fiscalservicecenter@fiscal.ca.gov ) or ServiceNow for further assistance.",
+Supplier_ID_on_PO,"When adding an LPA contract in a PO, the LPA contract will overwrite the PO Supplier with the LPA contract Supplier. The system does not allow creating a PO having a different Supplier than specified on the LPA Contract ID.  In order to create a PO from an LPA Contract the Supplier on the PO must always be same as the LPA contract ID.",
+Ship_to_ID_Printable_version,"The printable version of a PO displays the Ship to Address on the report is displayed based on one of the following scenarios:
+1. For a PO having only one line item, the shipping address is displayed in the ""Ship To"" section of the report.
+2. For a PO having multiple PO line items and having the same shipping address for all lines, the shipping address is displayed in the ""Ship To"" section of the report.
+3. For a PO having multiple PO lines and different shipping address for all lines, the shipping address is displayed on the individual lines on the report.",
+Change_supplier_ID,The system only allows changing of the Supplier ID on POs in the ‘Open’ status which have never been submitted for approval. Once the PO has been submitted for approval the Supplier ID cannot be changed. To resolve this issue a user must cancel the existing PO with the incorrect Supplier information and create a new PO with the correct Supplier ID.,
+Complete_PO,"POs can be closed even if a Receipt or Voucher has not been created. The encumbrance balance will be liquidated when the Budget Check is run on the closed PO. For more information, see Job Aid FI$Cal.243 found at this link:
+
+http://www.fiscal.ca.gov/access-fiscal/procurementjobaids.html",
+Re-Open_PO,Once a PO has been closed and its Encumbrance gets liquidated it will not be available for receiving or invoicing. The PO must be re-opened to be received or invoiced against.,
+PO_Changes,"A Change Order must be created to edit a PO which is in the ‘Dispatched’ status. Once a change order is created you will be able edit the PO line amounts and any other Miscellaneous Amounts. Note that any changes to quantity or Amount for a PO will re-trigger the approval workflow. For more information, see Job Aid FI$Cal.290 found at this link:
+
+http://www.fiscal.ca.gov/access-fiscal/procurementjobaids.html",
+Events_Approvals_,"To identify the approvers of an Event: 
+1. Navigate to Main Menu > Sourcing > Maintain Events > Event WorkBench.
+2. Enter Business Unit and Event ID and click on Search to find the event.
+3. On event shown user must scroll to the right and click on icon for ""Approval Status"".
+In order to retrigger approval process for an event system requires user to create new version of event and re-submit it for approval.
+",
+Chart_fields_grayed_out,"FI$Cal does not allows any modification to chartfields if there are any receipts or vouchers created for the PO line.
+
+Use these steps to modify the chartfields for a PO having receipts and vouchers attached to a PO line:
+1.Delete the voucher created for a PO line
+2. Cancel the receipt created for the PO line.
+3.Create a change order and modify the chartfield for the desired PO line.",
+Warning_Message_New_version_,"The error message ""New contract version is available"" is displayed when the contract specified on the PO line has undergone an amendment and a new contract version is available. To update the contract version:
+
+1. Navigate to Main Menu > Purchasing > Purchase Orders > Add/Update PO
+2. Enter the Business Unit and PO ID
+3. Click on ""Contract"" tab on the lines
+4. Click on ""Contract Version"" and select the correct version displayed in the search and save the PO",
+Budget_Check_issue,"Use these steps to resolve a Budget Check error on a PO or a Requisition: 
+1. Check that all lines have been populated with the required charfields (Approp Ref, Fund, Account, Alt Account, Project, PC Bus Unit, and Reporting Structure)
+2. Check if ENY and Budget Date reflect the same financial year
+3. Check with your Departmental Accounting team whether there is budget available in the system for the charfield combination entered",
+Warning_message_Budget_error_or_warning,"When receiving the warning message “There are some distribution lines whose budget status is either in warning or error,” the message can be ignored and the PO can proceed.
+This is just a warning message and will not affect any future PO actions.",
+Project_Code_issue,"Use these steps to associate the Project Code with the Project Business Unit number (PC BU):
+1. Clear out the value in Project Code field
+2. Enter the PC BU value
+3. Enter the Project Code
+4. Save",
+Tax_Adjustments,"To adjust tax rates on a PO, you can divide the line amount into two lines. For example, for a line items of $500 you can create two line items of $250 each and apply the tax for one line only while making the other line item as tax exempt. This way you will be able to apply the tax rate at 50% of the price.",
+Searching_PO_to_copy_on_Voucher,"A PO with the Receiving Required option set as ""Do Not Receive"" or ""Optional"" copies directly to a Voucher; If the option is set as ""Required"" then a receipt must be created from a PO which will be copied to a Voucher. Use these steps to check if the PO can be copied to a Voucher:
+
+1. Navigate to Main Menu > Purchasing > Purchase Orders > Add/Update PO
+2. Enter the business unit and the PO ID
+3. Click on the ""Receiving"" tab in the Lines section
+4. Confirm that the value in the field Receiving Required is either ""Do Not Receive"" or ""Optional""",
+Change_project_ID_on_a_PO.,The Project ID can be changed if no Receipt or Voucher has been created for the PO. If either a Receipt or a Voucher has been created from the PO the Project ID on a PO cannot be changed.,
+Signature_on_PO,"Signatures are submitted on a Configuration Management Request (CMR) from your department's DAD. Instructions for this process can be found on the FI$Cal website:
+
+http://165.235.0.10/access-fiscal/fiscal_service_center/CMR.html",
+Comments_on_Receipt,"In order for comments to be shown on a receipt, click the ""Show at Receipt"" check box in the PO comments.",
+Blank_Screen,"Clear your browser cache once and try entering the information again. Follow these steps:
+
+1. Log out from the application
+2. Clear browser cache
+3. Close and re-open the browser
+4. Log back in to the system and try again
+
+Use this link for more information: http://www.fiscal.ca.gov/documents/Browser_Delete_Cache_Help_Guide.pdf",
+Allow_Open_Item_Reference_functionality,Allow Open Item References check box enables you to purchase items against a Contract that are not specified on that contract. This check box also enables you to reference the contract for any requisition and PO item that is ordered from this vendor within the terms and limits of this contract. This check box also enables you to add open-item price adjustments to the contract.,
+New_Version_of_Contract,Making an amendment to an existing approved contract requires the creation of a new version of the contract. You can also refer to Knowledge Article KB0062069 in ServiceNow for additional details.,
+Posting_Public_Events,"To ensure CSCR Events are viewable in CaleProcure, the “Post to CSCR” checkbox in the “Invite Bidders” section should remain checked. If the Event is intended to be viewed by anyone/the public, the “Public Event” checkbox should be checked and anyone can view the bids without logging into the portal.",
+LPA_Acquisition_Type_Changing,"When an LPA Contract has been selected on the PO, the Acquisition Type defaults to the Acquisition Type specified on the LPA contract.",
+Search_PO,"Use the following steps to locate an Open PO:
+
+1. Navigate to Main Menu > Purchasing > Purchase Orders > Add/Update POs
+2. Select the Find an Existing Value tab, enter the BU, and PO ID and Click Search
+
+Use the following steps to search for a Closed, Cancelled or Pending Cancel status PO:
+
+1. Navigate to Main Menu > Purchasing > Review PO Information > Purchase Orders
+2. Enter the BU and PO ID and click Search",
+Contract_Search_on_SCPRS,"To see the status of an LPA contract do the following:
+
+1. Navigate to Main Menu > Procurement Contracts > LPA/Departmental Contracts
+2. Enter the LPA contract number in Contract ID field
+3. Select the checkbox for ""Show LPA's"" and click Search
+
+NOTE: FI$Cal only allows the selection of approved LPA contracts on the SCPRS Entry Page (see knowledge article KB0062064)",
+Order_amount_exceeds_on_PO,"If there are PO's created from a contract that have encumbered the maximum amount value specified on the contract, the warning message ""PO amount exceeds the contract maximum"" will appear. Click ""Ok"" and proceed to save the PO. To research which POs were created from the contract, follow these steps:
+
+1. Navigate to Main Menu > Procurement Contracts > LPA/Departmental Contracts
+2. Enter the Business Unit and Contract number in Contract ID field and click Search
+3. Click on ""View"" Link in the search result to open the On Contract Entry page
+4. Click on the ""Document Status"" link on the Contract Entry Page to see the POs created from the contract",
+PO_Receipts_creation,"A receipt can be created from a PO if both of the following are true: 
+1. The PO status is ""Dispatched""
+2. The Budget Check status on the PO is ""Valid""",
+Finding_a_PO,"To search for a PO that is Open:
+
+1. Navigate to Main Menu > Purchasing > Purchase Orders > Add/Update POs
+2. Select the Find an Existing Value tab, enter the BU, and PO ID and Click Search. 
+
+To search for a PO that is Closed, Cancelled or Pending Cancel: 
+1. Navigate to Main Menu > Purchasing > Review PO Information > POs
+2. Enter the BU, and PO ID and Click Search.",
+Receipt_Number_query,"FI$Cal generates Receipt Numbers automatically and allows users to create Receipt Numbers manually. To create a receipt number manually: 
+1. Navigate to Main Menu > Purchasing > Receipts > Add/Update Receipts
+2. Click on the ""Add a New Value"" tab
+3. Enter the Business Unit
+4. In the Receipt Number field, clear out the value ""NEXT"" and enter the desired Receipt Number and click on “Add""",
+Editing_SCPRS,"To modify an existing SCPRS entry a Change Order must be created.
+Refer to the link below, which explains the steps for amending a FI$Cal SCPR entry.
+http://fiscal.ca.gov/upk/PO382_v2.2.0/dhtml_kp.html?Guid=78db33c1-eb66-4f2d-8386-3ca500646333&Mode=S&Back",
+Searching_a_Requisition,"To locate a Requisition follow these steps: 
+1. Navigate to Main Menu > eProcurement > Manage Requisition
+2. Press the ""Clear"" button
+3. Enter the Business Unit and Requisition ID, click Search",
+Changing_Acquisition_on_Fiscal_SCPRS,"FI$Cal does not allow changing the Acquisition Type and Acquisition Method once a SCPRS entry is saved.
+The only option for a user is to cancel the existing SCPRS entry and create a new SCPRS entry with correct values.
+To cancel an SCPRS entry:
+http://fiscal.ca.gov/upk/PO382_v2.2.0/dhtml_kp.html?Guid=78db33c1-eb66-4f2d-8386-3ca500646333&Mode=S&Back",
+Changing_Supplier_ID_on_Contract,"FI$Cal only allows change of supplier on a contract that does not have any contract lines. 
+To change supplier on a contract that has lines, a user will have to create new version of contract.
+You can also refer to Knowledge Article KB0062069 in ServiceNow for additional details.",
+Change_Item_Description_on_PO,"FI$Cal allows a user to change the item description of a PO line by creating a Change Order if it satisfies the following conditions:
+1. No Receipts have been created out of PO line.
+2. No Vouchers have been created for the PO line. 
+If any of the above conditions are true, delete the Receipts or Vouchers associated with the PO before creating a Change Order.
+Follow the instructions mentioned in knowledge article KB0059793 for the detail steps to change an item description on a PO.",
+Change_PO_Document_on_SCPRS,FI$Cal does not allow changing the Purchase Document number once a SCPRS entry is saved. The only option is to cancel the existing SCPRS entry and create a new SCPRS entry with the correct Purchase Document number. More information can be found using this link: http://fiscal.ca.gov/upk/PO382_v2.2.0/dhtml_kp.html?Guid=78db33c1-eb66-4f2d-8386-3ca500646333&Mode=S&Back,
+Freight_Charge_on_PO,FI$Cal allows entering of freight charges on a PO. Refer to knowledge article KB0062072 for detailed steps of adding Freight Charges on a PO.,
+Attach_document_to_an_Event,"FI$Cal allows attaching a document to an Event in ""Open"" status. If an event is in ""Posted""’ status, a new version of the Event has to be created to attach any new documentation. More information can be found using this link: http://www.fiscal.ca.gov/upk/PO383_v2.1.0/html/tpc/fcfa13b3-1079-40f1-9321-c935dbd02517/topic.html",
+Change_Email_address_on_Event,Refer to knowledge article KB0062058 for detailed steps of how to change the email address on an Event.,
+Event_Bid_History,Please refer to knowledge article KB0062206 for detailed steps of how to run a report listing the suppliers who have viewed a bid in Cal eProcure website.,
+PO_Encumbrance_Multiple_Issues,"Run the Budget Check process for a PO to resolve any discrepancies shown in Encumbrance balance of a PO. If the issue still persists after running the Budget Check, raise a ticket with the FI$Cal Service Center via email (fiscalservicecenter@fiscal.ca.gov ) or ServiceNow for further assistance.",
+Failed_budget_check_on_PO,"The PO will need to be Budget Checked before the line item can be cancelled. Once the PO has been Budget Checked successfully, the PO line can be cancelled. If this solution does not work, raise a ticket with the FI$Cal Service Center via email (fiscalservicecenter@fiscal.ca.gov ) or ServiceNow for further assistance.",
+Editing_a_Procurement_Contract,"The Base price on a contract can be changed anytime if the contract status is open. If the contract is in approved status, a new version of the contract needs to be created to change the base price on the contract. Refer to the knowledge article KB0062069 for detail steps for creating a new version of a contract.",
+Cancelling_a_receipt,"To cancel a receipt:
+1. Navigate to Main Menu > Purchasing > Receipts > Add/Update Receipts
+2. Provide the Business Unit and Receipt ID
+3. Open the Receipt and click on the ""Cancel"" icon to cancel the receipt",
+New_Version_of_Contract,FI$Cal allows amendment to an approved contract by creating a new version of the contract. Refer to Knowledge Article KB0062069 which explains the steps in detail of how to create a new version of a contract.,
+Close_a_Requisition,"To Close a Requisition, refer to Knowledge Article KB0062076 in ServiceNow. ",
+Worklist,"To troubleshoot an empty worklist, first Verify you are viewing the Financials worklist NOT aPortal worklist. Follow these steps to view the Financials worklist:
+
+1. Navigate to http://www.fiscal.ca.gov/
+2. Click on “Access Fi$Cal”
+3. Click on “Access the FI$Cal Application”
+4. Click on “Agree” for Terms and Conditions
+5. Enter Username
+6. Enter “Password”
+7. Enter OTP code (if required for user ID)
+8. An Employee portal with the address as below opens up https://portal.fiscal.ca.gov/psp/psppd1/EMPLOYEE/EMPL/h/?tab=ZZ_FISCAL “
+9. Click on “Peoplesoft” Link on Employee portal.
+10. The Financials portal should open with this url: https://financials.fiscal.ca.gov/psp/psfpd1/EMPLOYEE/ERP/h/?tab=DEFAULT
+11: Click on “Worklist” link on this page to view the worklist items awaiting your approval
+
+Secondly, verify your User ID has been setup correctly to receive Worklist Items:
+1. Navigate to Main Menu > My System Profile
+2. Verify the checkbox “Worklist User” is selected
+
+If the issue still exists, raise a ticket with the FI$Cal Service Center via email (fiscalservicecenter@fiscal.ca.gov ) or ServiceNow for further assistance.
+",
+Dispatch_Pos,"In order to dispatch or reprint a dispatched PO in Fi$Cal:
+1. The PO must be in the “Approved” Status
+2. The PO must have its Budget Check status as “Valid”
+3. If 1 & 2 are true, follow the steps in the Procurement FAQ, #2,""How do I dispatch/print the original PO to send to the vendor?""",
+Data_integrity_error,Submit a ticket to the FI$Cal Service Center fiscalservicecenter@fiscal.ca.gov or through ServiceNow to resolve a Data Integrity Error.,
+Bidder_Inactive,"When a Bidder selected on an Event Invitation is ""Inactive,"" FI$Cal displays the error message ""Bidder No longer Available"" and will prevent the buyer from saving the Event. To resolve this issue, remove the Bidder from the list of invited bidders and save Event.",
+UNSPSC_codes,This issue is caused due to user not having access to the UNSPSC catalog. Create a ticket with the FI$Cal Service Center to resolve the issue.,
+Cancel_receipt,"NOTE: To cancel a Receipt, all associated Vouchers must first be deleted.
+Follow these steps to cancel a Receipt:
+1. Navigate to Main Menu > Purchasing > Receipts > Add/Update Receipts
+2. Click on the “Find and Existing Value” and enter the Business Unit and Receipt ID
+3. Click on the red X (the Cancel icon next to Receipt Status) then click “Save”",
+Cancel_Events,"To cancel an event: 
+1. Navigate to Main Menu > Sourcing > Maintain Events > Events Workbench
+2. Enter Event ID and click on search.
+3. Click on red icon (right side of search result).
+",
+Budget_Checking,“Budget not established” errors should be reported to the FI$Cal Service Center via email (fiscalservicecenter@fiscal.ca.gov ) or ServiceNow.,
+PO_Activity,"FI$Cal maintains the history of when and who has closed a PO. Follow the steps below to find out when and who had closed a PO:
+1. Navigate to Main Menu > Purchasing > Purchase Orders > Review PO Information > Purchase Orders.
+2. Click on “Find and Existing Value” and enter the Business Unit, PO ID and then click on the Search button.
+3. Click on “Related Links” on the bottom right hand side of the PO Inquiry page.
+4. Click on “Activity Log.”
+5. The name of the user and time when a PO was closed is displayed under the “Modified” Section.",
+PO_Buyer,"If you are unable to make changes to a PO you should have access to, raise a ticket with the FI$Cal Service Center via email (fiscalservicecenter@fiscal.ca.gov ) or ServiceNow for further assistance.",
+PO_approval,"If a PO is not appearing in a worklist there are 3 scenarios to troubleshoot for issue:
+
+1. Check if the PO has been approved by another approver.
+2. Verify User is not viewing the Portal worklist instead of Financials Worklist.
+3. Verify User ID has been setup correctly to receive Worklist Items.
+
+After checking these steps if the issue still exists then submit a ticket to the FI$Cal Service center through ServiceNow or email fiscalservicecenter@fiscal.ca.gov for further assistance. 
+",
+Close_Multiple_Pos,To close multiple POs navigate to Main Menu > Purchasing > Purchase Orders > Buyer's Workbench. The buyer’s workbench can be used for batch closure of POs. This allows you to select a range of POs and close them all together.,
+Requisition_Approval,When receiving ‘Error Finding Worklist item’ message check if the requisition is approved by any of the Approvers. If it has already been approved then it will no longer appear in your worklist and you will receive this error message regarding missing worklist items.,
+New_Location,"To add, update, or remove a ship to location raise a ticket with Fiscal Service Center via ServiceNow or by emailing fiscalservicecenter@fiscal.ca.gov along with a Configuration Modification Request (CMR) of the requested changes. CMRs can be found via this link: http://165.235.0.10/access-fiscal/fiscal_service_center/CMR.html",
+PO_Denial,"A PO can be submitted for approval again if it has been denied. To re-trigger the workflow, make a change to the quantity or amount of any line item and save. Then revert the changes to the POs quantity/amount to the previous value and save the PO once again. This will re-trigger the routing workflow of the PO for approval.",
+Add_new_Account_Code,"To add a new Account Code, fill out a Configuration Modification Requests (CMR) form and submit it to the FI$Cal Service Center fiscalservicecenter@fiscal.ca.gov. CMRs can be found via this link: http://165.235.0.10/access-fiscal/fiscal_service_center/CMR.html",
+New_Approver_Request,Approver is a role in FI$Cal. Access is based on the role set up in the system. Requests for access to FI$Cal must come from the Departmental Authority/Designee (DAD). The form for this can be found at this link: http://www.fiscal.ca.gov/access-fiscal/FISCal_Service_Center/EndUserAccessForms.html.,
+Chart_fields_on_PO,Re-check all the Chart Fields on the PO lines to avoid getting this message. You can ignore this warning by clicking on the OK button and system will allow you to continue to save the PO. The PO will not be budget checked successfully unless all the Chart Fields on the PO lines are correct.,
+Re-Open_PO,"Refer to FAQ# 35 ""How do I re-open my closed Puchase Order ID?"" in the link below for detailed steps:
+http://fiscal.ca.gov/faqs/",
+PO_dispatch,"This error message may occur if the servers are down. The Dispatch will remain in Queued status. Wait a few minutes and try dispatching the PO again. If this does not resolve the issue, raise a ticket with the FI$Cal Service Center via email (fiscalservicecenter@fiscal.ca.gov ) or ServiceNow for further assistance.",
+Attachments_on_Event,"FI$Cal allows attaching of documents to a posted event by creating a new version of the event.
+Follow the link below which explains in detail how to create a new version of an event.
+http://www.fiscal.ca.gov/upk/PO383_v2.1.0/html/tpc/fcfa13b3-1079-40f1-9321-c935dbd02517/topic.html
+",
+Cancel_PO,"Cancelling a PO is a two step process. The first step involves cancelling the PO; the second step involves dispatching the cancelled PO so that status changes to ""Cancelled"" status. Please follow this link that explains the steps in detail
+http://www.fiscal.ca.gov/access-fiscal/documents/FISCal.362-CancelaPODis-encumbertheRemainingBalanceandDispatchtheCanceledPO1.0.docx",
+Copy_Requisition,In order for a Requisition to be copied to PO the Requisition must first be budget checked. Once the Requisition has been budget checked it will be available to copy to PO.,
+Account_Code,"When changing the Account Code value in a PO line first make sure the ""Alternate Account"" field is blank. Follow these steps to clear the account code and replace with another account code: 
+
+1. Open the PO and navigate to the chartfields
+2. Clear the value in “Alt Account” field
+3. Click in the “Account” field and search for the desired value of account
+
+If the issue does not get resolved by removing the value from the Alt account field, raise a ticket with the Fiscal Service Center fiscalservicecenter@fiscal.ca.gov to have the issue investigated further.
+",
+Approval_Notification,"To change the email configuration for the account navigate to:
+ Main Menu > My System Profile
+ Uncheck the checkbox to receive emails. If the issue still persists after provided resolution, submit a ticket with the FI$Cal Service Center fiscalservicecenter@fiscal.ca.gov or via ServiceNow to get issue resolved.",
+Shipping_Address,"To add, update, or remove a ship to location raise a ticket with Fiscal Service Center via ServiceNow or by emailing fiscalservicecenter@fiscal.ca.gov along with a Configuration Modification Request (CMR) of the requested changes. CMRs can be found via this link: http://165.235.0.10/access-fiscal/fiscal_service_center/CMR.html",
+Warning_message,"This is a warning message. As a buyer, you are responsible for ensuring your purchase meets the thresholds noted in SCM-F Chapter 8 (http://www.dgs.ca.gov/pd/Resources/publications/SCMFI$Cal.aspx). The system allows this message to be clicked through.",
+Search_Closed_POs,"When a PO is closed it will not be available on the Add/Update POs page. Use the following navigation to view closed POs:
+ Main Menu > Purchasing > Purchase Orders > Review PO Information > Purchase Orders
+",
+Budget_Check_on_Requisition,Please submit ticket with Fiscal Service Center fiscalservicecenter@fiscal.ca.gov or via ServiceNow with a completed CMR form to get issue your issue resolved.,
+Acquisition_on_PO,"The Acquisition Type/Method can only be changed while the PO is in open status. Once the PO is in the ""Approved"" or ""Dispatched"" status, the Acquisition Type/Method cannot be changed.",
+To_dispatch_PO_and_generate_report,A PO must first be Approved and have its Budget Check in the ‘Valid’ status before it can be dispatched.,
+To_view_the_printable_version_of_a_requisition,"You can print the requisitions using the following Navigation.
+1. Navigate to main Menu > eProcurement > Manage Requisitions
+2. Search for Your Requisition
+3. Scroll Right
+4. From Drop down menu select option as 'View Print' 
+5. Click on Go",
+Issue_with_Saving_a_requisition,"While saving multiple lines on requisition, click on “Save for later”  button after adding each line. This will allow you to save multiple lines without getting timed out.
+
+In addition, ensure that you are only working in one open window.  Having multiple windows open can cause you to get timed out.",
+Update_the_existing_PO_after_vendor_name_change,"Updates to the vendor on a PO are allowed if it is in “open” status.  You cannot update the supplier on a PO once it is routed for approval. Please cancel the PO you want to update, if it is not in open status",
+Requisition_on_Hold_,"To approve a requisition on Hold, follow below steps:
+
+1. Navigate to Main Menu >  eProcurement > Manage Requisition Approvals
+2. Provide Requisition ID, Business Unit and select Status as 'On Hold' then click on search
+3. Click on requisition ID
+4. Click on the Approve Button to approve the Requisition",
+Change_Publish_Date_,"Once an event is approved and posted, the published date cannot be changed or modified. After creating a new version of the event, the published date remains the same as previous version.",
+Speed_Charts,"The speed charts are entered by the department themselves. Please check with your department's accounting team regarding the Speed charts. If you still have issue regarding speed charts after checking with accounting team, then raise an incident to the FI$Cal Service Center. ",
+Chart_field_not_appearing_,This issue is caused whenever a Buyer leaves a department and his/her ID is disabled in FI$Cal. Their POs can be accessed in “Read Only” mode by other Buyers in the department. Raise a ticket with the FI$Cal Service Center via email (fiscalservicecenter@fiscal.ca.gov ) or ServiceNow for further assistance.,
+Budget_Check_Requisition_,"Follow the below steps to budget check the requisition:
+
+1. Navigate to Main Menu > eProcurement > Requisition
+2. Search for your Requisition
+3. Scroll Right and select the Edit option from the Drop down menu
+4. Click ok on the pop-up message
+5. Click on Budget check button to budget check the Requisition",
+Delete_SCPRS_Entry,Once a SCPRS entry is created it cannot be deleted from the system. Cancel and create a new one.,
+Print_a_PO_created_in_a_Fiscal_Year,"To get a report that will print POs for a specific year, run the PO Activity report. Main Menu > Purchasing > Purchase Orders > Reports > Activity. 
+If you are looking for POs that are only created by particular buyer you can run the PO listings report. 
+Main Menu > Purchasing > Purchase Orders > Reports > Listings.
+",
+Unable_to_enter_a_dollar_amount_on_a_PO,"If a PO is copied from a contract and the ""Price can be changed on order"" box is unchecked then no updates to the price can be made on the PO. Unchecking this box on the contract will allow changes to the dollar amount on a PO.",
+Issues_with_ship_to_ID_and_comments_while_dispatching_a_PO,Please refer to the Service Now article KB0061679.,
+Po_Receipts_Outstanding_report,"For a report to find whether Receipts are paid or not, follow this navigation: Main Menu > Purchasing > Receipts > Reports > Receipts Summary. The unpaid receipts will show a status of “To Match.”",
+Creating_P.O._for_Contract,"Please check whether the contract is expired or not. Create a new version of contract, and modify the expiry date field. Once the new version of contract is approved it will be ready to be sourced to PO.",
+Amend_bill_codes_in_CSCR,"You cannot edit the existing version of a CSCR entry but can create a new version and post it to CSCR again. When a new version is created there will be two CSCR entries – one with the incorrect bill code with a status of ""inactive""; the new version will post with the correct bill code and will show the status ""posted."" You can also refer to Knowledge Article KB0054773 in ServiceNow for additional details.
+",
+Unable_to_generate_a_PO-Expedite,"Check if the Event was created from a requisition. It is not possible to directly create a PO from a Requisition that created the event. Instead, create a contract and then generate a PO from the contract.",
+To_modify_an_event,"If the event is in the ""Approved"" and ""Posted"" status then a new version of the event will need to be created.  Refer to the following Job Aid for assistance with creating a new Event: http://www.fiscal.ca.gov/upk/PO383_v2.1.0/html/tpc/fcfa13b3-1079-40f1-9321-c935dbd02517/topic.html",
+Saving_a_requisition,"Click on “Save for later” button after adding each line. This will allow you to save multiple lines without getting timed out.
+
+",
+Create_a_change_order_of_PO,"When the PO is in dispatched status, it is possible to make changes in PO by creating a Change order. Please follow the link below for the job aid of how to create a change order for a PO: http://www.fiscal.ca.gov/access-fiscal/documents/FISCal.290ChangeOrderforPO1.0.docx",
+To_change_the_description_on_line_item,"The PO line item description can only be changed for POs which have never been ""Dispatched."" Once the PO is dispatched, the system will not allow any changes to the description of PO. If changes need to be made to this area then a Change Order needs to be made to the PO. Refer to the knowledge articles document on Service Now KB0059793.",
+To_edit_the_supplier_information,"Once the contract is created it is not possible to change the supplier information. Cancel the contract and create a new contract with correct supplier information. Supplier information is editable only when contract is in ""Open"" status",
+Speed_chart_issue,"For any errors with Speed Charts, contact your department’s accounting team to advise you on how to resolve the issue.",
+To_change_the_event_ID,"No, once an event is created, the Event ID cannot be changed. You do have the option of canceling the event by clicking on cancel event icon on event the workbench page and creating a new event. ",
+Opening_pending_cancel_PO,"Once the PO is in Pending Cancel status, the system cannot change its status to “Open.” In order to re-open the PO, budget check the PO and dispatch it so that it shows a status of ""Cancelled"" and the funds are disencumbered.",
+Open_Encumbrance_Report,"Run ZZ_ENCUMBRANCE_STATUS_ENY from query viewer for the BU you want to search. Please follow the below steps:
+
+1. Navigate to Main menu->Reporting tools->Query-> Query Viewer
+2. Enter the Query name and Click on Search
+3. Click on HTML hyperlink
+4. Enter the required details according to your requirement and view the results",
+Copy_Requisition_to_PO_Issue,"Please check the requisition encumbrance balance is zero or not. If it is zero, POs are already created from this requisition so it will not allow you to copy requisition to PO.",
+Event_Approval_Inquiry_Hyperlink_Missing,"The approval inquiry hyperlink only appears if the event is in “Pending approval"" status. To see the details of event approval, navigate to Main menu-> Sourcing->Maintain Events->Event Workbench and click on the icon for inquiry.",
+Unable_to_view_pending_req_in_manage_req_tab,Enter the Business Unit first and then click on search. This will populate results which include the requisition ID you are searching for.,
+change_contract_ID_number, It is not possible to change the Contract ID for a contract once it has been created.,
+To_link_contract_with_PO,"To link a contract to a PO, create a PO by copying it from the contract.
+If a PO was not created from contract then, the system does not allow linkage between them.",
+PO_Creation_from_an_old_closed_PO,"You can create a new PO from an old PO by choosing ""Purchase Order"" from the ""Copy From"" field on the Maintain PO screen. If you already typed information in the new PO, you will receive the warning, ""Copying from a PO will overwrite existing."" Using the ""Copy From Purchase Order"" feature wipes out anything you typed on the new PO and replaces it with the information contained in the old PO. This is message you can click through.
+",
+Unable_to_view_PO,"Check the status of PO you are searching for. PO(s) in Cancelled, Completed /Pending Cancel status cannot be viewed in Add/Update PO page. To view these PO's navigate to Main Menu->Purchasing->POs->Review PO Information",
+Re-submission_of_denied_contracts_for_approval,"You can re-submit a denied Contract for Approval by changing the Contract status to ""Open"" and submit it for Approval. ",
+calculating_incorrect_tax,"If you do not want tax to be calculated, Select ""Item is Exempt"" for tax applicability on PO line. ",
+Cannot_view_a_contract.,"It is necessary to use the checkboxes to indicate the type of contract you are searching for on the LPA/Departmental Contracts search page. The search choices are: ""Show LPAs"" or ""Show Expired Contracts.""",
+PO_supplier_correction, You cannot change a supplier on PO once the PO is submitted for approval. If the PO is approved or dispatched - you will need to cancel the PO and create a new one.,
+PO_amount_exceeds_contract_amount,"While creating a PO from a contract, check if the total contract amount has already been expended. If the contract has not been fully expended, make the merchandise amount on the PO equal to, or less than, the Contract balance. You can alternatively increase the maximum amount on the Contract by creating a new version.",
+Po_Denial,Click on the view approval link and then click the comment history and click on the links present there – you will be directed to the page stating who denied it. ,
+Job_aid_to_see_who_has_viewed_the_bids,Please refer to knowledge article KB0062206 in ServiceNow for detailed steps of how to run a report listing the suppliers who have viewed a bid in Cal eProcure website.,
+Quick_Reference_Guide_Entering_Bids,"Navigate to fiscal.ca.gov > Resources >Statewide Procurement Training >Creating a CSCR entry. To complete modifications on an event, create a new version which will make the previous version inactive. If you want any further instructions , you can navigate to fiscal.ca.gov > Resources >Statewide Procurement Training >Amending a CSCR entry. ",
+Request_to_delete_event,Events can be cancelled but they cannot be deleted. ,
+Solicitation_Approval_Process,Approver is a role in FI$Cal. Access is based on the role set up in the system. Requests for access to FI$Cal must come from the Departmental Authority/Designee (DAD). The form for this can be found at this link: http://www.fiscal.ca.gov/access-fiscal/FISCal_Service_Center/EndUserAccessForms.html.,
+Disencumbering_PO_amount,"If a PO is no longer required and you need to disencumber any outstanding encumbrances, the Buyer will need to close the PO. Information on how to close a PO can be found in Job Aid, ""Closing a Purchase Order (PO) to Release Encumbrance Balances "" found at this link: http://www.fiscal.ca.gov/access-fiscal/procurementjobaids.html",
+Page_Data_is_inconsistent_with_database,If you are receiving this error message then try clearing out your browser cache first.  There may be an issue with your temporary internet files.  If the issue persists submit a ticket to the FI$Cal Service Center at fiscalservicecenter@fiscal.ca.gov or via ServiceNow.,
+To_see_all_versions_of_event,"Please navigate to Main Menu > Sourcing > Create Events > Event Details > Find an Existing Value. You can find all versions of your Event there. To delete a previous version, Go to the Event Workbench and click on cancel ""X"" to cancel the version.
+",
+Unable_to_look_up_dispatched_PO,"To see dispatched POs navigate to:
+Main Menu > Purchasing > Purchase Orders > Add/update PO's. 
+Click on ""Find an Existing Value"", select the status of PO as ""Dispatched"" and click on search.
+",
+creation_of_Change_order_of_PO,"To update a Dispatched PO, you need to create a Change Order. Click on the ""Triangle"" icon in the right corner of the PO page to create a Change Order and complete the required changes.",
+To_see_attachments_in_PO,"To view attachments in a PO, click on the ""Add Comments and Attachments"" link. You will be able to view or add new attachments.",
+SCPRS_printing_issue,"Upload errors are usually temporary. Try logging out of FI$CAL and closing your browser. Reopen your browser, clear your cache (cntrl+shft+delete), and try again.  Additionally, you can try using a different web browser.  If the issue persists contact your departmental IT service desk for assistance.",
+POs_Chart_fields_Warning_,This is the warning message the system displays when you change the price amount on your PO line once the PO has approved and/or dispatched.  You can click through message and proceed with the changes.,
+Searching_LPA_,"It is necessary to use the checkboxes to indicate the type of contract you are searching for on the LPA/Departmental Contracts search page. The search choices are: ""Show LPAs"" or ""Show Expired Contracts.""",
+Upload_SCPRS_,"Information on how to upload a SCPRS document is found in Job Aid, ""Uploading a SCPRS entry"" found at this link: http://fiscal.ca.gov/training-academy/future_release_training.html. ",
+Changing_SCPRS_Document_ID,"SCPRS PO ID cannot be changed once entered and saved. If you want to assign a specific SCPRS ID, cancel the PO and create a new one with the correct ID.",
+Event_not_showing_in_eProcure,"An event is shown in Cal eProcure portal ONLY if it satisfies these two conditions.
+
+Condition 1: The event must be defined as “Public Event” so that it is viewable to anyone who visits Cale procure portal and does not requires to login with credentials.
+Condition 2: The Event must be approved by all approvers so that the Event status is “Posted.”",
+Search_Vendor/Bidders_by_UNSPSC_Code,Navigate to Main Menu > Search Vendor/Bidder page to search for Vendors or Bidders by the Category Codes they identified when registering.,
+Contract_search_problem,If the New version Button is Greyed out - there is already a new version created. If you are not able to find it please select the version status as draft and search for it ,
+Bids_View_report_on_Fiscal_,"Bidders who have seen your bid, downloaded it, and responded to you might not appear in the report. This report captures the bidders who logged into the Cal eProcure system by name but also anonymous users (those accessing the events as a public user). There is no other way to capture this information.",
+Search_Requisition_,"You can resolve issues locating requistions by following these steps:
+1) Enter the full requisition number with the preceding zeros to locate the requisition in the manage requisition page.
+2) If you are entering the full requisition ID and are still unable to locate the requisition, raise a ticket with the FI$Cal Service Center via email (fiscalservicecenter@fiscal.ca.gov ) or via ServiceNow for further assistance.",
+Encumbrance_Balance_on_PO,"If the encumbrance balance is incorrect on the PO, check to confirm the PO has been Budget Checked and is in ""Valid"" status. Access the ""Activity Summary"" page to view the current PO's encumbrance balance. ",
+Event_viewers,Refer to Knowledge Article KB0062206 in Service Now to check who has viewed your Event.,
+Price_Adjustment_Error,This is only a warning message. You are unable to change the adjustment. Ignore the warning message and continue with your transaction.  ,
+change_Chart_fields_on_PO,"If the PO has any Receipts or Payments posted to it, the Chart Fields are not editable. If you need to change the Chart Fields you can either close the PO and create a new PO with the new Chartfields using the remaining Encumbrance balance, or you can add a line with the remaining encumbrance balance using the new Chart Fields.",
+Approve_PO_,Approvers are allowed to Approve a PO even if the Budget has not been checked or is in error. Approver 2 should perform budget check and confirm the budget is valid before approving the PO.,
+Budget_check_a_Denied_Requisition,Budget check does not run when a requisition is in Open or denied status. Submit the requisition for approval again and then budget check. ,
+Unable_to_dispatch_Pos,"If you are unable to Dispatch a PO, check to confirm it has been approved and the Budget Check status is ""Valid"".",
+Change_vendor_number_on_dispatched_PO,You cannot change the Supplier ID once a PO has been Dispatched. Cancel the PO and create a new Purchase Order by copying from the original one.  ,
+Screen_Freezing,Issues with saving your work and unresponsive screens can be caused by your browser. Please follow the instructions mentioned in this link to delete the browser cache to resolve the issue: http://www.fiscal.ca.gov/documents/Browser_Delete_Cache_Help_Guide.pdf,
+How_to_add_Adhoc_Approvers,"Departments can insert as many additional levels of approval to their standard workflow as they deem necessary, per document, for Requistions, POs, Contracts, etc. These additional levels of approval are called, ""Ad hoc Approvers"" and are explained in the FI$Cal University training, ""PO112 - Processing Requisitions WBT"" found at this link: http://www.fiscal.ca.gov/training-academy/index.html",
+Unable_to_save_Receipt,An error message will appear while trying to create a Receipt when the buyer of a PO is either deleted or no longer active in the system. Raise a ticket with the FI$Cal Service Center via email (fiscalservicecenter@fiscal.ca.gov ) or ServiceNow for further assistance.,
+How_to_Approve_Event,"Follow the steps mentioned in the link below to approve an Event.
+http://www.fiscal.ca.gov/upk/PO383_v2.1.0/html/tpc/a6a0f490-33ad-4e32-8d8e-6cba628cb01f/topic.html
+",
+Re-dispatch_or_Reprint_a_dispatched_PO_to_get_signed_PO.,"Follow the steps mentioned in the link below to redispatch or reprint a dispatched PO: 
+http://www.fiscal.ca.gov/access-fiscal/documents/job_aids_and_training_tips/Re-Dispatching_a_PO_1.0.docx
+",
+How_to_add_or_modify_LPA_Contract_number_on_PO,"To find out the transactions awaiting approval in the worklist, click on the ""Worklist"" link located on the top right hand corner of the FI$Cal browser window. Once the link has been clicked the page will open up with the list of all the transactions needing action on.",
+How_to_view_transactions_awaiting_approval_in_an_approvers_worklist,"To find out the transactions awaiting your approval in your worklist please click on the link ""Worklist""on top right hand corner of the screen. Once you click on the link, the page opens up which lists all the transactions awaiting your action.",
+How_to_make_non_taxable_PO,"Follow the steps mentioned in the link below to make a non taxable PO.
+
+http://www.fiscal.ca.gov/access-fiscal/documents/20130719_Job_Aid_Sales_Tax_on_Purchase_Orders.pdf",
+General_Data_Extract_report_has_blank_value_for_PO_last_approved_by,"The POs that are partially approved will not have a value populated in the field ""PO Last Approved by"" report. Only POs which are approved at all approval levels will have that data populated in the report.
+",
+Unable_to_save_PO_due_to_error_message_Accounting_Date_is_not_open,"Assistance with closed accounting period PO processing is explained in Job Aid, ""Amending a Purchase Order that has a Closed Accounting Period"" found at this link: http://www.fiscal.ca.gov/access-fiscal/procurementjobaids.html",
+"Event_is_Posted,_but_not_showing_up_on_Cal_Eprocure","An event is shown in Cal eProcure portal ONLY if it satisfies the following two conditions:
+
+Condition 1: The event must be defined as a “Public Event” so that it is viewable to anyone who visits Cale procure portal and does not requires login with credentials (user name and password).
+Condition 2: The Event must be approved and have an Event status of “Posted.”
+",
+When_does_batch_process_closes_a_PO_,"For information about how POs are closed, refer to the information found in ""Understanding the Close Purchase Orders Process"" found at this link:
+
+https://docs.oracle.com/cd/E16365_01/fscm91pbr0/eng/psbooks/spog/chapter.htm?File=spog/htm/spog40.htm",
+Approver_is_showing_skipped_on_workflow_and_is_not_able_to_approve_the_event,FI$Cal does not allow event buyers to approve their own events; this would skip approvers in the worklfow. Please change the buyer on the event and submit it for approval.,
+Receiving_error_message_Invalid_Chartfield_combination_on_Line_number,"An ""Invalid ChartField"" warning will prevent the PO from being budget checked successfully. Recheck each line of the PO for correct of ChartField entries and correct where needed. Do this for all PO lines.",
+Unable_to_use_P-Card_as_payment_method_on_a_PO,"In order to use P-Card as a payment method on a PO, a P-Card must be set-up in the FI$Cal system for your ID. Contact your department P-Card maintainer for assistance. If you cannot identify the P-Card maintainer for your department, then please reach out to the Fiscal Service Center for further help.",
+SB_DVBE_Certification_information_not_appearing_on_PO,Contact DGS OSDS at OSDSHelp@dgs.ca.gov for assistance with Supplier certification in FI$Cal. ,
+Mass_change_of_Buyers_of_a_PO,"Changing a Buyer on a PO is needed when a buyer's account is inactivated in FI$Cal (left the department, changed roles, etc). Raise a ticket with the FI$Cal Service Center via email (fiscalservicecenter@fiscal.ca.gov ) or ServiceNow for further assistance.",
+Unable_to_save_PO_due_to_PO_date_outside_LPA_contract_Begin_and_End_Date,Check the PO date and verify if the PO date is between the LPA Contract Begin Date and End Date. The information regarding LPA Contract Begin and End date can be found out in Cal ePrcoure portal. Follow the link below for more information. http://www.fiscal.ca.gov/upk/PO391_v2.1.0/html/tpc/96fc1b1a-c8eb-4dd5-9fd3-60ec83c4a49a/topic.html,
+Unable_to_save_SCPRS_entry_due_to_PO_date_outside_LPA_contract_Begin_and_End_Date,"Check the PO Date and verify if the PO Date is in between LPA Contract Begin Date and End Date. Information regarding LPA Contract Begin and End date can be found in the Cal eProcure portal. Follow the link below, which explains how to search LPA contracts: 
+http://www.fiscal.ca.gov/upk/PO391_v2.1.0/html/tpc/96fc1b1a-c8eb-4dd5-9fd3-60ec83c4a49a/topic.html",
+Unable_to_find_navigation_to_add_Receipts,"There are two navigation paths for creating or editing receipts: 
+
+Main Menu > eProcurement > Buyer Center > Receipts > Add/Update Receipts 
+Main Menu > Purchasing > Receipts > Add/Update Receipts
+
+If you are unable to use this navigation then your profile in the system is missing the ""Department Receiving Processor"" role. Access is based on the role set up in the system. Requests for access to FI$Cal must come from the Departmental Authority/Designee (DAD). The form for this can be found at this link:
+
+http://www.fiscal.ca.gov/access-fiscal/FISCal_Service_Center/EndUserAccessForms.html
+",
+Not_authorized_to_view_or_edit_contract,"This issue occurs because the buyer of the contract is not listed on your authorized list of Contract Buyer Preferences. Access is based on the role set up in the system. Requests for access to FI$Cal must come from the Departmental Authority/Designee (DAD). The form for this can be found at this link:
+
+http://www.fiscal.ca.gov/access-fiscal/FISCal_Service_Center/EndUserAccessForms.html",
+Unable_to_edit_PO_line_Description,"FI$Cal allows edits to a line Item description of a Dispatched PO by creating a change order.
+If there are any receipts or vouchers created of a PO line then a user must delete the voucher and cancel the receipt before creating a change order to edit the line Item description.
+Refer to knowledge article KB0059793 for detailed steps on how to change a line Item description for a PO.
+",
+Unable_to_save_the_PO_as_system_gives_error_message_The_latest_Contract_version_is_available_for_the_Contract_associated_with_the_PO_line,"This message means that a new version contract has been created and approved. Refer to FAQ # 27 to understand this error message:
+
+http://www.fiscal.ca.gov/faqs/documents/Purchase_Order_FAQs_1.0.docx",
+Contract_on_Hold,"A buyer receives this email notification when any approver puts the contract on ""Hold"" status. Check the Contract approval comments for reasons why the contract is on hold.",
+Delete_a_Requisition,"A requisition cannot be deleted from the system. The only option is to cancel the requisition and budget check to release the funds to the budget.  Once you have cancelled the requisition, it will no longer show in the Search pages.",
+SCPRS_Upload_Question,"For questions related to using the SCPRS upload process, follow the link below:
+
+http://www.dgs.ca.gov/pd/Programs/caleprocure/caleprocurebuyers/SUPER.aspx
+
+or contact the DGS SUPER Team at eprocure@dgs.ca.gov.  DGS-PD will provide the template, onboard departments to the process, and troubleshoot errors with them.",
+Unable_to_save_Receipt,"This may be because the buyer has left your department. When a buyer leaves a department, receipts will not be saved and chartfields will not be copied over. Raise a ticket with the FI$Cal Service Center via email (fiscalservicecenter@fiscal.ca.gov ) or ServiceNow for further assistance.",
+Unable_to_Access_Speed_chart_Values,For issues with Speed Charts access and configurations open a ServiceNow ticket or send an email to Fiscal Service Center with a description of the issue you are currently facing.,
+Unable_to_Create_Receipt,"A PO must satisfy three conditions for a receipt to be created against it.
+1. The PO must be in the ""Dispatched"" status.
+2. The Budget Check must be ""Valid"" 
+3. There must be a Quantity or Amount greater than zero to be received from the PO.
+",
+Upload_documents_in_Receipt,"To attach dcoument to receipt follow the steps below:
+
+1. Navigate to Main Menu> Purchasing > Receipt > Add/Update Receipt
+2. Click on Find and Existsing value
+3. Enter Buinsess Unit and Receipt ID
+4. Click on link ""Add Header Comments""
+5. Attach the document and click OK
+6. Click on Save button",
+Sales_tax_in_Requisition,Sales tax is calculated field updated when a PO is created. The system does now allow addition of Sales Tax on a requisition.  ,
+Unable_to_Open_Dispatched_PO,"Check if the browser in use has a pop up blocker setting turned off. If the settings cannot be changed, work with the local IT department for assistance on updating this feature to be compatible with the FI$Cal application.",
+Contract_base_Price,"While creating a PO from a contract and you are seeing a $0 amount on a PO line, check the contract line base price. If the contract line base price is not given or set, then it will appear on the PO as $0 merchandise amount. Create a new version of the contract, then go to the Contract line details and add the correct base price there. Submit contract for approval.
+",
+Allow_Open_Item_Reference_,"""Allow Open Item References"" check box enables you to purchase items against a Contract that are not specified on that contract. This check box also enables you to reference the contract for any requisition and PO item that is ordered from this vendor within the terms and limits of this contract. This check box also enables you to add open-item price adjustments to the contract. By checking this check box, you can create a PO with additional items which were not specified in that contract.""",
+DGS_Billing_code,"DGS Billing codes are associated with Business Units. Please go to the PO defaults of contract and check if a Business Unit is provided. Please provide the Business unit and other details of PO defaults and then try to provide DGS billing code.  For more assistance, email SRFFiscalServices@dgs.ca.gov",
+Budget_check_Closed_PO,"Once a PO has been closed, it must be budget checked to liquidate its encumbrance. Please budget check the closed PO, if there is budget status 'Not checked' from Buyer's work bench. 
+To Pick closed PO in buyer's work bench, select the check box 'Include Closed' at buyer's workbench search page. ",
+PO_supplier_correction, You cannot change a supplier on a PO once the PO is submitted for approval. Once the PO is approved or dispatched - you can the PO and create a new one with the correct supplier information.,
+Warning_Message_ship_to_ID_change,"After changing Ship To ID a popup message will appear. This Popup is a warning message that changing the Ship To ID will change the default Tax ID to match the new Ship To address. You can click ok on this message and proceed with further processing of PO.
+",
+Performance_issue,"This is a temporary issue. Please clear browser cache once and try entering the information again. Follow these steps:
+
+1. Log out of the application
+2. Clear browser cache
+3. Close and re-open the browser
+4. Log back in to the system and try again",
+Temporary_issue,"This is a temporary issue. Please clear browser cache once and try entering the information again. Follow these steps:
+
+1. Log out of the application
+2. Clear browser cache
+3. Close and re-open the browser
+4. Log back in to the system and try again",
+SCPRS_Acquisition_Method,"Once an SCPRS entry is saved, you cannot change the acquisition method or type. You will be required to cancel this entry and create a new one. Detailed information on how to cancel an SCPRS can be found at:
+
+http://www.fiscal.ca.gov/training-academy/future_release_training.html",
+Budget_check_,"In case of Budget error(s), navigate to distributions of the PO. Check if you have provided correct values to all the Chart fields and a valid budget date. Change the incorrect values if any, then save the PO and Budget check PO again.",
+Publish_Date,"Event will not be visible on Cal eProcure Portal before its Publish date. The publish date of an Event depends upon the Event's approval and Preview date, whichever is latest.
+
+If the event is within the Published Date/Start Date then check if you have selected the Public Event and Post to CSCR check boxes on Step 3 of the CSCR.",
+Deleting_PO_Line,You cannot delete a PO line if PO has been dispatched once. You can cancel the PO line instead of deleting it. Go to Statuses Tab on PO Line and Right click on cross icon to cancel PO line ,
+Change_order_detail,"To View changes made on a PO, navigate to Purchasing > Purchase Orders > Manage change orders > Review Changes
+",
+Changing_Supplier_ID_on_Contract,"Changes to Supplier ID on a Contract depends on whether it has been approved or not.
+
+If the contract is not approved, you may change the Supplier ID directly on the Contract by creating a new version does create a new version mean edit the existing version and resubmit and re-submitting the contract for Approval.
+
+If the contract is already approved, but a PO is not issued for the contract, please cancel the contract. Once cancelled, create a new contract with the desired Supplier.
+
+If a PO or a Receipt was already created for the Contract, please cancel the PO, the Receipt and the contract and start all over with a new contract with the desired Supplier.
+",
+PO_not_Dispatching,"This might be a temporary issue. If the servers went down, it could cause Dispatch and other processes to remain in Queued status. When the servers come back up, POs will be dispatched. Check back in a few minutes and if your PO is still not dispatched, raise a ticket with the FI$Cal Service Center via email (fiscalservicecenter@fiscal.ca.gov ) or ServiceNow 
+for further assistance.",
+Events_Approvals_,"To check who can approve your event:
+1. Open your event 
+2. Scroll down and click on link 'View Approvals'
+3. If urgent, contact event approver",
+Po_Dispatch_Issue,"To re-dispatch a PO refer to the following Job Aid:
+
+http://www.fiscal.ca.gov/access-fiscal/documents/job_aids_and_training_tips/Re-Dispatching_a_PO_1.0.docx",
+Closing_a_PO,If you need access to another buyer's PO please raise a ticket with the Fiscal Service Center via ServiceNow or by emailing fiscalservicecenter@fiscal.ca.gov.,
+Budget_Issue,Raise a ticket with the FI$Cal Service Center via email (fiscalservicecenter@fiscal.ca.gov ) or ServiceNow for further assistance with a budget-related issue.,
+Vendor_Issue,"Advantage is not supported by FI$Cal. If you are having trouble with FI$Cal supplier ID’s contact your Advantage support team.
+Recommend removing this until the information given here is verified.",
+Turn_off_workflow,"Turning off the workflow for the BU requests are submitted on a Configuration Management Request (CMR) from your department's DAD. Instructions for this process can be found on the FI$Cal website:
+
+http://www.fiscal.ca.gov/access-fiscal/fiscal_service_center/CMR.html",
+Procurement_Contract_issue,If you are having trouble liquidating a contract with a PO contact the FI$Cal Service Center for assistance. Recommend removing this until the information given is verified and expanded.,
+PO_approval_issue,"Approver is a role in FI$Cal. Access is based on the role set up in the system. Requests for access to FI$Cal must come from the Departmental Authority/Designee (DAD). The form for this can be found at this link:
+
+http://www.fiscal.ca.gov/access-fiscal/FISCal_Service_Center/EndUserAccessForms.html",
+Chartfield_default_values,"The ChartField ""Alternate Account"" and ""Account"" fields have default values based on the category code. You can change the values by clearing the ""Alt Account"" field before attempting changes to the ""Account"" field.
+",
+Issue_with_supplier,"When the ""Allow Open Item Reference"" checkbox is checked on a contract, the system will not allow more than one contract created for the same supplier and begin date.",
+Encumbrance_Only_PO_Issue:_Sales_Tax_Populated,"If you do not want tax to be calculated, select ""Item is Exempt"" for tax applicability. Otherwise, select the proper tax code related to percentage.",
+How_to_Cancel_a_Change_Order_,"Change Orders cannot be cancelled. If the Change Order was for amount only, you can go back to the PO and change the amount to the previous amount you had entered.  ",
+Fiscal/SCPRS-contract_not_available,"A contract must be in ""Approved"" status before it is entered into FI$Cal.",
+Unable_to_find_available_balances_on_PO,"To find the available balance of a PO, navigate to the Add/Update PO's page and locate the ""Activity Summary"" link. This will show you the merchandise matching done from a PO. You can also check document status to see the amount already paid.",
+Delete_line_of_Dispatched_PO,"You can remove lines from a PO where no invoices have been sourced from it by cancelling the line from the ""Statuses"" tab of the PO.",
+CSCR_Event_ID-_Saved_but_not_Posted,"This is a warning message. You can continue posting of the event. To post an event, save the event details, and click on post tab",
+"Fiscal_-_unable_to_submit_PO,_Requester_ID_is_required","If you are getting a ""requester ID"" error, this is due to insufficient Requestor authorization. Access is based on the role set up in the system. Requests for access to FI$Cal must come from the Departmental Authority/Designee (DAD). The form for this can be found at this link:
+
+http://www.fiscal.ca.gov/access-fiscal/FISCal_Service_Center/EndUserAccessForms.html",
+Difficulty_in_editing_PO's,"Access to Change Orders on POs is based on the role set up in the system. Requests for access to FI$Cal must come from the Departmental Authority/Designee (DAD). The form for this can be found at this link:
+
+http://www.fiscal.ca.gov/access-fiscal/FISCal_Service_Center/EndUserAccessForms.html",
+Dispatching_POs,"If it is taking an unusually long time to dispatch a PO, this may be caused by temporary server issues slowing down the PO dispatch process. Try waiting a few minutes and then dispatch the PO.",
+SCPRS_adhoc_report,"Run the ""SCPRS Adhoc Report"" to retrieve the data for SCPRS:
+Navigate to Fiscal Processes > Fiscal Report > PO Reports > SCPRS Adhoc Report.",
+Edit_Contract,"Access to Contracts is based on the role set up in the system. Requests for access to FI$Cal must come from the Departmental Authority/Designee (DAD). The form for this can be found at this link:
+
+http://www.fiscal.ca.gov/access-fiscal/FISCal_Service_Center/EndUserAccessForms.html",
+Resubmitting_denied_PO,"A PO can be submitted for approval again if it has been denied. To re-trigger the workflow, make a change to the quantity or amount of any line item and save. Then revert the changes to the POs quantity/amount to the previous value and save the PO once again. This will re-trigger the routing workflow of the PO for approval.",
+Copy_Requisition,"A requisition can be copied to a PO if the requisition is in ""Approved"" status and budget checked. A requisition in ""Cancelled"", ""Closed"" or ""Open"" status are not able to be copied to a PO.",
+PO_buyer_Deleted,"Whenever a Buyer leaves a department, his/her ID is disabled in FI$Cal. Their POs can be accessed in “Read Only” mode by other Buyers in the department. Raise a ticket with the FI$Cal Service Center via email (fiscalservicecenter@fiscal.ca.gov ) or ServiceNow for further assistance.",
+Fiscal_SCPRS_Upload_Question,"The FI$Cal SCPRS does not show when the entry was created, whether it was done through the Supertools, or through the Manual process.",
+Chartfields_in_report,"The Dispatched PO PDF does not contain the Distribution Chartfields. To view the Distribution Chartfields, click on the ""View Printable Version"" link.",
+PO_Inquiry,The PO Inquiry page displays all of the lines contained in the PO. These are not duplicate entries. ,
+PO_not_Showing_up_in_worklist,"The PO needs to have been submitted for Approval in order for it to appear in the Approver's Worklist. Check the status of the PO to confirm the status is in ""Pending Approval."" If it is still not appearing in your Worklist there may be an issue with your profile and you should raise an incident with the FI$Cal Service Center at fiscalservicecenter@fiscal.ca.gov.",
+Requisition_Deletion,"Requisitions cannot be deleted once they are entered in the system; however, you can still cancel them. If you know the requisition IDs and the range of these requisitions, you can cancel them in bulk by using the Requester's workbench. Enter the range of requisition IDs, search, and select only the ones that you want to cancel.",
+SCPR_Upload,"You have to look through the SCPRS Upload history page to find out what are the errors in your file. Navigate to:
+
+Main Menu>Sourcing>Fiscal SCPRS>SCPRS upload History",
+Approval_Workflow,"To request for the Approval Workflow to be turned off for your department, you must submit the request to the FI$Cal Service Center. Recommend this be removed pending further review",
+Editing_Requisition,"After you create a requisition, you are still able to edit the requisition as long as the status is not ""Complete"". If you edit an approved requisition, then you must re-submit the requisition for approval, and the requisition must re-enter the approval process and go through all required approval steps. Information on editing requisitions is found in FI$Cal University training module, ""PO112 - Processing Requisitions WBT"" found at this link:
+
+http://www.fiscal.ca.gov/training-academy/index.html",
+Copy_Contract,"A contract can be copied to a PO if it is in ""Approved"" status. Once a contract is ""Cancelled"", ""Expired"" or is in ""Open"" status the contract is not copiable to the PO. ",
+Cancel_PO,"Cancelled POs may not show the ""Cancelled"" status. If this is the case, dispatch the PO from the Buyers Workbench and the PO status will change from Pending Cancel to Cancelled. ",
+Cancel_PO_Lines,"The system does not allow Users to delete lines on a PO; unneeded lines on a PO are canceled. Refer to theProcurement Job Aid, ""Amending a Purchase Order to Delete Line(s) "" found at this link:
+
+http://www.fiscal.ca.gov/access-fiscal/documents/FISCAL.302-AmendingaPOtoDeleteLines1.0.docx
+
+The Job Aid is not found on the Procurement Job Aid page and may be obsolete. Recommend removing this pending further review/clarification.",
+Approve_PO_,THe FI$Cal Service Center does not have the authority to approve departmental POs. Please contact the Approvers stated in the PO to get the PO approved.,
+Supplier_Address_On_PO_,"You can change the Suppliers address on the PO using the following steps:
+
+1. Open the PO in the Add/Update POs page, create a new PO
+2. Select the Supplier ID needed
+3. Click on the ""Supplier Details"" link
+4. Select the address number in the prompt for ""Address"" and the selected address number will be updated in your PO",
+PO_In_Approved_Status_,"A PO in ""Approved"" or ""Dispatched"" status can be edited. If the amount or quantity is changed, approval workflow is retriggered and it will need to be approved again. ",
+Not_able_to_change_UOM_,"A configuration needs to be done to change a Unit of Measurement (UOM) to a particular value. Contact the FI$Cal Service Center, Fiscalservicecenter@fiscal.ca.gov or via ServiceNow for further assistance. ",
+Adhoc_Po_Approver_,"If you are an Ad Hoc Approver but unable to Approve a PO, raise a ticket with the FI$Cal Service Center, fiscalservicecenter@fiscal.ca.gov or via ServiceNow for assistance.",
+Incorrect_Approvers_,PO Approval Routing depends on the Reporting Structure used in the PO Chart Fields. Validate that the Reporting Structure that has been selected is correct. ,
+Invalid_Project_ID_Error,The “Invalid Project ID” error message happens when the Project ID entered on the PO is invalid or inactiv at the time the PO is created. This warning message can be ignored.,
+Exemption_Code_in_PO,The Exemption Code is not a Required field; you may leave the Exemption Code blank on the PO.,
+Budget_Check_PO,You cannot Budget check a PO in Open Status. Please submit it for approval first. ,
+Creating_PO_Copying_from_contract,"The processing option ""PO"" must be present in the Contract setup if you wish to create a PO by using ""Copy From"" Contract. If the Contract was not set up to allow creating POs from it, cancel the contract and create a new one with the correct Process Option.",
+Notifications_Emails/Worklist,"To enable email notifications, navigate to: Main Menu > My System Profile. Verify the checkbox for email user & worklist user is checked. If they are both are checked and you you still don't receive email notifications, raise a ticket with the FI$Cal Service Center via email (fiscalservicecenter@fiscal.ca.gov ) or via ServiceNow for further assistance.",
+"Budget_error_""Required_key_CF_is_blank""","When receiving this error message check that all the required ChartFields (Appropriation reference, Fund, ENY, Account, Alt Account, Reporting Structure & Program) have been filled and are not blank. If all required fields have valid entries, check if there are any miscellaneous charges defined. If yes, does it say ""Non Prorated Freight”? If yes, change it to ""Prorated Freight"" and run the budget check again.",
+Remove_Ad_hoc_approver,"To remove an Ad Hoc Approver, you will have to re-trigger the workflow. To re-trigger the workflows:
+
+1. Change the PO quantity or amount of any line item
+2. Save the PO
+3. Revert the PO quantity/amount to the previous value
+4. Save the PO once again
+
+This will re-trigger the workflow for approval and you will be able to remove the inserted approver",
+Supplier_Address_On_Contract,"Some Suppliers in FI$Cal have multiple addresses. In order to search for a different supplier address, click on the Supplier Search link while creating a Procurement contract. The supplier search link will show all addresses associated with the supplier.",
+PO_Approval_Warning,"This is just a warning message. You should be checking the budget header status and if that says ""valid,"" then please ignore the message. ",
+FW:_what_do_i_enter_for_the_entry_event_section_because_it_will_not_let_me_submit,Entry event section is not a mandatory field for event submissions. Check all other fields you have entered like chartfield combination and click on save and post event.,
+Approval_Notification,"If you are a PO Approver 1 and also the Buyer for a PO, you will get an email requesting you to approve your own PO. However, since you are the Buyer of the PO you will be skipped in the workflow.",
+Change_Acquisition_Type_on_Event,"You are not able to change the Acquisition type of an Event after it is posted. You will have to create a new version of your event to make changes. Refer to the ""FI$Cal CSCR Processing"" training found at this link:
+
+http://www.fiscal.ca.gov/training-academy/future_release_training.html",
+Pre-Budget_Check_,Prove Valid error can be remedied by ensuring the requisition has the pre-budget checked and not budget check. Then match the voucher with the PO. ,
+Access_Issue_,"If you are not able to view the buyer name, your access may not be configured correctly. Raise a ticket with the FI$Cal Service Center via email (fiscalservicecenter@fiscal.ca.gov ) or ServiceNow for further assistance.
+",
+Re-Trigger_Approval,"If your PO or requisition has been approved by another approver or not trigger to desired approver for approval, then you can re-submit you PO or requisition for approval. To re-submit:
+1. Open PO
+2. Make changes to the price of any PO line as shown below
+3. Save the PO
+4. Again make changes to price of previously changed PO line and revert the changes made in previous step
+5. Save the PO, then PO will retrigger for approval",
+Sales_Tax_on_PO_and_Voucher,"If the Sales Tax did not copy onto the Voucher directly, but only the Line Amount was copied onto the Voucher, then the AP Processor must manually add the Sales Tax onto the Voucher.
+If the PO does not have taxes defined and the invoice has added Sales Tax, then a Change Order will need to be created for the PO. Once the Change Order has been created, create the receipt(s) to avoid Voucher Match Exceptions.
+",
+PO_Approvals_Routing_issue,"The PO/Requisition Approval work flow is dependent upon the Acquisition Type and Reporting Structure. If a PO/Requisition is not routing for approval to the desired approver, it means that the approver does not have access to that particular Acquisition Type or Reporting Structure.",
+Approval_Notification,"You are receiving these emails because you have been identified as one of the PO Approvers (PO Approver 1) for your department. Buyers on the PO do not receive the same email notification unless they also have the role of Approver 1. However, the Buyer of the PO will be skipped in the workflow.",
+SCPRS_data_entry,"Issues adding LPA contracts in SCPRS document may be remedied by verifying the following:
+1. SCPRS Purchase document and LPA contract Supplier ID must be same
+2. Acquisition Type and Method you have provided on Purchase SCPRS document must match LPA contract. Acquisition method must be the contract type of LPA contract
+3. Purchase Date of SCPRS should be within the start and end date of LPA contract",
+Requisition_Charfields,"When creating a requisition, the same ChartFields can be copied to all the lines of a requisition by using the ""Override"" option in a requisition. The values entered in the requisition will be carried forward to the PO when the PO is created by ""Copy From"" the requisition.  The ChartFields can be entered once, and then applied to other lines by using the steps provided in knowledge article KB0062074 in Service Now.",
+P-Card_cardholder_profiles,The department P-Card Maintainer(s) are responsible for creating new P-Card cardholder profiles and for maintaining existing P-Card cardholder profiles for their department.  Cardholder profiles are accessed by navigating to Main Menu > Purchasing > Procurement Cards > Definitions > Cardholder Profile,
+A_new_card_number_under_a_different_managing_account,Your Departmental P-Card Maintainer can verify that your new card number has been added to your cardholder profile in FI$Cal. Your Dept. P-Card Maintainer is responsible for creating and/or maintaining cardholder profiles in FI$Cal under different managing accounts.,
+Department_has_added_a_new_managing_account_and_new_cardholders_for_this_new_managing_account_in_US_Bank_Access_Online,"The Department P-Card Maintainer will use the following steps to add new managing accounts and new cardholders to them:
+
+1: Dept. P-Card Maintainer will need to contact FSC and provide new managing account information. FSC will work with US Bank to add the new managing account to the monthly transaction file.
+2: Department Assigned Designee (DAD) will need to request P-Card roles for the new cardholders if they were not setup as cardholders before.
+3: Dept. P-Card Maintainer will need to update existing cardholder profiles or create new cardholder profiles for the new managing account and new card numbers in FI$Cal. Refer to the Job Aid, ""Creating a Cardholder Profile and Adding Designated Departmental Proxies"" found at this link:
+
+http://www.fiscal.ca.gov/access-fiscal/procurementjobaids.html",
+P-Card_billing_cycle_date,The FI$Cal billing cycle date is from the 23rd of the current month to the 22nd of the next month.,
+P-Card_billing_cycle_close_date,"US Bank typically closes the billing cycle on the 22nd of each month unless the 22nd falls on a weekend or a holiday, then US Bank will close the cycle on the next business day.",
+Loading_date_of_P-Card_transactions_from_the_US_Bank_statement_into_FI$Cal,"FI$Cal will load the P-Card transaction files from US Bank the day after the billing cycle ends. Normally on the night of the 23rd, unless the billing cycle ends on a weekend or holiday, then FI$Cal will load the P-Card transaction files on the next nightly batch run. Use the following navigation to find your statements: Main Menu > Purchasing > Procurement Cards > Reconcile > Reconcile Statement
+",
+Creating_New_Cardholder_Profile,"The Department P-Card Maintainer creates new cardholder profiles, adds P-Cards to an existing cardholder's profile, and adds proxies to cardholder's profiles in FI$Cal. Refer to the Job Aid, ""Creating a Cardholder Profile and Adding Designated Departmental Proxies"" found at this link:
+
+http://www.fiscal.ca.gov/access-fiscal/procurementjobaids.html",
+Multiple_Employees_with_same_name_displayed_while_creating_a_new_P-Card_cardholder_profile_,"There may be many state employees with the same name. If this is the case, reach out to your departmental labor distribution team to confirm the employee ID for the P-Card cardholder in your department. This will ensure that the cardholder profile is created for the correct Employee/Employee ID. ",
+Statement_and_hardcopy_of_the_receipts/invoice_still_required_by_SCO,"No, the paper packet is no longer required by SCO. However, the FI$Cal P-Card reconciliation process requires the Dept. P-Card Reconciler and/or cardholder to scan and attach the supporting documents/receipts/invoices to the P-Card transaction.",
+P-Card_transactions_not_shown_on_the_Reconcile_Statement_page,"There are several reasons why your P-Card transactions cannot be searched/viewed on the Reconcile Statement page.
+
+*The P-Card transaction date falls outside of the current billing statement cycle dates. Billing cycle closes on the 22nd of the current month for P-Card transaction dates between the 23rd of last month to the 22nd of current month.
+*The P-Card number used does not exist or is unknown in FI$Cal. This means that a cardholder profile was not created in FI$Cal so the P-Card transactions failed the load statement process.
+*The search criteria used are not correct. Use the Clear button to remove defaults and verify the search criteria.
+*Your designated Reconciler may have already reconciled your P-Card transactions on your behalf.
+*Your department P-Card Maintainer created your cardholder profile after the 23rd of the month (after load statement process already ran on the night of the 23rd) so your P-Card transactions are now waiting to be loaded.
+*Check if your name is listed as ""P- card Reconciler"" in the proxies of the card definition of P-Card buyer whose statement is being reconciled.",
+Email_notification_stating_U_Bank_statement_has_been_loaded_into_FI$Cal,"An email notification to inform cardholders that their US Bank Statement(s) have been loaded is sent to:
+• Dept. P-Card PO User
+• Dept. P-Card Req User
+• Dept. P-Card Reconciler
+• Dept. P-Card Maintainer
+",
+Creation_of_a_PO_with_P-Card_as_the_payment_method_,"You can use your P-Card as the payment method on a PO. Refer to Job Aid, Creating a PO with P-Card as the Payment Method and Dispatching"" found at this link:
+
+http://www.fiscal.ca.gov/access-fiscal/procurementjobaids.html",
+"PO_need_to_be_created_in_FI$Cal_if_the_payment_method_is_P-Card_exceed_$2,500",All purchases paid by P-Card must be executed using standard purchase documents when the purchase meets the thresholds noted in SCM-F Chapter 8 (http://www.dgs.ca.gov/pd/Resources/publications/SCMFI$Cal.aspx).,
+PO_created_using_P-Card_as_the_payment_method_not_shown_on_Reconcile_Statement_page,"There are several reasons for the PO ID to not be searchable on the Reconcile Statement/Procurement Card Transactions page.
+
+*The cardholder didn’t click OK twice after selecting the card number to specify that PO ID is going to be paid with the selected card number. Therefore, the PO ID was not marked as to be paid by P-Card.
+*The PO ID has not been fully approved.",
+Receipt_creation_for_PO_created_using_P-Card_as_payment_method,The Match rules do not apply to POs paid by P-Card so the system will not require a Receipt ID to be created. You are confirming that the goods/services are received when you reconcile your P-Card transactions.,
+P-Card_statements_line_item_detail,US Bank sends the P-Card transaction statements at the level that the merchants are capable of sending the information.,
+Sales_Tax_calculation_on_P-Card,"Here are some examples of how sales tax is calculated on the P-Card Reconciliation page:
+
+1. If the P-Card transaction is linked to a PO ID, then the sales tax info from the PO line will carry over to the P-Card transaction. 
+2. If the PO ID has multiple PO lines, then the system will also automatically split the summary P-Card transaction into the corresponding PO lines and sales/use tax from the PO lines will carry over to the newly split P-Card transaction lines.
+3. If there is no PO ID, then Dept. P-Card Reconciler has to manually split the summary P-Card transaction into multiple lines. The Reconciler will need to include the unit cost of each line plus the sales/use tax amount and enter that amount on each split line. The total split amount must equal 100% of the summary total amount which is the original amount that came from US Bank.
+
+NOTE: Sales/Use Tax that carried over from the PO ID or manually calculated on the P-Card transactions will not flow to the P-Card voucher ID. All P-Card system-generated voucher IDs are created as Tax Exempt.",
+Sales_Tax_added_on_PO_or_manually_added_on_P-Card_Reconciliation_statement_page_is_not_copied_on_Voucher,Sales/Use Tax that carried over from the PO ID or manually calculated on the P-Card transactions will not flow to the P-Card voucher ID. All P-Card system-generated voucher IDs are created as Tax Exempt.,
+Steps_to_add_sales_tax_to_P-Card_statements,"Follow the steps in FAQ# 19, ""How do I track the sales/use tax on my purchases paid by P-Card?"" found at this link:
+
+http://www.fiscal.ca.gov/faqs/documents/FISCal.346-P-CardFAQs2.0.docx",
+P-Card_Approval_Levels,There is only one level of approval required for P-Card transactions since there is no approval workflow process setup for the P-Card transaction reconciliation process in FI$Cal.,
+Number_of_department_P-Card_Approvers_could_I_assign_to_one_P-Card_cardholder,The department may assign as many Department P-Card Approvers to one cardholder as they deem appropriate on the Assign Proxies page.,
+Email_notification_when_P-Card_transactions_are_approved,The Department P-Card Reconciler and/or actual Cardholder will need to log into FI$Cal and check the status of their P-Card transactions. No email notification will be sent by FI$Cal.,
+Email_notification_for_Department_P-Card_Approver_when_P-Card_transactions_are_approved,FI$Cal will send an email notification to the Department P-Card Approver when P-Card transactions are ready for approval. The system sends an email that transactions are ready for approval to both Approvers and the Departmental P-Card Maintainer. ,
+One_department_P-Card_Reconciler_reconcile_for_many_department_P-Card_cardholders,The department may assign one Department P-Card Reconciler to as many Department P-Card Cardholders as they wish on the Assign Proxies page.,
+Multiple_department_P-Card_Reconcilers_reconcile_for_one_department_P-Card_Cardholder,The department may assign as many Department P-Card Reconcilers as they wish to one Department P-Card Cardholder on the Assign Proxies page.,
+P-Card_voucher_is_created_only_for_US_Bank,The vouchers created for the P-Card transactions are sent to US Bank since US Bank has already paid the Suppliers.,
+P-Card_voucher_creation_in_system,"P-Card Vouchers are system-generated. All P-Card transactions that have been Reconciled, Approved, and have Valid ChartField Status will be staged and built into the Voucher ID by the system overnight. ",
+Change_Supplier_Address_on_PO,"To change the supplier address on a PO:
+
+1. Navigate to Add/update PO page and open the PO
+2. Click on Supplier details link
+3. Click on Address prompt and select your address
+4. Click on Show address details button to view the address. Click on OK to select the address",
+Voucher_created_from_a_PO,"To check if a Voucher has been created from a PO, refer to the Document Status link and the Activity Summary links visible on the Add/Update PO page. Information related to Vouchers, Receipts Created, Payments, and Matching will also be available via these links.",
+Tax_Calculations,"If the sales tax and the supplier’s sales tax calculation method do not match, send a request to the supplier to calculate the sales tax in the same way as it appears on the PO to match the values. This cannot be changed on the PO side. Sales tax on a PO is calculated at line level only. For additional assistance, raise a ticket with the FI$Cal Service Center via email (fiscalservicecenter@fiscal.ca.gov ) or via ServiceNow for further assistance.",
+Activity_Log_on_a_PO,"You cannot add anything under the Activity Log link, it is just used for display purposes only and it displays all the information entered in the “Enter Dispute Information” link. More information can be added to the ""Enter Dispute Information"" section by clicking on the “+” icon under “Enter Dispute Information” link and typing.",
+Contract_amendment,"If you unable to find your contract using search, try changing your search criteria to look for ""draft"" or ""expired"" contracts.",
+Bueyr's_workbench,"To Budget Check multiple POs, use the Buyer's Workbench page. The nagivation for the Buyer's Workbench page is Main Menu>Purchasing> Purchase Orders >Buyer's Workbench",
+Cancel_PO,"If you are unable to Cancel a PO, please check via the Document Status link if any Receipts, Vouchers and/or Payments have been created from the PO. If so, the Puchase Order cannot be Cancelled.",
+Fiscal_SCPRS_Upload_Issue,Contact eprocure@dgs.ca.gov for help on how to enter/edit SCPRS data in a file.,
+Re-print_Dispatched_Pos,"To re-dispatch the PO and print its report, refer to Procurement Job Aid, ""Creating a Purchase Order (PO) with P-Card as the Payment Method and Dispatching PO 1.0"" found at this link:
+
+http://www.fiscal.ca.gov/access-fiscal/procurementjobaids.html",
+Ship_To_Location,"To add, update, or remove a ship to location raise a ticket with Fiscal Service Center via ServiceNow or by emailing fiscalservicecenter@fiscal.ca.gov along with a Configuration Modification Request (CMR) of the requested changes. CMRs can be found via this link:
+
+http://www.fiscal.ca.gov/access-fiscal/fiscal_service_center/CMR.html",
+Receipt_Status,"A receipt's status changes from ""Received"" to ""Moved"" once it has been successfully processed. ",
+Adding_Requisition,"The line information entered on a requisition are saved in your cart separately. Once you save all the lines for items you are requesting to your cart, click the ""Checkout"" button. You should see all the items you added to the cart on your requisition.",
+Receipts_Roles,"Access to Receipts is based on the role set up in the system. Requests for access to FI$Cal must come from the Departmental Authority/Designee (DAD). The form for this can be found at this link:
+
+http://www.fiscal.ca.gov/access-fiscal/FISCal_Service_Center/EndUserAccessForms.html",
+To_enter_Number_of_offers,"This field becomes a required field when the Acquisition Method selected is ""SB Option-Competitive."" When the Sub-Type is Consulting Services, an extra link populates, i.e.: Consulting Services Justification. Enter the number of offers by clicking on the Consulting Services Justification link.",
+To_enter_discount_in_requisition,The discount on requisitions can be entered as a line item with a negative price.,
+To_change_chart_fields,"To edit PO ChartFields, create a change order for the PO. To edit contract ChartFields, create a new version of the contract.",
+To_amend_a_contract,"If the “New Version” is grayed out in a contract you wish it edit, check to see if a draft version of the contract has already been created. You can filter your contract search by selecting version status as ""Draft"" and click on the search button. If a draft version is present, click on edit and then update the contract.",
+No_approvals_Required_error_issue,"The “No approvals are required” issue can be solved by re-triggering the workflow by following these steps:
+1. Open PO
+2. Change amount or price of any of the PO line items and save the PO
+3. Again change the amount or price of same PO lines and revert the change back to the previous values. This will re-trigger the PO work flow for approval
+",
+To_remove_sales_tax_from_line,"Navigate to Sales Tax Information on the PO line and provide the Sales Tax Applicability as “Purchaser is Exonerated” and the click on “Calculate SUT”. Once the PO is saved, your Change Order will be created and the Sales Tax will be removed from that line.",
+SCPRS_upload_error,"Check Acquisition Type is selected as per LPA contract, which may be the cause as to why the PO in not loading.",
+Change_the_receipt_price_from_the_line_price_,"If you want to change the price on a receipt to something other than the price on the PO line, you will need to mark the PO line as an Amount only. When PO line is an amount only, you have the option of changing the price on the receipt.",
+Looking_for_Workbench_ID_to_close_the_PO,The WorkBench ID is a freeform field and you can type anything you wish as the Workbench ID.,
+To_make_chnages_in_PO,"To change a PO follow this navigation:
+
+Main Menu > Purchasing > Purchase Orders > Add/Update PO's
+
+If the PO is in the “Dispatched” status, a Change Order will need to be created.",
+To_bring_back_requisition_in_inbox,"The system does not allow reinstating a terminated workflow. Have the requestor re-trigger the workflow by following these steps:
+1. Open PO
+2. Change amount or price of any of the PO line items and save the PO
+3. Again change the amount or price of same PO lines and revert the change back to the previous values. This will re-trigger the PO work flow for approval",
+Issue_with_printable_version,The printable version of a PO is an unofficial document and is labeled as a “Draft” version. The official version will be printed when the PO is dispatched.,
+Voucher_created_for_multiple_P-Card_transactions,"The FI$Cal system will pull, stage and build all approved P-Card transactions by managing account. Therefore, if multiple cardholders have approved P-Card transactions from multiple billing cycles, all transactions will be built into one voucher on a nightly basis.",
+Frequency_of_voucher_staging_and_voucher_build_process_for_P-Card_,The voucher stage and voucher build processes for P-Card transactions run nightly.,
+Email_for_exceeding_the_grace_period,"“Exceeding the grace period” emails sent out when reconciled P-Card transactions are in ""Verified,"" are an indicator that the transactions are not yet approved.",
+Email_for_exceeding_the_grace_period_for_approved_P-Card_transactions,"If you are getting “Exceeding the grace period” emails on an Approved P-Card transaction, check that the transaction has been Budget Checked, that it did not fail Budget Check, or may have invalid Chart of Account entries.
+
+The three required criteria for P-Card transactions to be staged and built into a Voucher ID are as follows:
+• P-Card Status = Approved
+• Budget Status = Valid
+• ChartField Status = Valid",
+Criteria_for_P-Card_transactions_for_voucher_staging_and_voucher_build,"The three required criteria for P-Card transactions to be staged and built into a Voucher ID are as follows:
+• P-Card Status = Approved
+• Budget Status = Valid
+• ChartField Status = Valid
+",
+SCO_payment_to_US_Bank_for_P-Card_transactions,"The Warrant sent by the State Controllers Office to US Bank is issued by the Managing Account, not by individual P-Card statement. ",
+Splitting_of_P-Card_transactions,"1. If a PO ID exists in FI$Cal, then the Department P-Card Reconciler and/or Cardholder will link the associated PO ID to the P-Card transaction. The system will automatically split the P-Card transaction into the respective PO line(s).
+2. If a PO does not exist in FI$Cal, then the Department P-Card Reconciler will need to manually split the P-Card transaction.
+
+Please note the amount entered for all lines must equal 100% of the total summary from US Bank. For detailed steps on how to split transactions, refer to P-Card FAQ# 34, ""Who will be splitting the P-Card transactions?"" found at this link:
+
+http://www.fiscal.ca.gov/faqs/HowToFAQs.html",
+Add_attachments_for_P-Card_transactions,"How to attach supporting documents to P-Card transactions is explained in P-Card FAQ #35 , found at this link:
+
+http://www.fiscal.ca.gov/faqs/HowToFAQs.html",
+Budget_checking_P-Card_transaction,The Department P-Card Reconciler and/or the actual Cardholder should click the Validate Budget button to run the Budget Check process prior to changing the Status from Staged to Verified for all P-Card transaction lines.,
+Chartfield_values_for_P-Card_transaction,"P-Card Chartfield Values are only editable by the Reconciler if the status is “Staged”. However, the Departmental P-Card Approver can make changes to the Chartfields on behalf of the Reconciler or alternately have the Reconciler make the changes by flipping the status from ""Verified"" back to ""Staged"". The Reconciler makes the changes and then flips the status from ""Staged"" to ""Verified"" which triggers the approval workflow again.
+
+",
+Modify/Edit_the_approved_P-Card_transaction,Approved P-Card transactions can be edited by the Departmental P-Card Approvers and Maintainers on the same day they are approved as long as it is before the Voucher State and Voucher Build processes run overnight.,
+Search_vouchered_P-Card_transactions,"All closed P-Card transactions are searchable and viewable on the Reconcile Statement search page if you 1) clear all search fields, enter the Employee ID, and choose ""Closed"" in the Statement Status field. 
+",
+Reduce_amount_on_PO,"""Order Amount is below the per order minimum amount at contract"" indicates that the minimum amount on the Contract is greater than the amount to which you are reducing the PO line. To reduce the amount on a PO, first change the value of ""minimum amount"" on the Contract, then go back and reduce the amount on the PO. ",
+Password_Reset,Raise a ticket with the FI$Cal Service Center via email (fiscalservicecenter@fiscal.ca.gov ) or ServiceNow for assistance resetting your password.,
+Unable_to_copy_a_requisition,"If you are not able to copy a requisition to a PO, check the ""document status"" link to view if a PO has already been created from this requisition. If a PO has already been created, you will not be able to use the requisition again for another PO.",
+Re-open_cancelled_PO,A PO cannot be re-opened once it is cancelled.,
+Change_Sales_Tax,"The steps to change the Sales Tax on a PO are:
+
+1. Change the PO date to the current date
+2. Save the PO
+3. Go to sale tax information page and click on calculate SUT button
+
+This will calculate the correct sales tax of the current line. Repeat the above steps and check that the tax caluculted for each line.",
+Issue_on_Voucher,"You are receiving this error message while creating a voucher because the PO receiving is marked as required and no receipts have been created before creating a voucher. Either change the Receiving required Option to ""Optional"" or ""DO Not"" , or you can ensure you create the receipt before attempting to create a voucher.",
+Event_Date_question,An event date can be changed by creating a new version of an event and making necessary changes to it. This applies to events that are completed and serves to extend the event date. ,
+Close_Contract,"Once a contract is approved all, the previous versions are logged in the history and do not need to be closed. The current version is the latest approved version and is the only one that needs to be closed when required. ",
+Acquisition_method,"You will not be able to change the Acquisition Type and Method on a PO after it has been dispatched. If you want a different Acquisition Type and Method, create a new PO and use ""copy from PO"". Any receipts created from the cancelled PO will need to be cancelled.",
+Edit_PO,"After editing a PO, save and budget check it for the encumbrance balance to reflect correctly.",
+PDF_information,Information regarding who last uploaded/modified a PDF file is not saved in the system.,
+Accounting_Date,"In order to edit the account date on a PO which already has a voucher created from it, you will unpost, unmatch, and delete the voucher.",
+Email_Notification_for_Pos,"To enable email notifications: Main Menu > My System Profile. Check if the checkbox for email user & worklist user is checked. If they are both checked and the issues is still present, submit a ticket with the FI$Cal Service Center, fiscalservicecenter@fiscal.ca.gov or ServiceNow for further assistance.",
+Attachments_on_PO,"For the attachments to be viewable to approvers, upload the attachments to each line.",
+Card_Number_Disappeared_,"Unmask the Card number by selecting the 'Display Unmasked Card number' check box on the card holder profile. Then, mask it again. ",
+New_Version_of_Contract_and_Warning_message_in_PO,"To create a new version or amendments for a contract, follow knowledge article KB0062069 in ServiceNow.
+Once the new version of a contract is created and approved, open the PO created from the contract and change the Contract version to the latest approved version. Finally, save the PO to resolve the warning message issue.",
+Unapproved_event_not_showing_on_Cal-eProcure,"An event is shown in Cal eProcure portal ONLY if it satisfies the below two conditions:
+
+1. The event must be defined as a ""Public Event"" so that it is viewable to anyone who visits Cale procure portal and does not requires to login with credentials. 
+2. The Event must be approved by all approvers so that the Event status is ""Posted"".
+
+If the Event is not showing on the approver's worklist, follow navigation below, search for the event, and then approve it: 
+Navigate to Main Menu > Sourcing > Approve Events to approve an Event.",
+Cancel_a_PO,"Reverting the amount of a PO created from a contract is done one of two ways, depending on if the PO has been paid:
+1. If a PO is created from a Contract and has not been paid, reverting the amount on the contract requires cancelling the PO so the encumbrance is returned to the contract.
+2. If a PO is created from a Contract and has been paid, then a Change Order must be created for the PO. In addition, the PO amount must reduce to the amount already paid, then the PO must be closed so that remaining amounts flow back to the contract correctly.",
+Change_Buyer,"To assign other buyer's PO to you, you will need to create a change order and change the buyer ID on PO to your ID.",
+Job_Aid_assistance_to_Revert_amount_on_Contract,"The system does not return the unused amount in a PO when it is closed. To work through this limitation you will have to: 
+1.Create a change order for the PO so that PO lines amounts are same as amounts that are paid till date.
+2.Budget Check the PO.
+3.Close the Purchae Order.
+4.Budget check Closed PO.
+5.Check whether the remainder amount will be sent to Contracts.
+
+You can also refer to Knowledge article KB0054766 Service Now.",
+PO_report,Please check the PeopleSoft query RSY_FSC_PO_HDR to find out which POs belongs to a specific Fiscal Year.,
+Wrong_Chart_fields,"FI$Cal does not allows changing the chartfields of a PO for when payments have been made. However, you can create a new PO for the remainder of the encumbrance with the desired chartfield values and close the previous PO to release the encumbrance. ",
+Max_Rows_Copied_from_Requisition,"Ensure the 'Max Rows' value is set on the Copy from Requisition Page when creating the PO. By default it set to 20, but you can change it to the desired value.",
+Category_Vs_Account,"The category code field on PO page is for UNSPC category codes. The value that you are entering in this field may be an ""Account Code"" value, Enter the UNSPC category value in the field on PO age and the ""Account Code"" value in chartfields page. ",
+SCO_denied_P-Card_Voucher,"Attaching an invoice or receipt to P-Card statements are explained in P-Card FAQ# 42 - ""SCO Audit denied my P-Card voucher ID because the incorrect invoice/receipt had been attached. How do I correct this?"" found at this link:
+
+http://www.fiscal.ca.gov/faqs/HowToFAQs.html",
+Unable_to_change_chartfields_on_a_P-Card_statement,The chartfields that get carried over from the PO ID when PO ID is linked to P-Card transaction are not editable on the P-Card transaction. Any chartfield changes will need to be done on the PO ID and re-linked to the P-Card transaction again.,
+Need_to_correct_the_incorrect_chartfields_on_closed_P-Card_statement,"Editing the Chart of Accounts (COAs) chartfields on closed P-Card transactions needs to be done on the associated P-Card voucher ID in the Accounts Payable module by your Accounting Office. Once the P-Card transactions are vouchered, the Reconcile Statement page fields are locked for editing (you may delete or add new attachments). ",
+Dispute_P-Card_transaction_,"The US Bank dispute process remains the same. For detailed steps, refer to FAQ #45 - ""How do I dispute my P-Card transaction in FI$Cal?"" found at this link:
+
+http://www.fiscal.ca.gov/access-fiscal/procurementjobaids.html",
+Review_Dispute_P-Card_transaction_,"The US Bank dispute process remains the same. For detailed steps regarding the review of disputed transactions, refer to FAQ #46 - ""How do I review my disputed P-Card transactions in FI$Cal? found at this link:
+
+http://fiscal.ca.gov/faqs/",
+Receive_credit_for_Dispute_transaction,"Disputed P-Card transactions will be offset by the associated credit P-Card transaction as long as the Department P-Card Reconciler and/or actual Cardholder reconciles both transactions and get both approved on the same day so both will be vouchered into one voucher ID. If there is any difference between the total disputed charge and credit amount, only the difference will be paid to US Bank.
+
+NOTE: NEVER reconcile the disputed and credit transactions separately because this can potentially create a zero or negative amount voucher. This zero or negative amount voucher ID will not be picked up by the SCO Pay Cycle and will require additional work from the Accounting staff.
+
+For detailed steps on receiving credit for disputed transactions, refer to FAQ# 47 - ""I received my credit for the disputed P-Card transaction. What is my next step?"" using this link:
+
+http://fiscal.ca.gov/faqs/",
+Verify_whether_the_credit_has_collected_on_disputed_P-Card_transaction,"For detailed steps on how to verify whether the credit has been collected on disputed P-Card transaction, refer to FAQ #49 - ""How do I verify that my credit has been marked as collected on my disputed P-Card transaction?"" found at this link:
+
+http://www.fiscal.ca.gov/faqs/",
+Copy_same_set_of_chartfield_strings_to_multiple_P-Card_statements," The steps to copy same chartfield information on all P-Card transactions are found in the User ""How To"" Frequently Asked Questions (FAQs) #50, ""What is the Distribution Template hyperlink on the Reconcile Statement page for?"" found at this link:
+
+http://www.fiscal.ca.gov/faqs/",
+Steps_to_be_taken_in_system_for_P-Card_transactions_paid_using_SCO_paper_claim_process,"The next steps after paying for a P-Card transaction using the SCO paper claim process are:
+
+1. Dept. P-Card Reconciler/actual cardholder will need to follow the P-Card reconciliation process in FI$Cal explained in Job Aid, ""P-Card Transaction Reconciliation Process in FI$Cal"" found at this link:
+
+http://www.fiscal.ca.gov/access-fiscal/procurementjobaids.html
+
+2. Accounting staff will need to delete the newly system-generated voucher ID for the corresponding P-Card transactions that was just approved and vouchered. (Be sure to enter comments for deleting the system-generated P-Card voucher ID).
+3. Accounting staff will need to record the payment made outside of FI$Cal (P-Card expenditure) in AP using the 2nd AP User ID.",
+Steps_to_be_taken_in_system_for_P-Card_transactions_paid_using_Fiscal_ORF_process,"The next steps after paying for a P-Card transaction using ORF are:
+
+1. Dept. P-Card Reconciler or cardholder will need to follow the P-Card reconciliation process in FI$Cal explained in the Job Aid, ""P-Card Transaction Reconciliation Process in FI$Cal"" found at this link:
+
+http://www.fiscal.ca.gov/access-fiscal/procurementjobaids.html
+
+2. The system will automatically apply the prepaid payment from the ORF against the newly system-generated P-Card voucher and pay US Bank the difference if other P-Card transactions were on the same voucher ID.
+
+NOTE: If there is a credit (negative) voucher line on the system-generated P-Card voucher ID, then the system will not replenish the outstanding Prepaid ORF voucher. The system will only apply the prepaid payment when there is no credit (negative) voucher line.",
+Vouchers_associated_with_P-Card_statement,"Finding Voucher IDs for P-Card transactions is explained in the Job Aid, ""Where can I find the voucher ID for my closed P-Card transactions?"" found at this link:
+
+http://www.fiscal.ca.gov/access-fiscal/procurementjobaids.html",
+ENY_for_P-Card_transactions_for_prior_Fiscal_Year,"If the P-Card transaction date was dated in the prior FY, then your ENY should be the prior year. The budget period in your P-Card transactions would have been the prior budget period.
+
+NOTE: All P-Card transactions dated from June 23rd to June 30th of every year will be loaded on the July statement. July statement will occur in the first accounting month of the current FY.
+",
+Budget_Check_failing_for_P-Card_statements_created_in_June,"There are a of couple reasons why your P-Card transactions are failing budget check:
+
+1. The ENY entered is from the current FY. User will need to enter the current year for ENY and re-run budget check process again.
+2. Required COAs may be missing when reconciling. The required COAs on the P-Card transactions are as listed below:
+• Approp Reference
+• Fund
+• ENY
+• Account/Alt Account
+• Program
+• Reporting Structure (Required if your department is setup for reporting structure at the transactional level)",
+Adding_new_suppliers_in_Fiscal_by_departments,"Department Vendor Processor (DVP) instructions for submitting a request to add a supplier record to the FI$Cal Vendor Management File (VMF) can be found in the Job Aid, ""Adding a Supplier Record"" found at this link:
+
+http://www.fiscal.ca.gov/access-fiscal/procurementjobaids.html",
+Adding_new_Employee_suppliers_in_Fiscal_by_departments,"The process of how creating an employee supplier can be found in the Job Aid, ""Creating an Employee Supplier"" found at this link:
+
+http://www.fiscal.ca.gov/access-fiscal/procurementjobaids.html",
+Updating_suppliers_in_Fiscal_by_departments,"Department Vendor Processors (DVP)can be updated by completing the Supplier Update Request Form (SURF). More information can be found in the Job Aid, ""Completing the Supplier Update Request Form"" found at this link:
+
+http://www.fiscal.ca.gov/access-fiscal/procurementjobaids.html",
+Payee_Data_Record_(STD_204)_,"A Payee Data Record (STD 204) is required for each vendor conducting business with or receiving payment from the State of California. With the new statewide System, FI$Cal will now be responsible for centrally maintaining these documents. Therefore, to ensure FI$Cal has the most current and accurate information, we are requesting vendors provide a new STD 204. POs, contract documents, and payments cannot be generated for suppliers without a STD 204 on file.The STD 204 form is also a required form to correctly establish the eligible suppliers for 1099 reporting in FI$CAL.",
+Location_of_Payee_Data_Record_(STD_204)_,"The Payee Data Record Form (STD 204) is an Office of State Publishing (OSP) Standard (STD) form and can be found on the DGS website found at this link:
+
+http://www.dgs.ca.gov/ofam/Forms.aspx",
+Submit_STD_204,Suppliers can mail or hand deliver a hard copy to the departments/agencies that they conduct business with. The agencies will securely forward the form to FI$CAL Vendor Management Group (VMG). Note:Please do not email the STD 204 form which may contain confidential information. Using a regular email is not a safe way to attach and send the STD 204. ,
+STD_204_review_by_Fiscal,"All submitted STD 204s will be transferred to FI$CAL by the departments, who reviewed and requested FI$CAL Vendor Management Group to either add a new supplier or verify the existing supplier data for necessary updates. This will help cleanse and normalize the data resulting in unique supplier records. 
+
+The name and Taxpayer Identification Number (TIN) on the STD 204 will be validated with the Federal Internal Revenue Service (IRS). NOTE: A TIN is either a Federal Employer Identification Number (FEIN) or a Social Security Number (SSN). If the IRS TIN validation process results in any discrepancies, FI$Cal will contact the department and the supplier.",
+Change_information_after_submission_of_STD204,"Supplier will submit an updated STD 204 to the departments/agencies that they conduct business with, and request that they update the supplier record in FI$Cal. ",
+Cancelling_and_closing_a_PO,"Cancelling a PO ID can only be done to a PO ID where receiving, voucher and/or payment have not been issued against the PO ID.
+
+Closing a PO ID must be done where receiving, voucher and/or payment have already been issued against the PO ID. The system will not allow the PO Buyer to cancel if a Receipt, Voucher, and Payment ID have already been created against the PO ID.
+",
+STD_204_submittal_information,"Will businesses and suppliers have access to chatbot in peoplesoft? this appears to be advice for suppliers, not state staff. Prior to submission, review your STD 204 for completeness and required signature.
+
+The Payee's name must match the Taxpayer Identification Number (relevant Federal Employer Identification Number or Social Security Number) as filed with the Federal Internal Revenue Service.
+
+If you are a business that has one or more DBA (“Doing Business As”) Name(s) and they all share the same TIN, you may submit one STD 204. Specify the parent company and list all of the associated DBAs and their addresses. Include a separate page if necessary.
+Example: ABC Inc. DBA John’s Auto Parts, 123 Main St, Anywhere, CA 12345
+
+If you are an organization that has multiple TINs for the same company, you must submit a STD 204 for each unique TIN.
+
+For all STD 204 submittals, list any additional addresses on a separate page. Include:
+ The location’s description (for example, Headquarters, Accounting, etc.) and
+ The complete address (Street or PO Box, City, State, Zip Code 
+
+FI$Cal also has the ability to send electronic POs from all FI$Cal Departments, If you prefer to receive electronic POs, please specify each applicable location, location’s description, address, and email. 
+
+The signature must be handwritten and not imprinted with a manufactured device (for example, a rubber stamp or scripted software font, etc.). Since scanned electronic versions of the STD 204 are being accepted, for State auditing purposes you must be able to produce the original paper STD 204 with your original signature if it is ever requested in the future.
+
+Incomplete or invalid STD 204s will not be accepted.
+
+Please note that the STD 204 submission process may change as different Project events occur. 
+ 
+Recommend Removing this topic until it is reviewed further.",
+Reports_for_Purchasing,"The link below provides a list of reports for Requisition, P-Card, Receipts, Sourcing, and Procurement contracts available in the system:
+
+http://www.fiscal.ca.gov/access-fiscal/procurementjobaids.html",
+Reports_for_Procurement_Contracts,"The link below provides a list of reports for Requisition, P-Card, Receipts, Sourcing, and Procurement contracts available in the system:
+
+http://www.fiscal.ca.gov/access-fiscal/procurementjobaids.html",
+Reports_for_Sourcing,"The link below provides a list of reports for Requisition, P-Card, Receipts, Sourcing, and Procurement contracts available in the system:
+
+http://www.fiscal.ca.gov/access-fiscal/procurementjobaids.html",
+Reports_for_Suppliers,"Reports available for suppliers in the system can be found in ""PO Reports Within the FI$Cal System"" Job Aid found using this link:
+ 
+http://fiscal.ca.gov/access-fiscal/documents/FISCal.080-POReportsWithintheFISCalSystem4.0.xlsx",
+Report_for_Match_Exception,The match exception report can be executed by navigating to eProcurement > Reports > Match Exceptions,
+Steps_for_Fleet_Asset_Purchases,"Creating a PO for fleet asset purchases is explained in the Job Aid, ""Buyers Guide to Fleet Asset Purchases"" found using this link:
+
+http://www.fiscal.ca.gov/access-fiscal/procurementjobaids.html",
+Classifying_Items_as_Assets_on_PO_and_Requisitions,"Marking a PO item as an asset is explained in the Job Aid, ""Correcly Classifying Items As Assets in FI$Cal"" found using this link:
+
+http://www.fiscal.ca.gov/access-fiscal/procurementjobaids.html",
+How_to_create_an_encumbrance_only_PO,"An Encumbrance Only PO used to encumber funds for a non-procurement related transactions is explained in the Job Aid, ""Create an Encumbrance Only Purchase Order 7.0."" found using this link:
+
+http://www.fiscal.ca.gov/access-fiscal/procurementjobaids.html",
+PO_disposition_details_report,"Instructions on how to generate a PO Disposition Details report for a specific business unit within a defined timeframe can be found using this link:
+
+http://fiscal.ca.gov/access-fiscal/documents/FISCal.291PODispositionDetailsReport1.0.docx",
+Inserting_Department_of_General_Services_(DGS)_terms_and_conditions_on_POs_(PO).,"FAQ #1 in the Procurement FAQ documernt provides Department Buyers and Department PO Processors the instructions for inserting Department of General Services (DGS) terms and condition language on POs. Procurement FAQs can be found using this link:
+
+http://www.fiscal.ca.gov/faqs/HowToFAQs.html",
+Send_PO_hard_copy_to_State_Controller’s_Office_(SCO),"With the implementation of FI$Cal, SCO no longer requires hard copies of Pos for those departments transacting in the system. However, SCO does require the electronic PDF copy of the FI$Cal PO ID to be attached to the associated Voucher ID.",
+Supplier_not_found,"If you are not able to locate your Supplier in FI$Cal, then someone in your department who has the Department Vendor Processor role will need to add this Supplier. You will need the STD 204 to add the Supplier into FI$Cal.  Once the Supplier is added, system will route Supplier to the VMF Group at FI$Cal for approval.  Once Supplier is approved, you will be able to create your PO ID at that time.",
+User_Support_Lab,"To setup a User Support Lab session fill out the USL Request form and submit it to the FI$Cal Service Center. The form can be found using this link:
+
+http://www.fiscal.ca.gov/resources/documents/OSSOUSLform09-17.pdf",
+University_of_FI$Cal_Access,"University of FI$Cal access is granted to all non-procurement only users who are transacting in FI$Cal. If you are having difficulty accessing the University of FI$Cal, raise a ticket with the FI$Cal Service Center via email (fiscalservicecenter@fiscal.ca.gov ) or via ServiceNow for further assistance.",
+Password_Reset,"Users can reset their passwords for the “Forgot your password” link that appears after a user enters their username on the password section of the log in. If you are still having trouble logging into FI$Cal, raise a ticket with the Fiscal Service Center.",
+University_of_FI$Cal_Password_Reset,"To reset your password for the University of FI$Cal use this link:
+
+https://fiscal.netdimensions.com/ekp/servlet/resetpassword",
+Department_Designee_Definition,"A Department Authority or Designee (DAD) is an authorized individual who has the ability to request roles, add/delete user accounts and  appoint/remove DADs.",
+Department_Designee_Contacts,"Please contact the FI$Cal Service Center to receive a list of Authorized DADs: 
+Phone: 1-855-FISCAL0 (1-855-347-2250)
+Email: fiscalservicecenter@fiscal.ca.gov
+Regular Service Hours:
+7:30 AM – 5:30 PM (Pacific Time)
+M-F (Except State Holidays)
+",
+Updating_Roles_in_Fiscal,"To add, update, or remove roles in FI$Cal a request form must be submitted to the Fiscal Service Center by a Department Designee with the requested changes. Alternatively, roles can also be requested by Department Authorities or Designees though their Identity Self Service (ISS) Portal found at this link:
+
+https://sso.iam.fiscal.ca.gov/identity/",
+Identity_Self_Service_Ticket_Progress.,"Progress of an Identity Self Service (ISS) ticket can be tracked through the ISS website. More information can be found at this link:
+
+http://www.fiscal.ca.gov/access-fiscal/ISSJobAids.html",
+FI$Cal_Access,"Requests for access to FI$Cal must come from the Departmental Authority/Designee (DAD). The form for this can be found at this link:
+
+http://www.fiscal.ca.gov/access-fiscal/FISCal_Service_Center/EndUserAccessForms.html",
+Ticket_Escalation,"If more than a week has passed without any contact about your ticket you can contact the Fiscal Service Center to request an escalation.  Note that access related tickets take on average two weeks to resolve. The FI$Cal Service Center provides assistance Monday through Friday from 7:30 a.m. — 5:30 p.m., Pacific Time (except on State Holidays)
+
+Phone: (855) FISCAL0 (347-2250) (Toll Free)
+fiscalservicecenter@fiscal.ca.gov",
+DGS_OTAs,The DGS-One Time Acquisition (OTA) approvers are configured in the system for all business units because they will be conducting and approving procurement transactions in the system when the departments do not have delegated authority or purchases are above the department’s delegated purchasing authority.,
+1099_Assistance,"Please contact the FI$Cal Service Center: 
+Phone: 1-855-FISCAL0 (1-855-347-2250)
+Email: fiscalservicecenter@fiscal.ca.gov
+Regular Service Hours:
+7:30 AM – 5:30 PM (Pacific Time)
+M-F (Except State Holidays)
+",
+SFTP_Access,"Requests for access to SFTP must come from the Departmental Authority/Designee (DAD). The form for this can be found at this link:
+
+http://www.fiscal.ca.gov/access-fiscal/FISCal_Service_Center/EndUserAccessForms.html",
+CMR_Assignment_Group,A CMR form is processed by moduleteam in which the configuration modification will take place.,
+CMR_Approval,"A CMR form must be signed by both, the department requestor and approver. Please refer to the ownership matrix for a list of authorized individuals:
+
+http://www.fiscal.ca.gov/access-fiscal/FISCal_Service_Center/documents/ConfigurationOwnershipMatrix_Revised_20160311.pdf",
+CMR_Definition,"A CMR is a Configuration Modification Request. This is used to request changes to the FI$Cal production environment such as an address change for a supplier. The form along with instructions can be found under the Configuration Modification Requests section of the following link:
+
+http://www.fiscal.ca.gov/access-fiscal/FISCal_Service_Center/index.html",
+DGS_Billing_Codes,Billing codes are handled by DGS. Please reach out to DGS at the following email address: SRFFiscalServices@dgs.ca.gov,
+Temporary_Passwords,"The temporary password provided to you may only be used once. You will be automatically prompted to update your password on a subsequent page as you complete your FI$Cal account profile. More information on temporary passwords can be found in the Accessing FI$Cal Job Aid at this link:
+
+http://www.fiscal.ca.gov/access-fiscal/job_aids.html",
+Disabled_FI$Cal_Account,"An account can get disabled for one of the following reasons:
+1.	Password needs to be reset.
+2.	A request was sent to the Fiscal Service Center to have the account disabled.
+3.	User has not logged in for more than 180 days.
+
+",
+Creating_a_Screenshot,"First make sure you are in the area you want to screenshot. Go to the start menu and type ""Snipping tool,""  select the relevant area and save image. ",
+Removing_email_address_from_distribution_list.,To remove your email address for the distribution list you must first log into FI$Cal. From there select Main Menu > My System Profile. On your profile page there should be a checkbox with the label Email User. Simply uncheck this box and you should stop receiving notifications.,
+Resolved/Closed_Tickets,Your ticket may have been resolved/closed for any of the following reasons: your request has been fulfilled and requires no further action; a lack of response after three contact attempts (awaiting user info state/evidence); or after receiving your confirmation the issue is resolved. ,
+Awaiting_Evidence_State.,"Awaiting Evidence means that the request has been fufilled as per the analyst; however, we require your confirmation that the issue is resolved before closing the incident. ",
+Awaiting_User_Info_State.,"Awaiting User Info means that the analyst working on your ticket has sent you a request for additonal information, which is required in order to fulfill/solve your request in a timely manner.",
+Awaiting_Third_Party_Action_State.,Awaiting Third Party Action means that FI$Cal requires input from one of our vendors before fulfilling/resolving the incident.,
+Viewing_Tickets,"To view submitted incidents, please click on the ""Access FSC"" link located top-right of the the main screen of the FI$Cal application after logging in and before clicking on the ""PeopleSoft"" Link.",
+Roles_Not_Working,For issues with roles raise a ticket with the FI$Cal Service Center via email (fiscalservicecenter@fiscal.ca.gov ) or via ServiceNow with a detailed description of the issue you are experiencing. ,
+Removing_Roles_in_Fiscal,"Submit the respective access form to remove the user from the FI$Cal system. In addition, make sure to transfer any relevant employee transactions to another departmental user, for example, any PO's associated to the buyer's number. Please contact the FSC for further information: Email: fiscalservicecenter@fiscal.ca.gov
+Phone:  855-347-2250",
+Definition_of_a_BU,"BU stands for Business Unit and is defined as an organizational unit with a balanced set of books that is used to segregate GL reports and processing. Access to the use of Business Units can be controlled with security configuration. FI$Cal Business Units will be defined as the Organization Codes to which Departmental appropriations are made. Currently, each department has one BU assigned to it.",
+Submitting_a_Ticket,"Please submit a detailed explanation of the issue, steps to take to recreate the issue, relevant screenshots, and your BU. In addition, identifying information such as voucher ID's, PO Numbers, transaction numbers, User ID, setc. should be provided when submitting an incident through the Self-Service Portal or email. ",
+Department_Becoming_FI$Cal_users.,"Contact the Change Management Office in order to verify if your entity is eligible to transact in FI$Cal: 
+Email: FISCal.cmo@fiscal.ca.gov
+Client Communications: (916) 576-1250",
+Clearing_Internet_History,"Follow the instructions to clear the cache and cookies:
+
+•	For Internet Explorer: press Alt+X to open your browser’s settings. Select Internet Options. Under “Browsing History”, click on “Delete…” and check “cookies and website data”. Finally, click on “Delete”.
+
+•	For Google Chrome: Press Ctrl+Shift+Delete on your keyboard. Check “Cookies and other site data” as well as “Cached images and files”. Finally, click “Clear Data”
+
+•	For Mozilla Firefox: Press Ctrl+Shift+Delete on your keyboard. Select time range. Check Cookies and Cache. Finally, click “Clear Now”.",
+Webex_Session_Request,"Once a ticket has been generated and a Service Technician has reached out to you, you may make a request with that technician for a Webex Session.",
+Webex_Session_Setup,Webex is an internet based meeting. There is nothing that needs to be set up prior to the meeting. Once a technician sets up a meeting you will receive an email with the instructions and links necessary to join the meeting.,
+Advantage_System,FI$Cal is not responsible for the Advantage system. Any questions related to Advantage should be directed to your local IT department.,
+Readiness_Coordinator,"Call or email the Change Management Office for the name and contact information of your department's readiness coordinator:
+
+Email: fiscal.cmo@fiscal.ca.gov
+Client Communications: (916) 576-1250",
+Retention_Coordinator,"Please call or email the Change Management Office for the name and contact information of your department's retention coordinator:
+Email: fiscal.cmo@fiscal.ca.gov
+Client Communications: (916) 576-1250
+",
+Secondary_ID_Requirements,"Secondary ID’s are identified at the department level. You will need a unique email address for this ID and a MARF needs to be submitted to the Fiscal Service Center for this request. More information can be found in the Access FAQs at this link:
+
+http://www.fiscal.ca.gov/access-fiscal/FISCal_Service_Center/documents/User_Access_Request_FAQs_Feb_2016.pdf",
+Secondary_ID_Definition,"Secondary ID’s are for users who need conflicting roles. The system does not allow for people to have certain roles combined under one user ID. An example of this would include someone who needs both a Processor and Approver role. More information can be found in the Access FAQs at this link:
+
+http://www.fiscal.ca.gov/access-fiscal/FISCal_Service_Center/documents/User_Access_Request_FAQs_Feb_2016.pdf",
+MARF_Definition,"MARF is the Multi-User Access Request Form used to request access to a large variety of roles. More information can be found in the Access FAQs at this link:
+
+http://www.fiscal.ca.gov/access-fiscal/FISCal_Service_Center/documents/User_Access_Request_FAQs_Feb_2016.pdf",
+MARF_Usage,"MARF is the Multi-User Access Request Form used to request access to a large variety of roles. More information can be found in the Access FAQs at this link:
+
+http://www.fiscal.ca.gov/access-fiscal/FISCal_Service_Center/documents/User_Access_Request_FAQs_Feb_2016.pdf",
+SRRF_Definintion,"This form is for Wave 1, Wave 2 and 2016 departments.",
+SRRF_Usage,"This form is for Wave 1, Wave 2 and 2016 departments. ",
+When_to_use_a_TECH736,The Tech736 form is for departments that were onboarded as part of the 2017 release.,
+Difference_between_MARF_and_State-Wide_Procurement_MARF,"MARF is the Multi-User Access Request Form used to request access to a large variety of roles. The State-Wide Procurement MARF is for users that are only going to be purchasing in FI$Cal. More information can be found in the Access FAQs at this link:
+
+http://www.fiscal.ca.gov/access-fiscal/FISCal_Service_Center/documents/User_Access_Request_FAQs_Feb_2016.pdf",
+Becoming_a_Department_Authority_or_Designee,"FI$Cal Departmental Authority and Designee (DAD) Form is used to add or remove a Department Authority or Designee (DAD). Forms to request access to FI$Cal can be found on our website at this link:
+
+http://www.fiscal.ca.gov/access-fiscal/FISCal_Service_Center/EndUserAccessForms.html",
+Locating_Job_Aids,"Job aids can be found at this link:
+
+http://www.fiscal.ca.gov/access-fiscal/job_aids.html",
+Link_to_the_University_of_FI$Cal,"The link to the University of FI$Cal can be found though the following link:
+
+http://www.fiscal.ca.gov/training-academy/index.html",
+Completing_a_Class_in_the_University_of_FI$Cal,After you complete a class in the University of FI$Cal you must complete the survey to earn credit for the class. ,
+Browser_Compatibility,"FI$Cal is designed to work with all web browsers however, the recommended browser is Internet Explorer.",
+OTP_Code_Definition,"A ""One Time Password"" (OTP) code is an enhanced security measure for accessing FI$Cal. If you are prompted to enter an OTP, check your email ""inbox"" or your ""junk email"" for ""no-reply@fiscal.ca.gov"" - FI$Cal OTP Code",
+SFTP_Approval,Your Departmental Authority/Designee (DAD) can approve and submit an SFTP form. ,
+SFTP_Form_Submission,A SFTP request form must be submited by the Departmental Authority/Designee (DAD) requesting the change.,
+Access_Forms,"Forms to request access to FI$Cal can be found on our website at this link:
+
+http://www.fiscal.ca.gov/access-fiscal/FISCal_Service_Center/EndUserAccessForms.html",
+List_of_Roles,"A list of available roles in FI$Cal can be found at:
+
+http://www.fiscal.ca.gov/access-fiscal/FISCal_Service_Center/documents/FISCalEnd-UserRoleDescriptionHandbook2.2.pdf",
+Smart_View_Setup_,"Intent ID is correct but the link is not correct, it links to the access forms. Recommend removing this until the link can be found for assistance setting up Hyperion.",
+FI$Cal_Service_Center_Hours,"The FI$Cal Service Center provides assistance Monday through Friday from 7:30 a.m. — 5:30 p.m., Pacific Time (except on State Holidays)
+",
+Fiscal_Service_Center_Phone_Number,"The Phone number for the FI$Cal Service Center is 855-347-2250
+
+The FI$Cal Service Center provides assistance Monday through Friday from 7:30 a.m. — 5:30 p.m., Pacific Time (except on State Holidays)",
+Whitelist_Definition,A whitelist is a list of approved websites that can be visited by users and where the viewed content is not blocked.,
+Worklist_Notifications,"A Worklist notfication is an email notice to a specific user or users informing them that action is required within the system, for example, an approval.",
+Self_Service_Ticket_Creation,"Information on how to create a Self Service ticket can be found at this link:
+
+https://www.youtube.com/watch?v=FVqdYJkH9ZA.
+
+Refer to the following link if you need assistance logging into ServiceNow for the first time:
+
+https://www.youtube.com/watch?v=kSYBl8JMJHk",
+RFC_Definition,"An RFC is a Request for Change form.  This form is used to make a request to change something in FI$Cal.  The form and instructions for filling it out can be found though the following link:
+
+http://www.fiscal.ca.gov/access-fiscal/FISCal_Service_Center/",
+Request_for_Change_Submission,A request for change must be submited by the Department Designee (DAD) requesting the change.,
+Enhancement_Definition,An enhancement is a change to the system to add new functionality or change old functionality ,
+Defect_Definition,A defect is something that is broken in the system or not working as intended. ,
+SOD_Form_Definition,"An SOD is a Separation of Duties form. This form is used when a user is requesting roles that would otherwise conflict in FI$Cal such as, being a PO Buyer and PO Approver. Recommend removing this one until the policy and referenced document can be linked",
+ADA_Compliance,FI$Cal is tested and approved for ADA compliance.,
+Fiscal_Service_Center_Email_Address.,"The FI$Cal website, http://www.fiscal.ca.gov/resources/, contains a number of FAQs and Job Aids covering the most common topics users need help with. If you cannot find the answers you need there, the FI$Cal Service Center provides assistance Monday through Friday from 7:30 a.m. — 5:30 p.m., Pacific Time (except on State Holidays)
+
+Phone: (855) FISCAL0 (347-2250) (Toll Free)
+fiscalservicecenter@fiscal.ca.gov",
+FI$Cal_Account_Active_Status,A FI$Cal account will remain active if a user logs in at least one time every 180 days.,
+Department_Super-User,"To find a super user for your department please call or email the Change Management Office for information:
+Email: fiscal.cmo@fiscal.ca.gov
+Client Communications: (916) 576-1250",
+FI$Cal_Forums,"Call or email the Change Management Office for information regarding FI$Cal forums:
+
+Email: fiscal.cmo@fiscal.ca.gov
+Client Communications: (916) 576-1250
+
+Information about previous forums can be found though the following link:
+
+http://www.fiscal.ca.gov/resources/fiscalforum.html",
+Departments_using_FI$Cal,"Information about departments using FI$Cal can be found through this link:
+
+http://www.fiscal.ca.gov/resources/Releases.html",
+FI$Cal_Newsletter,"The Newsletter can be found at this link:
+
+http://www.fiscal.ca.gov/resources/fiscalfocusnewsletters.html",
+Statewide_Procurement_Training,"Statewide Procurement Training can be found on our website at this link:
+
+http://www.fiscal.ca.gov/training-academy/future_release_training.html",
+Chartfield_Definitions,"Information about chartfield definitions can be found though the following link:
+
+http://www.fiscal.ca.gov/department_liaison_network_corner/documents/20140116_chartField_definitions.pdf",
+Security_Image,"Your security image is based on your email address.  If you are not seeing your expected image, it means that you incorrectly entered your email address when trying to log in.",
+Fiscal_General_Information,"For more information, training and other resources about FI$Cal visit our website at: www.fiscal.ca.gov.
+For assistance you can email or call us at:
+Email: fiscalservicecenter@fiscal.ca.gov
+Phone:  855-347-2250",
+Shipping_instruction_for_supplier_on_PO,"Please refer to FAQ# 9 - How do I enter shipping instructions to the vendors/suppliers? in this link:
+
+http://fiscal.ca.gov/faqs/documents/Purchase_Order_FAQs_1.0.docx",
+Encumbrance_only_PO_not_routed_for_approval_,"There are a few scenarios as to why ""Encumbrance Only"" POs are not being routed to the appropriate approvers. There are three route control criteria setups for the PO Approval workflow. These criteria are BU access, Acq. Type, and Reporting Structure.
+
+Scenario #1: There are no department PO Approvers (1-4) setup for Acq. Type of Encumbrance Only.
+Scenario #2: There are no department PO Approvers (1) setup for the Reporting Structure used on the PO line(s)
+Scenario #3: The PO ID was created and submitted for approval prior to the correction completed to resolve scenario #1 and #2 above. If this was the case, then the approval process will need to be re-triggered for the impacted PO ID.
+Scenario #4: The range in the Reporting Structure Profile are is not setup to include the reporting structure value used on the PO ID.
+
+Note The Approvers for Encumbrance Only PO’s are typically Accounting personnel since Encumbrance Only orders tend to be for monthly utility bills and things of that nature.",
+PO_paid_out_and_ready_to_be_closed,"Refer to FAQ#14 -How do I tell if a PO has been paid and ready to close out? in this link:
+
+http://fiscal.ca.gov/faqs/documents/Purchase_Order_FAQs_1.0.docx",
+Attach_supporting_documents_to_PO,"Please refer to FAQ#18 - 18. How do I attach the supporting and other required documents to my PO? Found in this link:
+
+http://fiscal.ca.gov/faqs/documents/Purchase_Order_FAQs_1.0.docx",
+Policy_for_entering_P-Card_PO,DGS Policy specifies that only the cardholder can create Requistions and POs using their P-Card as the payment method. ,
+Need_to_remove_Procurement_card_payment_method_on_a_PO,"The Buyer of a PO will be able to select P-Card as the payment method prior to dispatching the PO. Once dispatched, the Buyer will need to cancel the PO and start over again if you want to remove the P-Card as the payment method.",
+Criteria_for_creating_Encumbrance_only_PO,"The Acquisition Type ""Encumbrance Only"" should only be used to encumber the funds for the following transactions:
+
+1. Court Orders/Settlements
+2. Payroll Estimates
+3. Workers Compensation Claims
+4. Retirement Cash-Out/Payout
+5. Debt Services
+6. Travel /CalATERS
+7. Grants (only grants that meet criteria specified in SCM Volume 1, Section 4.06)",
+PO_copied_from_contract_has_$0_unit_price,"Please refer to FAQ# 25 - Why does my PO ID have $0.00 in the PO line unit price when I copied this PO from my procurement contract? in the link below for detail steps:
+
+http://fiscal.ca.gov/faqs/documents/Purchase_Order_FAQs_1.0.docx
+
+The PO line unit price is not editable because the checkboxes for Price can be Changed on Orders were not checked at the contract header and contract line on the associated contract which you copied this PO ID from.
+
+NOTE: If these checkboxes were checked on the contract, the user will only be able to change the unit price up to the amount entered on the contract line base price. They will not be able to change to more than that base price amount.",
+Comments_and_attachments_from_contracts_not_flowing_to_PO,Contract attachment and comments will flow to the PO if the checkbox for Copy to PO is checked on the contract.,
+Attachments_from_requisition_not_flowing_to_PO,The attachment from the Requisition ID will flow over to the PO ID if the checkbox for Send to Supplier is checked for the particular attachment.,
+Freight_on_invoice_but_not_on_PO,"Adding freight charges to the PO encumbrance will require a Change Order. This will re-trigger the approval workflow and will also require the Budget Check to be run again to encumber the additional needed funds. Otherwise, the system will allow you to add and pay the additional freight charge on the Voucher ID but this will create a negative balance on your encumbrance status (ZZ_ENCUMBRANCE_STATUS_NEW) report.",
+Encumbrance_Report_ZZ_ENCUMBRANCE_STATUS_NEW_report_shows_encumbered_amount_is_more_than_the_expensed_amount,"The reason why ZZ_ENCUMBRANCE_STATUS_NEW report shows the encumbered amount as more than the expensed amount is probably because sales tax, misc. charges, freight, or use tax was encumbered on the PO ID but not paid on the voucher ID causing a discrepancy between the encumbered amount and the expensed amount. The Buyer will need to close the PO ID and dis-encumber the remaining funds to finalize the PO ID. Refer to job aid Closing a PO (PO) to Release Encumbrance Balance 1.0",
+Encumbrance_not_liquidated_for_cancelled_or_closed_PO's_on_PS_query_ZZ_ENCUMBRANCE_STATUS_NEW_,"A remaining balance on the ZZ_ENCUMBRANCE_STATUS_NEW report means that budget check was not done at the time of PO closure or cancellation. The Buyer will need to budget check the PO to liquidate the encumbered funds.
+Please refer to FAQ#33 - I ran the ZZ_ENCUMBRANCE_STATUS_NEW report and all my cancelled, pending cancelled and completed PO IDs still show a remaining balance in the link below for detail steps:
+
+http://fiscal.ca.gov/faqs/documents/Purchase_Order_FAQs_1.0.docx",
+Steps_for_reopening_of_PO,"To re-open a closed PO refer to FAQ#35 - How do I re-open my closed PO ID? in the link below for detail steps:
+
+http://fiscal.ca.gov/faqs/documents/Purchase_Order_FAQs_1.0.docx",
+System_allows_over_receiving_for_PO,"The receiving tolerance is not a configuration item so a Department PO Buyer can decide at the PO ID level whether or not to check the checkbox for the ‘Reject Qty Over Tolerance field.’ If the ‘Reject Qty Over Tolerance’ field is checked, then the system will only allow the user to receive the quantity ordered. However, if the Reject Qty Over Tolerance field is NOT checked, then the system will allow the Department PO Receiving Processor to create multiple Receipt IDs against the quantity ordered/serviced amount. The system is designed to leave this checkbox unchecked.
+
+NOTE: If the additional Receipt IDs were copied to Voucher IDs by mistake, the new Voucher IDs will fail matching because the total quantity and/or amount received have already been matched to the first associated Receipt ID and PO ID.",
+Cannot_view_a_quantity_ordered_from_PO_during_receiving,"The system is configured to not display the PO quantity ordered (blind receiving) on the Receiving page. The Receiver is expected to perform an actual count.
+
+NOTE: Blind Receiving is configured at the User ID level so some Receivers do not have the Blind Receiving Only checkbox checked in their user profile. This means that the QTY Ordered and/or Merchandise Amount on PO ID will be displayed in the QTY received or Amount Received field.",
+How_to_find_whether_a_PO_has_been_received,"The receiving tolerance is not a configuration item so a Department PO Buyer can decide at the PO ID level whether or not to check the checkbox for the ‘Reject Qty Over Tolerance field.’ If the ‘Reject Qty Over Tolerance’ field is checked, then the system will only allow the user to receive the quantity ordered. However, if the Reject Qty Over Tolerance field is NOT checked, then the system will allow the Department PO Receiving Processor to create multiple Receipt IDs against the quantity ordered or the service amount. The system is designed to leave this checkbox unchecked.
+
+NOTE: If the additional Receipt IDs were copied to Voucher IDs by mistake, the new Voucher IDs will fail matching because the total quantity and/or amount received have already been matched to the first associated Receipt ID and PO ID. Recommend removing until the resolution can be verified and simplified.",
+Creation_of_Receipt,"A Receipt ID is required for the following acquisition types: Non-IT Goods, IT Goods, Non-IT Services, and IT Services. SCO will not approve Voucher ID for payment without the associated Receipt ID(s). 
+There are numerous reasons why a Receipt ID is required:
+1. A Receipt ID is required by SCO
+2. A Receipt ID is required for Asset information to interface to Asset Management (AM) 
+3. A Voucher ID is created by copying from the PO Receipt ID, in order for asset accounting to interface to Asset Management
+NOTE: It is important that the Interface Receipt checkbox is checked when a Receipt ID is created for an Asset. This will ensure that the asset information flow to Asset Management. Refer to UPK PO132 - Managing Receiving WBT in FI$Cal University for the specific steps on serialization for multiple line items.
+",
+Chartfield_values_for_requisition,"If your chartfield values ""i.e. COA values"" did not default in your entry, or you have not been provided the chartfield values to use, consult with your supervisor, manager or departmental designated Super-User.",
+PO_associated_to_Requisition,"Refer to FAQ#12 - ""How do I find the PO associated to my Requisition?"" in the link below for detail steps:
+
+http://fiscal.ca.gov/faqs/documents/RequisitionFAQs1.0.docx",
+UNSPSC_Category_Code,"DGS maintains the UNSPSC categories and can be reached athelpUNSPSC@dgs.ca.gov. Information about UNSPSC codes can be found by following this link:
+
+https://www.dgs.ca.gov/pd/Programs/caleprocure/UNSPSC.aspx
+
+You can also create your own UNSPSC cheat sheet in this DGS guide:
+
+https://www.documents.dgs.ca.gov/eprocure/unspscuserguide.pdf",
+Navigation_to_create_requisition,"All Requisitions must be created through the eProcurement module. Requisitions created through the Purchasing module will not be routed to the departmental Requisition Approvers and custom fields such as the ""Acquisition Type"" and ""Acquisition Method"" are not configured outside the eProcurement Module (for Requisitions).
+
+For more information refer to FAQ#15 -Should I create my Requisition through Purchasing or eProcurement? following this link:
+
+http://fiscal.ca.gov/faqs/documents/RequisitionFAQs1.0.docx",
+Sales_tax_on_requisition,"Sales/Use Tax are not assessed on Requisitions and no encumbrance is made. Ensure there are enough funds to cover the Requistion amount plus any Sales/Use tax. 
+
+NOTE: The Sales/Use Tax amount should not be added as a separate Requisition line item.
+",
+Approver_skipped,"Self-approval is not allowed in FI$Cal. If a user has both the Requisition Processor/Requester role and one of the Requisition Approver roles, the system will skip that user in the Requistition Approval workflow.",
+Procurement_card_on_a_requisition,"Refer to FAQ#29 - ""Could I mark my Requisition that P-Card will be the payment method?"" in the link below for detail steps:
+
+http://fiscal.ca.gov/faqs/documents/RequisitionFAQs1.0.docx",
+Procurement_card_on_a_requisition_not_flowing_to_PO,"If the same P-Card holder creates the Requistion AND uses ""copy from Purchase Order"" to create the PO, the procurement card will flow throuht from the requistion to the PO. For more information, refer to FAQ#30 - ""Will the P-Card info flow to the PO?"" by following this link:
+
+http://fiscal.ca.gov/faqs/documents/RequisitionFAQs1.0.docx",
+Copying_multiple_requisitions_to_a_PO,"Per DGS rules and regulations, consolidation of multiple Requisitions into one PO ID is not allowed at this time. All Requisitions that have already been fully sourced/copied into POs are no longer available to be used again.
+Refer to FAQ#38 - ""I copied my Requisition into a PO in error. Could I source/copy my Requisition into a new PO?"" in the link below for detailed steps:
+
+http://fiscal.ca.gov/faqs/documents/RequisitionFAQs1.0.docx",
+Difference_between_Bidder_and_Supplier,,

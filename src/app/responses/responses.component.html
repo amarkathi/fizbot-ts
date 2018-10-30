@@ -1,10 +1,6 @@
-<div class="panel-body chatwindow-scroll responsesHeight" id="inner-chat-window">
+<div style='overflow-y:scroll; width:300px;height:300px;'>
   <ul class="chat">
-    <li class="left">
-        <b>this is it {{name}}</b>
-        &nbsp;&nbsp;<button (click)="fireEvent()" class="btn btn-default btn-sm">
-            <span class="glyphicon glyphicon-thumbs-up"></span>
-    </button>
-    </li>
+    <li class="alert alert-danger"><span class="fa fa-user-circle-o"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ userIncomingQuestion }}</li>
+    <li *ngIf='message' class="alert alert-success"><span class="fa fa-user-circle-o"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ message.text }}</li>
   </ul>
 </div>

@@ -1,9 +1,9 @@
 <div style="align:bottom">
    <div>
-      <input #userInput type="text" (keyup.enter)="fireEvent(userInput.value)"
+      <input #userInput type="text" (keyup.enter)="processUserInput(userInput.value);userInput.value=''"
              placeholder="Type your query" autocomplete="off" autofocus
              style="border: 2px solid #dbdee1;font-size: 15px;">
-      &nbsp;&nbsp;<button style="align:right;" (click)="fireEvent(userInput.value)">Send</button>
-    </div>
+      &nbsp;&nbsp;<button style="align:right;" (click)="processUserInput(userInput.value);userInput.value=''"
+                      class="fa fa-send-o"></button>
+   </div>
 </div>
-

@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'FI$Bot';
+
+  userQuestion: string;
+
+  userQuestionHandler(event: string) {
+    console.log(event+' is assigned');
+    this.userQuestion = event;
+  }
 }

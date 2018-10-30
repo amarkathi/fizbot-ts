@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "mybootstrapproject": {
+    "fizbot-ts-master": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -13,13 +13,13 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/mybootstrapproject",
+            "outputPath": "dist/fizbot-ts-master",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
-              "src/favicon.ico",
+              "src/fiscal-icon.ico",
               "src/assets"
             ],
             "styles": [
@@ -55,18 +55,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "mybootstrapproject:build"
+            "browserTarget": "fizbot-ts-master:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "mybootstrapproject:build:production"
+              "browserTarget": "fizbot-ts-master:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "mybootstrapproject:build"
+            "browserTarget": "fizbot-ts-master:build"
           }
         },
         "test": {
@@ -100,7 +100,7 @@
         }
       }
     },
-    "mybootstrapproject-e2e": {
+    "fizbot-ts-master-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "architect": {
@@ -108,11 +108,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "mybootstrapproject:serve"
+            "devServerTarget": "fizbot-ts-master:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "mybootstrapproject:serve:production"
+              "devServerTarget": "fizbot-ts-master:serve:production"
             }
           }
         },
@@ -128,5 +128,5 @@
       }
     }
   },
-  "defaultProject": "mybootstrapproject"
+  "defaultProject": "fizbot-ts-master"
 }
