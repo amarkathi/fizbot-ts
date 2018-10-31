@@ -36,7 +36,7 @@ export class UserQuestionComponent implements OnInit {
     if (userInput) {
       this.responsesService.sendMessage(userInput);
     } else {
-      userInput = 'would you like to end the conversation?' ;
+      this.responsesService.sendMessage('would you like to end the conversation?') ;
     }
   }
 

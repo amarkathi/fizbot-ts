@@ -1,6 +1,8 @@
 <div style='overflow-y:scroll; width:300px;height:300px;'>
   <ul class="chat">
-    <li class="alert alert-danger"><span class="fa fa-user-circle-o"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ userIncomingQuestion }}</li>
-    <li *ngIf='message' class="alert alert-success"><span class="fa fa-user-circle-o"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ message.text }}</li>
-  </ul>
+    <li *ngFor="let exchange of conversation.exchanges">
+      <span class="alert alert-danger fa fa-user-circle-o">{{ exchange.message }}</span><br>
+      <span class="alert alert-success fa fa-user-circle-o">{{ exchange.response }}</span>
+    </li>
+   </ul>
 </div>

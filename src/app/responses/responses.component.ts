@@ -15,6 +15,11 @@ export class ResponsesComponent implements OnInit, OnDestroy {
   subscription: Subscription;
   userIncomingQuestion: string;
 
+  conversation: IConversation = {
+    exchanges: [],
+    status: 'NotStarted'
+  };
+
   ngOnInit() {
   }
 
@@ -23,8 +28,9 @@ export class ResponsesComponent implements OnInit, OnDestroy {
   }
 
   constructor(private responsesService: ResponsesService) {
-    //subscribe to user question component
-    this.subscription = this.responsesService.getResponses().subscribe(message => {this.message = message;});
+   //subscribe to user question component
+    this.subscription = this.responsesService.getResponses().subscribe(
+        conversation => { this.conversation = conversation });
   }
 
   @Input() set   incomingUserQuestion(value: string) {

@@ -16,7 +16,7 @@ export class ResponsesService {
 
   constructor (private watsonAPIService: WatsonAPIService) { }
 
-  private subject = new Subject<any>();
+  private subject = new Subject<IConversation>();
 
   sendMessage(userInput: string){
     this.watsonAPIService.sendMessage(userInput).then(message => {
@@ -25,11 +25,7 @@ export class ResponsesService {
         response: message,
         time: new Date()
       });
-      if(message != undefined){
-        this.subject.next({ text:message });
-      }else{
-        this.subject.next('Echoing....'+userInput);
-      }
+      this.subject.next(this.conversation);
     });
    console.log(this.conversation.exchanges);
   }
@@ -37,7 +33,7 @@ export class ResponsesService {
   clearResponses(){
   }
 
-  getResponses(): Observable<any> {
+  getResponses(): Observable<IConversation> {
     return this.subject.asObservable();
   }
 }
