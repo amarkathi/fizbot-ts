@@ -15,11 +15,6 @@ export class ResponsesComponent implements OnInit, OnDestroy {
   subscription: Subscription;
   userIncomingQuestion: string;
 
-  conversation: IConversation = {
-    exchanges: [],
-    status: 'NotStarted'
-  };
-
   ngOnInit() {
   }
 
@@ -38,5 +33,4 @@ export class ResponsesComponent implements OnInit, OnDestroy {
       this.userIncomingQuestion = value;
     }
   }
-
  }
