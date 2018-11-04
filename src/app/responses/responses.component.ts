@@ -1,5 +1,5 @@
 import {Component, Input, OnDestroy, OnInit} from "@angular/core";
-import {ResponsesService} from "../shared/responses.service";
+import {ResponsesService} from "../shared/services/responses.service";
 import {Subscription} from "rxjs";
 import { IExchange, IConversation } from '../shared/models/watson-models';
 

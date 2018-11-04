@@ -1,6 +1,6 @@
 import {Component, EventEmitter, OnInit, Output} from "@angular/core";
-import {ResponsesService} from "../shared/responses.service";
-import {DataService} from "../shared/data.service";
+import {ResponsesService} from "../shared/services/responses.service";
+import {DataService} from "../shared/services/data.service";
 import {WatsonAPIService} from "../shared/services/watson-api.service";
 import {MessageResponse} from "../shared/models/assistant/v1";
 import * as AssistantV1 from "../shared/models/assistant/v1";
@@ -29,9 +29,6 @@ export class UserQuestionComponent implements OnInit {
   processUserInput(userInput: string) {
 
     this.userQuestion.emit(userInput);
-
-    //TODO read csv file here
-    var reader = new FileReader();
 
     if (userInput) {
       this.responsesService.sendMessage(userInput);
