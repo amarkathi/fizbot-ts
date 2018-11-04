@@ -20,7 +20,6 @@ pre {
   background: linear-gradient(45deg, #abd0ef 10%, #85d8ce 90%);
 }
 textarea {
-  width: 90%;
   border: 0;
   cursor: pointer;
   padding: 10px 20px;

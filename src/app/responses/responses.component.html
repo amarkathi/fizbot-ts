@@ -2,11 +2,11 @@
   <ul class="chat">
     <li *ngFor="let exchange of conversation.exchanges">
       <div class="row" style="padding-top: 5px;">
-        <span class="fa fa-user-circle-o styled"></span>&nbsp;&nbsp;
+        <img src="/src/assets/images/chatbot_user.png" width="20" height="20" title="User">&nbsp;
         <span class="alert alert-danger message-user">{{ exchange.message }}</span>
        </div>
       <div class="row" style="padding-top: 15px;">
-        <span class="fa fa-user-circle-o styled"></span>&nbsp;&nbsp;
+        <img src="/src/assets/images/chatbot-final.png" alt="Smiley face" width="20" height="20" title="FI$bot">&nbsp;
         <textarea readonly class="response resize alert alert-success message-send" style="padding: 2px;">{{ exchange.response }}</textarea>
       </div>
     </li>
