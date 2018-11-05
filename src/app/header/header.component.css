@@ -1,0 +1,34 @@
+.heading-label {
+  width: 400px;
+  height:40px;
+  border: 1px solid black;
+  padding-top: .5%;
+  background-color:#3072AC;
+  color:white;
+}
+
+.heading-label a:hover {
+  color: #ffde7c;
+  text-decoration: none;
+}
+
+.charClear{
+  color: white;
+  margin-left:15px;
+  float:left;
+  font-size: 25px;
+}
+.chatName{
+  font-weight: bold;
+  text-align: center;
+  width: 290px;
+  float: left;
+
+}
+.chatInfo{
+  color: white;
+  font-size:20px;
+  float:right;
+  padding-right: 10px;
+}
+

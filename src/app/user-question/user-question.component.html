@@ -1,8 +1,7 @@
-<div style="align:bottom">
-   <div>
-     <input #userInput type="text" (keyup.enter)="processUserInput(userInput.value);userInput.value=''"
-             placeholder="Type your query" autocomplete="off" autofocus
-             style="border: 2px solid #dbdee1;font-size: 15px;width: 365px;">
+<div class="inputfield">
+   <div class="row">
+     <input #userInput type="text"(keyup.enter)="processUserInput(userInput.value);userInput.value=''"
+             placeholder="Type your query" autocomplete="off" autofocus>
      <button style="align:right;" (click)="processUserInput(userInput.value);userInput.value=''"
              class="fa fa-send-o"></button>
    </div>

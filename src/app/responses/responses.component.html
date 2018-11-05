@@ -1,13 +1,13 @@
-<div style='overflow-y:scroll; width:400px;height:400px;'>
+<div class="chatbotResponse">
   <ul class="chat">
     <li *ngFor="let exchange of conversation.exchanges">
-      <div class="row" style="padding-top: 5px;">
+      <div class="row" >
         <img src="/src/assets/images/chatbot_user.png" width="20" height="20" title="User">&nbsp;
-        <span class="alert alert-danger message-user">{{ exchange.message }}</span>
+        <span class="message-style message-user">{{ exchange.message }}</span>
        </div>
-      <div class="row" style="padding-top: 15px;">
+      <div class="row">
         <img src="/src/assets/images/chatbot-final.png" alt="Smiley face" width="20" height="20" title="FI$bot">&nbsp;
-        <textarea readonly class="response resize alert alert-success message-send" style="padding: 2px;">{{ exchange.response }}</textarea>
+        <span class="message-style message-send" >{{ exchange.response }}</span>
       </div>
     </li>
    </ul>
