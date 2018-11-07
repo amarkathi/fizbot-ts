@@ -32,9 +32,9 @@ export class ResponsesService {
         response: userInput,
         time: new Date()
       });
-      this.subject.next(this.conversation);
+      this.subject.next(this.conversation);*/
 
-      // TO1DO Below call should be in loop*/
+      // TO1DO Below call should be in loop
    // this.runit();
     // this.watsonAPIService.createDialogNode('greeting','#hello','Hi. How are you?')
    console.log(this.conversation.exchanges);

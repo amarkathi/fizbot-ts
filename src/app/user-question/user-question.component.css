@@ -1,4 +1,9 @@
-
+input:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: #abd0ef;
+}
 .inputfield {
   border-right: 1px solid #000000;
   border-left: 1px solid #000000;
@@ -9,7 +14,7 @@
 }
 
 .inputfield input {
-  border: 2px solid #dbdee1;
+  border: 1px solid #dbdee1;
   font-size: 15px;
   width: 330px;
   margin: 0 10px;
