@@ -81,70 +81,70 @@ styled {
 /* THE TRIANGLE
   ------------------------------------------------------------------------------------------------------------------------------- */
 /* creates triangle */
-.user-question:after {
+/*.user-question:after {
   content:"";
   position:absolute;
-  bottom:-3px; /* value = - border-top-width - border-bottom-width */
-  left:5px; /* controls horizontal position */
-  border-width:1px 1px 0; /* vary these values to change the angle of the vertex */
+  bottom:-3px; !* value = - border-top-width - border-bottom-width *!
+  left:5px; !* controls horizontal position *!
+  border-width:1px 1px 0; !* vary these values to change the angle of the vertex *!
   border-style:solid;
   border-color:#f9e3b3 transparent;
-  /* reduce the damage in FF3.0 */
+  !* reduce the damage in FF3.0 *!
   display:block;
   width:0;
 }
-/* Variant : left
-  ------------------------------------------ */
+!* Variant : left
+  ------------------------------------------ *!
 
 .user-question.left:after {
-  top:10px; /* controls vertical position */
-  left:-10px; /* value = - border-left-width - border-right-width */
+  top:10px; !* controls vertical position *!
+  left:-10px; !* value = - border-left-width - border-right-width *!
   bottom:auto;
   border-width:4px 10px 4px 0;
   border-color:transparent #f9e3b3;
-}
+}*/
 .response {
   position:relative;
-  padding:5px 10px;
   color:#000;
-  max-width: 85%;
+  max-width: 89%;
   font-size: 12px;
-  background:#becddb;
+  padding-left: 10px;
+  background:#d9edf7;
   border-radius:10px;
+  white-space: pre-wrap;
 }
 /* Variant : for left/right positioned triangle
   ------------------------------------------ */
 
 .response.left {
-  margin-left:5px;
-  background:#becddb;
+
 }
 
 /* THE TRIANGLE
   ------------------------------------------------------------------------------------------------------------------------------- */
 /* creates triangle */
-.response:after {
+/*.response:after {
   content:"";
   position:absolute;
-  bottom:-3px; /* value = - border-top-width - border-bottom-width */
-  left:5px; /* controls horizontal position */
-  border-width:1px 1px 0; /* vary these values to change the angle of the vertex */
+  bottom:-3px; !* value = - border-top-width - border-bottom-width *!
+  left:5px; !* controls horizontal position *!
+  border-width:1px 1px 0; !* vary these values to change the angle of the vertex *!
   border-style:solid;
-  border-color:#becddb transparent;
-  /* reduce the damage in FF3.0 */
+  border-color:#d9edf7 transparent;
+  !* reduce the damage in FF3.0 *!
   display:block;
   width:0;
 }
-/* Variant : left
-  ------------------------------------------ */
+!* Variant : left
+  ------------------------------------------ *!
 
 .response.left:after {
-  top:10px; /* controls vertical position */
-  left:-10px; /* value = - border-left-width - border-right-width */
-  bottom:auto;
-  border-width:4px 10px 4px 0;
-  border-color:transparent #becddb;
-}
+  top: 10px; !* controls vertical position *!
+  left: -10px; !* value = - border-left-width - border-right-width *!
+  bottom: auto;
+  border-width: 4px 10px 4px 0;
+  border-color: transparent #d9edf7;
+}*/
 /*
 
 .resize {

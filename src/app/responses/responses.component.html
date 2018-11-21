@@ -1,13 +1,17 @@
 <div class="chatbotResponse" id="chatbotResponse">
+  <div class="row">
+    <img src="/src/assets/images/chatbot-final.png" alt="FI$Bot" width="30" height="30" title="FI$bot">&nbsp;
+    <div class="response left" width="350px">{{ greeting }}, how can I help you?</div>
+  </div>
   <ul class="chat">
     <li *ngFor="let exchange of conversation.exchanges">
-      <div class="row" >
+      <div class="row">
         <img src="/src/assets/images/chatbot_user.png" width="30" height="30" title="You">&nbsp;
         <span class="user-question left">{{ exchange.message }}</span>
        </div>
-      <div class="row">
+      <div class="row" >
         <img src="/src/assets/images/chatbot-final.png" alt="FI$Bot" width="30" height="30" title="FI$bot">&nbsp;
-        <span class="response left" >{{ exchange.response }}</span>
+        <div class="response left" width="350px">{{ exchange.response }}</div>
       </div>
     </li>
    </ul>

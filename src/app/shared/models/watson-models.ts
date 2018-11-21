@@ -1,6 +1,7 @@
 export interface IExchange {
   message: string;
   response: string;
+  intent: string;
   time: Date;
 }
 

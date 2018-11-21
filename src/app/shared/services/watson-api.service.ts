@@ -2,6 +2,10 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import * as AssistantV1 from '../models/assistant/v1';
 import {MessageResponse} from '../models/assistant/v1';
+import {IExchange} from "../models/watson-models";
+import {Observable, Subject} from "rxjs";
+import {consoleTestResultHandler} from "tslint/lib/test";
+import {Config} from "protractor";
 
 @Injectable()
 export class WatsonAPIService {
@@ -17,16 +21,15 @@ export class WatsonAPIService {
 
 
   /*
-
     private version = '2018-09-20';
     private workspace_id = 'b157af29-6936-4504-8eb4-ca5cd7234509';
     private baseUrl = `https://gateway.watsonplatform.net/assistant/api/v1/workspaces/${this.workspace_id}`;
     FI$cal IBM Watson details
 
-      https://gateway.watsonplatform.net/assistant/api
-      apikey:Ag8N1MxqwmzzqOiQudpa6coWv7QsCrMAvPgE5eFnP2x4
-      workspaceid:b157af29-6936-4504-8eb4-ca5cd7234509
-     */
+    https://gateway.watsonplatform.net/assistant/api
+    apikey:Ag8N1MxqwmzzqOiQudpa6coWv7QsCrMAvPgE5eFnP2x4
+    workspaceid:b157af29-6936-4504-8eb4-ca5cd7234509
+  */
 
 
 
@@ -48,22 +51,36 @@ export class WatsonAPIService {
             context: this.context
         };
 
-        const promise = new Promise<string>((resolve, reject) => {
+        const promise = new Promise<IExchange>((resolve, reject) => {
             this.http.post<MessageResponse>(
                 `${this.baseUrl}/message?version=${this.version}`,
                 body, { headers: headers }).toPromise()
                 .then((response: MessageResponse) => {
                     this.context = response.context;
 
+                    let intent: string;
                     // If an intent was detected, log it out to the console.
                     if (response.intents.length > 0) {
                         console.log('Detected intent: #' + response.intents[0].intent);
+                        intent = response.intents[0].intent;
                     }
 
                     if (response.output.generic.length !== 0) {
-                        resolve(response.output.generic[0].text);
+                      let exchange = {
+                        message: response.input.text,
+                        response: response.output.generic[0].text,
+                        intent: intent,
+                        time: new Date()
+                      };
+                        resolve(exchange);
                     } else {
-                        resolve('');
+                      let emptyExchange = {
+                        message: response.input.text,
+                        response: '',
+                        intent: intent,
+                        time: new Date()
+                      };
+                        resolve(emptyExchange);
                     }
                 })
                 .catch((error: any) => {
@@ -74,6 +91,9 @@ export class WatsonAPIService {
         return promise;
     }
 
+  getTasks() {
+    return this.http.get('/hello');
+  }
 
   createDialogNode(dialogeNodeName: string, responseText: string) {
     const headers = new HttpHeaders({

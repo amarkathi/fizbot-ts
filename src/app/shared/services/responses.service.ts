@@ -19,11 +19,13 @@ export class ResponsesService {
   private subject = new Subject<IConversation>();
 
   sendMessage(userInput: string){
-    this.watsonAPIService.sendMessage(userInput).then(message => {
+    this.watsonAPIService.sendMessage(userInput).then(messageResponse => {
       this.conversation.exchanges.push({
-        message: userInput,
-        response: message,
+        message: messageResponse.message,
+        response: messageResponse.response,
+        intent: messageResponse.intent,
         time: new Date()
+
       });
       this.subject.next(this.conversation);
     });

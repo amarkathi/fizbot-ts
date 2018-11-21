@@ -1,7 +1,9 @@
 import {Component, Input, OnDestroy, OnInit} from "@angular/core";
 import {ResponsesService} from "../shared/services/responses.service";
 import {Subscription} from "rxjs";
+import * as $ from 'jquery' ;
 import { IExchange, IConversation } from '../shared/models/watson-models';
+
 
 
 @Component({
@@ -14,6 +16,7 @@ export class ResponsesComponent implements OnInit, OnDestroy {
   message: string;
   subscription: Subscription;
   userIncomingQuestion: string;
+  greeting: string;
 
   conversation: IConversation = {
     exchanges: [],
@@ -21,6 +24,24 @@ export class ResponsesComponent implements OnInit, OnDestroy {
   };
 
   ngOnInit() {
+    this.greeting = 'Good Morning';
+    var hours = new Date().getHours();
+    var hours = (hours+24-2)%24;
+    var mid='am';
+    if(hours==0){ //At 00 hours we need to show 12 am
+      hours=12;
+    }
+    else if(hours>12)
+    {
+      hours=hours%12;
+      mid='pm';
+      this.greeting = 'Good Evening';
+    }
+
+
+    $(document).ready(function(){
+      console.log('Started the application');
+    });
   }
 
   ngOnDestroy(){
