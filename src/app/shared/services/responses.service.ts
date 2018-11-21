@@ -43,6 +43,15 @@ export class ResponsesService {
   }
 
   clearResponses(){
+
+    let conversation: IConversation ={
+      exchanges: [],
+      status: 'NotStarted'
+    };
+
+    this.subject.next(conversation);
+
+    return this.subject.asObservable();
   }
 
   getResponses(): Observable<IConversation> {

@@ -15,6 +15,7 @@ export class ResponsesComponent implements OnInit, OnDestroy {
 
   message: string;
   subscription: Subscription;
+  clearSubscription: Subscription;
   userIncomingQuestion: string;
   greeting: string;
 
@@ -26,8 +27,10 @@ export class ResponsesComponent implements OnInit, OnDestroy {
   ngOnInit() {
     this.greeting = 'Good Morning';
     var hours = new Date().getHours();
-    var hours = (hours+24-2)%24;
+    var hours = (hours+24)%24;
     var mid='am';
+    console.log('hours..........'+hours);
+
     if(hours==0){ //At 00 hours we need to show 12 am
       hours=12;
     }
@@ -59,5 +62,11 @@ export class ResponsesComponent implements OnInit, OnDestroy {
       console.log('in the response component');
       this.userIncomingQuestion = value;
     }
+  }
+
+  clearResponses(){
+    //subscribe to user question component
+    this.clearSubscription = this.responsesService.clearResponses().subscribe(
+      conversation => { this.conversation = conversation });
   }
  }
