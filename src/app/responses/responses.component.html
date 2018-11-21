@@ -1,10 +1,10 @@
-<div class="chatbotResponse" id="chatbotResponse">
-  <!--<div class="row" style="float:right;cursor:pointer;font-size:10px;background:#0d71bb;border-radius: 5px;color: white" (click)="clearResponses()">Clear</div>-->
+<div class="chat" class="chatbotResponse" id="chatbotResponse">
+  <div class="row" class="clear" (click)="clearResponses()">Clear</div>
   <div class="row">
     <img src="/src/assets/images/chatbot-final.png" alt="FI$Bot" width="30" height="30" title="FI$bot">&nbsp;
     <div class="response left" width="350px">{{ greeting }}, how can I help you?</div>
   </div>
-  <ul class="chat">
+  <ul>
     <li *ngFor="let exchange of conversation.exchanges">
       <div class="row">
         <img src="/src/assets/images/chatbot_user.png" width="30" height="30" title="You">&nbsp;

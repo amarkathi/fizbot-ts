@@ -48,7 +48,7 @@ export class ResponsesService {
       exchanges: [],
       status: 'NotStarted'
     };
-
+    this.conversation = conversation;
     this.subject.next(conversation);
 
     return this.subject.asObservable();

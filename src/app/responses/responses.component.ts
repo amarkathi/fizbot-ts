@@ -54,7 +54,11 @@ export class ResponsesComponent implements OnInit, OnDestroy {
   constructor(private responsesService: ResponsesService) {
    //subscribe to user question component
     this.subscription = this.responsesService.getResponses().subscribe(
-        conversation => { this.conversation = conversation });
+        conversation => {
+          this.conversation = conversation;
+          let height: number = 0;
+          $('#chatbotResponse').animate({scrollTop: 100000000 }, 'slow');
+        });
   }
 
   @Input() set   incomingUserQuestion(value: string) {
@@ -67,6 +71,6 @@ export class ResponsesComponent implements OnInit, OnDestroy {
   clearResponses(){
     //subscribe to user question component
     this.clearSubscription = this.responsesService.clearResponses().subscribe(
-      conversation => { this.conversation = conversation });
+      conversation => {this.conversation = conversation});
   }
  }

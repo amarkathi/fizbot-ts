@@ -52,7 +52,15 @@ styled {
   max-width: 90%;
   border-radius: 10px;
 }
-
+.clear{
+  width:40px;
+  float:right;
+  cursor:pointer;
+  font-size:10px;
+  background:#0d71bb;
+  border-radius: 5px;
+  color: white
+}
 .chatbotResponse {
   width: 400px;
   height: 400px;
