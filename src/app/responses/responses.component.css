@@ -55,6 +55,7 @@ styled {
 .clear{
   width:40px;
   float:right;
+  text-align: center;
   cursor:pointer;
   font-size:10px;
   background:#0d71bb;
