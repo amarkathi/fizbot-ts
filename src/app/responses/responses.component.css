@@ -1,3 +1,41 @@
+/** ************ heading moved ************** */
+.heading-label {
+  width: 400px;
+  height:40px;
+  border: 1px solid black;
+  padding-top: .5%;
+  background-color:#3072AC;
+  color:white;
+}
+
+.heading-label a:hover {
+  color: #ffde7c;
+  text-decoration: none;
+}
+
+.chatClear{
+  /*color: white;
+  !*margin-left:15px;*!
+  float:left;
+  font-size: 25px;*/
+}
+.chatName{
+  font-weight: bold;
+  text-align: center;
+  width: 400px;
+  float: left;
+
+}
+.chatInfo{
+  color: white;
+  font-size:20px;
+  float:right;
+  padding-right: 10px;
+}
+
+
+/** ************************** */
+
 pre {
   display: block;
   font-family: monospace;
@@ -21,6 +59,7 @@ styled {
   width: 90%;
   border: 0;
   padding: 10px 20px;
+
   box-shadow: 0 -1px 20px -3px #000;
   box-sizing: border-box;
 }
@@ -57,8 +96,8 @@ styled {
   float:right;
   text-align: center;
   cursor:pointer;
-  font-size:10px;
-  background:#0d71bb;
+  font-size:12px;
+  /*background:#0d71bb;*/
   border-radius: 5px;
   color: white
 }

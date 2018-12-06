@@ -58,12 +58,12 @@ export class WatsonAPIService {
                 .then((response: MessageResponse) => {
                     this.context = response.context;
 
-                    let intent: string;
+                    let intent: string = '';
                     // If an intent was detected, log it out to the console.
                     if (response.intents.length > 0) {
                         console.log('Detected intent: #' + response.intents[0].intent);
                         intent = response.intents[0].intent;
-                    }
+                       }
 
                     if (response.output.generic.length !== 0) {
                       let exchange = {
@@ -140,4 +140,52 @@ export class WatsonAPIService {
     });
     return promise;
   }
+
+  /*deleteDialog(dialogeNodeName: string) {
+
+    let responseText : string = '';
+    const headers = new HttpHeaders({
+      'Content-Type': 'application/json',
+      'Authorization': 'Basic ' + window.btoa(`apikey:Ag8N1MxqwmzzqOiQudpa6coWv7QsCrMAvPgE5eFnP2x4`)
+    });
+
+    const body = {
+      dialog_node: dialogeNodeName,
+      conditions: '#'+dialogeNodeName,
+      output:
+        {
+          generic: [
+            {
+              response_type: 'text',
+              values: [
+                {
+                  text: responseText
+                }
+              ]
+            }
+          ]
+        },
+      title: dialogeNodeName
+
+    };
+    const promise = new Promise<string>((resolve, reject) => {
+      this.http.post<MessageResponse>(
+        `${this.baseUrl}/dialog_nodes?version=${this.version}`,
+        body, { headers: headers }).toPromise()
+        .then((response: MessageResponse) => {
+          this.context = response.context;
+
+          if (response.output.generic.length !== 0) {
+            console.log(JSON.stringify(response, null, 2));
+          } else {
+            resolve('');
+          }
+        })
+        .catch((error: any) => {
+          console.log(error);
+          reject(error);
+        });
+    });
+    return promise;
+  }*/
 }

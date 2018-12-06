@@ -1,9 +1,8 @@
-import {Component, Input, OnDestroy, OnInit} from "@angular/core";
+import {Component, EventEmitter, Input, OnDestroy, OnInit, Output} from "@angular/core";
 import {ResponsesService} from "../shared/services/responses.service";
 import {Subscription} from "rxjs";
 import * as $ from 'jquery' ;
 import { IExchange, IConversation } from '../shared/models/watson-models';
-
 
 
 @Component({
@@ -23,6 +22,9 @@ export class ResponsesComponent implements OnInit, OnDestroy {
     exchanges: [],
     status: 'NotStarted'
   };
+
+  @Output()
+  userQuestion: EventEmitter<string> = new EventEmitter();
 
   ngOnInit() {
     this.greeting = 'Good Morning';
@@ -57,14 +59,26 @@ export class ResponsesComponent implements OnInit, OnDestroy {
         conversation => {
           this.conversation = conversation;
           let height: number = 0;
-          $('#chatbotResponse').animate({scrollTop: 100000000 }, 'slow');
+          $('#chatbotResponse').animate({scrollTop: 100000000 }, 'smooth');
         });
+
   }
 
   @Input() set   incomingUserQuestion(value: string) {
     if (value && value != undefined) {
       console.log('in the response component');
       this.userIncomingQuestion = value;
+    }
+  }
+
+  processUserInput(userInput: string) {
+
+    this.userQuestion.emit(userInput);
+
+    if (userInput) {
+      this.responsesService.sendMessage(userInput);
+    } else {
+      this.responsesService.sendMessage('would you like to end the conversation?') ;
     }
   }
 

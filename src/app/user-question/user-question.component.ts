@@ -39,7 +39,4 @@ export class UserQuestionComponent implements OnInit {
 
   sendMessage() {
   }
-  clearMessages(): void {
-
-  }
 }

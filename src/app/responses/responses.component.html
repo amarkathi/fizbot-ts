@@ -1,8 +1,22 @@
+<div class="heading-label">
+  <!--<span class="fa fa-comments-o charClear"></span>-->
+  <div class="chatName">
+    <a class="chatInfo fa fa-info" title="Job Aids" href="https://fiscal.ca.gov/user-support/job-aids/" target="_blank"></a>
+    <a class="chatInfo fa fa-thumbs-o-down" title="FI$Cal Service Center" (click)="processUserInput('fiscal help');"></a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FI$Bot
+    <a class="row" class="clear" title="Clear Chat" (click)="clearResponses()">Clear</a>
+
+  </div>
+    <!--<div class="chatInfo">
+     <span class="chatInfo fa fa-envelope-o"></span>
+     <span class="chatInfo fa fa-info"></span>
+   </div>-->
+</div>
 <div class="chat" class="chatbotResponse" id="chatbotResponse">
-  <div class="row" class="clear" (click)="clearResponses()">Clear</div>
+ <!-- <div class="row" class="clear" (click)="clearResponses()">Clear</div>-->
   <div class="row">
     <img src="/src/assets/images/chatbot-final.png" alt="FI$Bot" width="30" height="30" title="FI$bot">&nbsp;
-    <div class="response left" width="350px">{{ greeting }}, how can I help you?</div>
+    <div class="response left" width="350px">{{ greeting }}, How can I help you?</div>
   </div>
   <ul>
     <li *ngFor="let exchange of conversation.exchanges">
