@@ -9,16 +9,19 @@ import {Config} from "protractor";
 
 @Injectable()
 export class WatsonAPIService {
-    private username = '33d979c4-fadd-4dd3-929d-0e3e65737e3e';
-    private password = 'r2JDBpg0TpwV';
+    // private username = '33d979c4-fadd-4dd3-929d-0e3e65737e3e';
+    private username = 'some-fun-user-name';
+    // private password = 'r2JDBpg0TpwV';
+    private password = 'some-password';
     private version = '2018-09-20';
     //private workspace_id = '91811fb6-6a47-4ada-bdb0-c7213e8aa1ed';
     //private baseUrl = `https://gateway.watsonplatform.net/assistant/api/v1/workspaces/${this.workspace_id}`;
 
 
-  private workspace_id = 'b157af29-6936-4504-8eb4-ca5cd7234509';
-  private baseUrl = `https://gateway.watsonplatform.net/assistant/api/v1/workspaces/${this.workspace_id}`;
-
+  //private workspace_id = 'b157af29-6936-4504-8eb4-ca5cd7234509';
+  private workspace_id = 'some-workspace';
+  //private baseUrl = `https://gateway.watsonplatform.net/assistant/api/v1/workspaces/${this.workspace_id}`;
+  private baseUrl = 'http://10.10.114.12';
 
   /*
     private version = '2018-09-20';
