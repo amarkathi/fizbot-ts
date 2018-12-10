@@ -1,17 +1,3 @@
-<div class="heading-label">
-  <!--<span class="fa fa-comments-o charClear"></span>-->
-  <div class="chatName">
-    <a class="chatInfo fa fa-info" title="Job Aids" href="https://fiscal.ca.gov/user-support/job-aids/" target="_blank"></a>
-    <a class="chatInfo fa fa-thumbs-o-down" title="FI$Cal Service Center" (click)="processUserInput('fiscal help');"></a>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FI$Bot
-    <a class="row" class="clear" title="Clear Chat" (click)="clearResponses()">Clear</a>
-
-  </div>
-    <!--<div class="chatInfo">
-     <span class="chatInfo fa fa-envelope-o"></span>
-     <span class="chatInfo fa fa-info"></span>
-   </div>-->
-</div>
 <div class="chat" class="chatbotResponse" id="chatbotResponse">
  <!-- <div class="row" class="clear" (click)="clearResponses()">Clear</div>-->
   <div class="row">
@@ -26,7 +12,10 @@
        </div>
       <div class="row" >
         <img src="/src/assets/images/chatbot-final.png" alt="FI$Bot" width="30" height="30" title="FI$bot">&nbsp;
-        <div class="response left" width="350px">{{ exchange.response }}</div>
+        <div class="response left" width="300px">{{ exchange.response }}</div>
+        <!--<div *ngIf="conversation.exchanges[conversation.exchanges.length-1].response == exchange.response">
+          <a class="fa fa-thumbs-o-down" width="30" style="float: bottom; cursor: pointer" title="Thumbs Down" (click)="processThumbsDown();"></a>
+        </div>-->
       </div>
     </li>
    </ul>

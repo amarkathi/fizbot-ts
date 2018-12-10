@@ -30,17 +30,6 @@ export class ResponsesService {
       });
       this.subject.next(this.conversation);
     });
-    /*this.conversation.exchanges.push({
-        message: userInput,
-        response: userInput,
-        time: new Date()
-      });
-      this.subject.next(this.conversation);*/
-
-      // TO1DO Below call should be in loop
-   // this.runit();
-    // this.watsonAPIService.createDialogNode('greeting','#hello','Hi. How are you?')
-   console.log(this.conversation.exchanges);
   }
 
   clearResponses(){
@@ -51,9 +40,6 @@ export class ResponsesService {
     };
     this.conversation = conversation;
     this.subject.next(conversation);
-  console.log("*******************************");
-    this.runit();
-    console.log("*******************************");
     return this.subject.asObservable();
   }
 

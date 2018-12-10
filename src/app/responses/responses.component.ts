@@ -14,7 +14,6 @@ export class ResponsesComponent implements OnInit, OnDestroy {
 
   message: string;
   subscription: Subscription;
-  clearSubscription: Subscription;
   userIncomingQuestion: string;
   greeting: string;
 
@@ -81,10 +80,16 @@ export class ResponsesComponent implements OnInit, OnDestroy {
       this.responsesService.sendMessage('would you like to end the conversation?') ;
     }
   }
+  processThumbsDown() {
 
-  clearResponses(){
-    //subscribe to user question component
-    this.clearSubscription = this.responsesService.clearResponses().subscribe(
-      conversation => {this.conversation = conversation});
+    const userInput2 = this.conversation.exchanges[this.conversation.exchanges.length-1].message;
+
+    this.userQuestion.emit(userInput2);
+
+    if (userInput2) {
+      this.responsesService.sendMessage(userInput2);
+    } else {
+      this.responsesService.sendMessage('would you like to end the conversation?') ;
+    }
   }
  }

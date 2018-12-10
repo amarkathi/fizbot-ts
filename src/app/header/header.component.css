@@ -1,3 +1,4 @@
+/** ************ heading moved ************** */
 .heading-label {
   width: 400px;
   height:40px;
@@ -13,10 +14,10 @@
 }
 
 .chatClear{
-  color: white;
-  margin-left:15px;
+  /*color: white;
+  !*margin-left:15px;*!
   float:left;
-  font-size: 25px;
+  font-size: 25px;*/
 }
 .chatName{
   font-weight: bold;
@@ -27,8 +28,26 @@
 }
 .chatInfo{
   color: white;
-  font-size:20px;
+  font-size:18px;
   float:right;
-  padding-right: 10px;
+  /*padding-right: 10px;*/
+}
+* {
+  margin: 0;
+  padding: 2px;
+  box-sizing: border-box;
+}
+.row{
+  margin-top: 5px;
+}
+.clear{
+  width:40px;
+  float:right;
+  text-align: center;
+  cursor:pointer;
+  font-size:12px;
+  /*background:#0d71bb;*/
+  border-radius: 5px;
+  color: white;
 }
 

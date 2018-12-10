@@ -2,7 +2,8 @@
    <div class="row">
      <input #userInput type="text" (keyup.enter)="processUserInput(userInput.value);userInput.value=''"
              placeholder="Type your query" autocomplete="on" autofocus>
-     <button style="align:right;" (click)="processUserInput(userInput.value);userInput.value=''"
-             class="fa fa-send-o" title="Send"></button>
+     <button style="align:right;" (click)="processUserInput(userInput.value);userInput.value=''" title="Send">
+       <img src="../../assets/images/send.png"/>
+     </button>
    </div>
 </div>
