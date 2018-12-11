@@ -34,20 +34,25 @@
 }
 * {
   margin: 0;
-  padding: 2px;
+  /*padding: 2px;*/
   box-sizing: border-box;
 }
 .row{
   margin-top: 5px;
 }
 .clear{
+  padding: 2px;
   width:40px;
-  float:right;
+  float:left;
   text-align: center;
   cursor:pointer;
   font-size:12px;
   /*background:#0d71bb;*/
   border-radius: 5px;
   color: white;
+}
+.info{
+  width: 30px;
+  float:right;
 }
 

@@ -34,7 +34,7 @@ export class HeaderComponent implements OnInit {
 
     //const userInput2 = this.conversation.exchanges[this.conversation.exchanges.length-1].message;
 
-    const userInput2 = "fiscal help";
+    const userInput2 = "FSC Message";
 
     this.userQuestion.emit(userInput2);
 
