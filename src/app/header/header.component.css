@@ -51,6 +51,11 @@
   border-radius: 5px;
   color: white;
 }
+.contact-us{
+  /*margin-bottom:15px;*/
+  float:right;
+  width:100px;
+}
 .info{
   width: 30px;
   float:right;
