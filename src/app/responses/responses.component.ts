@@ -17,6 +17,7 @@ export class ResponsesComponent implements OnInit, OnDestroy {
   userIncomingQuestion: string;
   greeting: string;
 
+
   conversation: IConversation = {
     exchanges: [],
     status: 'NotStarted'
@@ -26,22 +27,6 @@ export class ResponsesComponent implements OnInit, OnDestroy {
   userQuestion: EventEmitter<string> = new EventEmitter();
 
   ngOnInit() {
-    this.greeting = 'Good Morning';
-    var hours = new Date().getHours();
-    var hours = (hours+24)%24;
-    var mid='am';
-    console.log('hours..........'+hours);
-
-    if(hours==0){ //At 00 hours we need to show 12 am
-      hours=12;
-    }
-    else if(hours>12)
-    {
-      hours=hours%12;
-      mid='pm';
-      this.greeting = 'Good Evening';
-    }
-
 
     $(document).ready(function(){
       console.log('Started the application');
@@ -76,8 +61,8 @@ export class ResponsesComponent implements OnInit, OnDestroy {
 
     if (userInput) {
       this.responsesService.sendMessage(userInput);
-    } else {
-      this.responsesService.sendMessage('would you like to end the conversation?') ;
+    }else{
+      this.responsesService.sendMessage('');
     }
   }
   processThumbsDown() {
@@ -89,7 +74,7 @@ export class ResponsesComponent implements OnInit, OnDestroy {
     if (userInput2) {
       this.responsesService.sendMessage(userInput2);
     } else {
-      this.responsesService.sendMessage('would you like to end the conversation?') ;
+      this.responsesService.sendMessage('') ;
     }
   }
  }

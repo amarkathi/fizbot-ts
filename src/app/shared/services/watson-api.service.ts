@@ -3,9 +3,6 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import * as AssistantV1 from '../models/assistant/v1';
 import {MessageResponse} from '../models/assistant/v1';
 import {IExchange} from "../models/watson-models";
-import {Observable, Subject} from "rxjs";
-import {consoleTestResultHandler} from "tslint/lib/test";
-import {Config} from "protractor";
 
 @Injectable()
 export class WatsonAPIService {
@@ -38,6 +35,7 @@ export class WatsonAPIService {
   }
 
   sendMessage(message: string) {
+
     const headers = new HttpHeaders({
       'Content-Type': 'application/json',
       'Authorization': 'Basic ' + window.btoa(`apikey:Ag8N1MxqwmzzqOiQudpa6coWv7QsCrMAvPgE5eFnP2x4`)
@@ -58,10 +56,17 @@ export class WatsonAPIService {
           this.context = response.context;
 
           let intent: string = '';
+          console.log(JSON.stringify(response, null, 2));
           // If an intent was detected, log it out to the console.
           if (response.intents.length > 0) {
+            console.log('Response: ' + response.intents.length);
             console.log('Detected intent: #' + response.intents[0].intent);
+            console.log('Confidence: ' + response.intents[0].confidence);
             intent = response.intents[0].intent;
+          }else{
+            if(response.output.generic.length >= 2){
+              console.log(response.output.generic[0].text+'\n'+response.output.generic[1].text);
+            }
           }
 
           if (response.output.generic.length !== 0) {
@@ -88,10 +93,6 @@ export class WatsonAPIService {
         });
     });
     return promise;
-  }
-
-  getTasks() {
-    return this.http.get('/hello');
   }
 
   createDialogNode(dialogeNodeName: string, responseText: string) {
