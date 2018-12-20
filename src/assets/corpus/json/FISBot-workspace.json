@@ -9748,7 +9748,7 @@
           {
             "values": [
               {
-                "text": "ERROR: \"Invalid Project ID” indicates that the Project ID entered on the PO was invalid or inactive when the PO was created.\n\nNOTE: This warning message can be ignored.\n"
+                "text": "ERROR: \"Invalid Project ID” indicates that the Project ID entered on the PO was invalid or inactive when the PO was created.\n\nNOTE: This warning message can be ignored."
               }
             ],
             "response_type": "text",
@@ -9769,7 +9769,7 @@
           {
             "values": [
               {
-                "text": "To edit a PO (value of account in distribution lines), clear the value in Alt Account and change the value in the Account field.\n\nRefer to Knowledge Article KB0062071 in ServiceNow.\n"
+                "text": "To edit a PO (value of account in distribution lines), clear the value in Alt Account and change the value in the Account field.\n\nRefer to Knowledge Article KB0062071 in ServiceNow."
               }
             ],
             "response_type": "text",
@@ -9790,7 +9790,7 @@
           {
             "values": [
               {
-                "text": "To create a PO (Encumbrance Only), to encumber funds for a non-procurement-related transactions, refer to Job Aid \"Create an Encumbrance Only Purchase Order 7.0\" at: https://fiscal.ca.gov/fiswp/?mdocs-file=2338"
+                "text": "To create a PO (Encumbrance Only), to encumber funds for a non-procurement-related transactions, refer to Job Aid \"Create an Encumbrance Only Purchase Order 7.0\" at: <a href=\"https://fiscal.ca.gov/fiswp/?mdocs-file=2338\" target=\"_blank\">https://fiscal.ca.gov/fiswp/?mdocs-file=2338</a>"
               }
             ],
             "response_type": "text",
@@ -9832,7 +9832,7 @@
           {
             "values": [
               {
-                "text": "There is only one level of approval required for P-Card transactions since there is no approval workflow process setup for the P-Card transaction reconciliation process in FI\\$Cal.\n"
+                "text": "There is only one level of approval required for P-Card transactions since there is no approval workflow process setup for the P-Card transaction reconciliation process in FI\\$Cal."
               }
             ],
             "response_type": "text",
@@ -9853,7 +9853,7 @@
           {
             "values": [
               {
-                "text": "To view Sales/Use Tax on P-Card purchases:\n\nJob Aid Fiscal.346 \"P-Card FAQ\", \\#19 \"How do I track the sales/use tax on my purchases paid by P-Card?\": https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/P-Card_FAQs_1.0.docx"
+                "text": "To view Sales/Use Tax on P-Card purchases:\n\nJob Aid Fiscal.346 \"P-Card FAQ\", \\#19 \"How do I track the sales/use tax on my purchases paid by P-Card?\": <a href=\"https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/P-Card_FAQs_1.0.docx\" target=\"_blank\">https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/P-Card_FAQs_1.0.docx</a>"
               }
             ],
             "response_type": "text",
@@ -9874,7 +9874,7 @@
           {
             "values": [
               {
-                "text": "Sorry I don’t understand your question. Please try rephrasing. If you’re looking for “how to” information, try visiting the job aids page http://fiscal.ca.gov/user-support/job-aids/.  You can also get help from a live agent in the FI\\$Cal Service Center. \nPhone: (855) 347-2250\nEmail: fiscalservicecenter\\@fiscal.ca.gov\nMonday through Friday\n7:30 a.m. — 5:30 p.m., Pacific Time\nServiceNow is available 24 hours a day to report issues or make a request to the FSC."
+                "text": "Sorry I don’t understand your question. Please try rephrasing. If you’re looking for “how to” information, try visiting the job aids page <a href=\"http://fiscal.ca.gov/user-support/job-aids/\" target=_blank\">http://fiscal.ca.gov/user-support/job-aids/</a>.  You can also get help from a live agent in the FI\\$Cal Service Center. \nPhone: (855) 347-2250\nEmail: fiscalservicecenter\\@fiscal.ca.gov\nMonday through Friday\n7:30 a.m. — 5:30 p.m., Pacific Time\nServiceNow is available 24 hours a day to report issues or make a request to the FSC."
               }
             ],
             "response_type": "text",
@@ -9916,7 +9916,7 @@
           {
             "values": [
               {
-                "text": "To enable a Supplier to do business with FI\\$Cal departments/agencies:\n\n1. The Supplier mails or hand delivers a hard copy of new or updated \"Payee Data Record\" form (STD 204) to each department/agency with which they do business.\n2. The department/agency reviews the form(s)\n3. Approved forms are securely forwarded (not emailed) to the FI\\$Cal Vendor Management Group (VMG).\n\nNOTE: a current STD 204 must be on file at FI\\$Cal before a PO, Contract, payment, or 1099 can be generated for a Supplier.\nNOTE: a TIN is either a Federal Employer Identification Number (FEIN) or a Social Security Number (SSN).\nNOTE: the name and Taxpayer Identification Number (TIN) on the STD 204 will be validated with the federal Internal Revenue Service (IRS).\nNOTE: if the IRS TIN validation process results in any discrepancies, FI\\$Cal will contact the department/agency and the Supplier.\n\nRefer to Job Aid \"Adding a Supplier Record\" at: https://fiscal.ca.gov/fiswp/?mdocs-file=1849"
+                "text": "To enable a Supplier to do business with FI\\$Cal departments/agencies:\n\n1. The Supplier mails or hand delivers a hard copy of new or updated \"Payee Data Record\" form (STD 204) to each department/agency with which they do business.\n2. The department/agency reviews the form(s)\n3. Approved forms are securely forwarded (not emailed) to the FI\\$Cal Vendor Management Group (VMG).\n\nNOTE: a current STD 204 must be on file at FI\\$Cal before a PO, Contract, payment, or 1099 can be generated for a Supplier.\nNOTE: a TIN is either a Federal Employer Identification Number (FEIN) or a Social Security Number (SSN).\nNOTE: the name and Taxpayer Identification Number (TIN) on the STD 204 will be validated with the federal Internal Revenue Service (IRS).\nNOTE: if the IRS TIN validation process results in any discrepancies, FI\\$Cal will contact the department/agency and the Supplier.\n\nRefer to Job Aid \"Adding a Supplier Record\" at: <a href=\"https://fiscal.ca.gov/fiswp/?mdocs-file=1849\" target=\"_blank\">https://fiscal.ca.gov/fiswp/?mdocs-file=1849</a>"
               }
             ],
             "response_type": "text",
@@ -9937,7 +9937,7 @@
           {
             "values": [
               {
-                "text": "To Budget Check a PO (or multiple POs):\n\n*the PO must be approved\n*all required Chart Fields (Appropriation Reference, Fund, ENY, Account, Alt Account, Reporting Structure & Program), in each line of the PO must have a valid value\n*Miscellaneous Charges should be set to \"Prorated Freight\"\n\nNOTE: A PO may be Saved even when it cannot be Budget Checked successfully.\n\nTo Budget Check multiple POs, go to: Main Menu>Purchasing> Purchase Orders >Buyer's Workbench.\n"
+                "text": "To Budget Check a PO (or multiple POs):\n\n*the PO must be approved\n*all required Chart Fields (Appropriation Reference, Fund, ENY, Account, Alt Account, Reporting Structure & Program), in each line of the PO must have a valid value\n*Miscellaneous Charges should be set to \"Prorated Freight\"\n\nNOTE: A PO may be Saved even when it cannot be Budget Checked successfully.\n\nTo Budget Check multiple POs, go to: Main Menu>Purchasing> Purchase Orders >Buyer's Workbench."
               }
             ],
             "response_type": "text",
@@ -9958,7 +9958,7 @@
           {
             "values": [
               {
-                "text": "\"Awaiting User Info\" means that the analyst working on the ticket has sent a request for additional information, which is required to fulfill/solve the request in a timely manner.\n"
+                "text": "\"Awaiting User Info\" means that the analyst working on the ticket has sent a request for additional information, which is required to fulfill/solve the request in a timely manner."
               }
             ],
             "response_type": "text",
@@ -10042,7 +10042,7 @@
           {
             "values": [
               {
-                "text": "The Match rules do not apply to POs paid by P-Card, so the system will not require a Receipt ID to be created.\n\nNOTE: Confirmation that the goods/services are received occurs during the P-Card reconciliation process.\n"
+                "text": "The Match rules do not apply to POs paid by P-Card, so the system will not require a Receipt ID to be created.\n\nNOTE: Confirmation that the goods/services are received occurs during the P-Card reconciliation process."
               }
             ],
             "response_type": "text",
@@ -10063,7 +10063,7 @@
           {
             "values": [
               {
-                "text": "To contact the FI\\$Cal Service Center (FSC):\n\nFAQs & Job Aids: https://fiscal.ca.gov/\nPhone: 1-855-FISCAL0 (1-855-347-2250)\nEmail: fiscalservicecenter\\@fiscal.ca.gov\nService Hours: 7:30 AM – 5:30 PM (Pacific Time), M-F (except on state holidays)"
+                "text": "To contact the FI\\$Cal Service Center (FSC):\n\nFAQs & Job Aids: <a href=\"https://fiscal.ca.gov/\" target=\"_blank\">https://fiscal.ca.gov/</a>\nPhone: 1-855-FISCAL0 (1-855-347-2250)\nEmail: fiscalservicecenter\\@fiscal.ca.gov\nService Hours: 7:30 AM – 5:30 PM (Pacific Time), M-F (except on state holidays)"
               }
             ],
             "response_type": "text",
@@ -10084,7 +10084,7 @@
           {
             "values": [
               {
-                "text": "To resolve PO line unit price issue(s):\n\nReference Job Aid \"Purchase Order FAQs\" FISCal.345, items 25-30 provides step-by-step assistance:  https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/Purchase_Order_FAQs_1.0.docx"
+                "text": "To resolve PO line unit price issue(s):\n\nReference Job Aid \"Purchase Order FAQs\" FISCal.345, items 25-30 provides step-by-step assistance:  <a href=\"https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/Purchase_Order_FAQs_1.0.docx\" target=\"_blank\">https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/Purchase_Order_FAQs_1.0.docx</a>"
               }
             ],
             "response_type": "text",
@@ -10105,7 +10105,7 @@
           {
             "values": [
               {
-                "text": "To view Receipt comments, select \"Show at Receipt\" at PO comments.\n"
+                "text": "To view Receipt comments, select \"Show at Receipt\" at PO comments."
               }
             ],
             "response_type": "text",
@@ -10126,7 +10126,7 @@
           {
             "values": [
               {
-                "text": "To purchase an Asset refer to Job Aid \"Buyer's Guide to Fleet Asset Purchases\" at: https://fiscal.ca.gov/fiswp/?mdocs-file=1888\n"
+                "text": "To purchase an Asset refer to Job Aid \"Buyer's Guide to Fleet Asset Purchases\" at: <a href=\"https://fiscal.ca.gov/fiswp/?mdocs-file=1888\" target=\"_blank\">https://fiscal.ca.gov/fiswp/?mdocs-file=1888</a>"
               }
             ],
             "response_type": "text",
@@ -10189,7 +10189,7 @@
           {
             "values": [
               {
-                "text": "\"Department Authority/Designee\" (DAD) is an individual authorized to request Roles, add/delete user accounts, and appoint/remove other DADs.\n\nNOTE: Each Business Unit (BU) has a \"Department Authority\" and that person appoints \"Department Designee(s)\"\" for that department.\"\n"
+                "text": "Department Authority/Designee\" (DAD) is an individual authorized to request Roles, add/delete user accounts, and appoint/remove other DADs.\n\nNOTE: Each Business Unit (BU) has a \"Department Authority\" and that person appoints \"Department Designee(s)\"\" for that department."
               }
             ],
             "response_type": "text",
@@ -10210,7 +10210,7 @@
           {
             "values": [
               {
-                "text": "To close a PO (and disencumber remaining funds):\n\nMain Menu > Purchasing > Purchase Orders > Buyer’s Workbench\n1. Enter Business Unit (BU), Workbench ID, click Add.\n2. Enter PO ID, click Search.\n3. Enter Description, select PO Number, click Close.\n4. Click PO Number in Not Qualified column.\n5. Click arrow icon (to push to Qualified column).\n6. Click Yes.\n7. Click Budget Check.\n8. Click Yes.\n\nRefer to Job Aid \"Closing a Purchase Order (PO) to Release Encumbrance Balances\" at: https://fiscal.ca.gov/fiswp/?mdocs-file=2298\n\nNOTE: POs can be closed even if a Receipt or Voucher has not been created.\nNOTE: the encumbrance balance will be liquidated when the Budget Check is run on the closed PO.\nNOTE: if the report ZZ_ENCUMBRANCE_STATUS_NEW shows the encumbered amount > expensed amount, the Sales/Use Tax, misc. charges, or freight, was probably encumbered on the PO but not paid on the Voucher.\n\nTo verify that PO(s) closed and disencumbered successfully:\nMain Menu > Purchasing > Purchase Orders > Review PO Information > PO\n"
+                "text": "To close a PO (and disencumber remaining funds):\n\nMain Menu > Purchasing > Purchase Orders > Buyer’s Workbench\n1. Enter Business Unit (BU), Workbench ID, click Add.\n2. Enter PO ID, click Search.\n3. Enter Description, select PO Number, click Close.\n4. Click PO Number in Not Qualified column.\n5. Click arrow icon (to push to Qualified column).\n6. Click Yes.\n7. Click Budget Check.\n8. Click Yes.\n\nRefer to Job Aid \"Closing a Purchase Order (PO) to Release Encumbrance Balances\" at: <a href=\"https://fiscal.ca.gov/fiswp/?mdocs-file=2298\" target=\"_blank\">https://fiscal.ca.gov/fiswp/?mdocs-file=2298</a>\n\nNOTE: POs can be closed even if a Receipt or Voucher has not been created.\nNOTE: the encumbrance balance will be liquidated when the Budget Check is run on the closed PO.\nNOTE: if the report ZZ_ENCUMBRANCE_STATUS_NEW shows the encumbered amount > expensed amount, the Sales/Use Tax, misc. charges, or freight, was probably encumbered on the PO but not paid on the Voucher.\n\nTo verify that PO(s) closed and disencumbered successfully:\nMain Menu > Purchasing > Purchase Orders > Review PO Information > PO\n"
               }
             ],
             "response_type": "text",
@@ -10273,7 +10273,7 @@
           {
             "values": [
               {
-                "text": "This is a warning message. You should be checking the budget header status, and if it says \"Valid,\" then ignore the message. \n"
+                "text": "This is a warning message. You should be checking the budget header status, and if it says \"Valid,\" then ignore the message. "
               }
             ],
             "response_type": "text",
@@ -10315,7 +10315,7 @@
           {
             "values": [
               {
-                "text": "To close multiple POs:\n\n\"select a range of POs and close them all together\" STEPS BELOW (1 PO) FOR MULTIPLE POS\n\nMain Menu > Purchasing > Purchase Orders > Buyer’s Workbench\n1. Enter Business Unit (BU), Workbench ID, click Add.\n2. Enter PO ID, click Search.\n3. Enter Description, select PO Number, click Close.\n4. Click PO Number in Not Qualified column.\n5. Click arrow icon (to push to Qualified column).\n6. Click Yes.\n7. Click Budget Check.\n8. Click Yes.\n\nRefer to Job Aid \"Closing a Purchase Order (PO) to Release Encumbrance Balance 1.0.\"\n\nNOTE: POs can be closed even if a Receipt or Voucher has not been created.\nNOTE: the encumbrance balance will be liquidated when the Budget Check is run on the closed PO.\nNOTE: if the report ZZ_ENCUMBRANCE_STATUS_NEW shows the encumbered amount > expensed amount, the Sales/Use Tax, misc. charges, or freight, was probably encumbered on the PO but not paid on the Voucher.\n\nTo verify that PO(s) closed and disencumbered successfully, navigate to:\n\nMain Menu > Purchasing > Purchase Orders > Review PO Information > PO\n\nRefer to Job Aid FI\\$Cal.362 and Job Aid FI\\$Cal.243 at: http://www.fiscal.ca.gov/access-fiscal/procurementjobaids.html\n"
+                "text": "To close multiple POs:\n\n\"select a range of POs and close them all together\" STEPS BELOW (1 PO) FOR MULTIPLE POS\n\nMain Menu > Purchasing > Purchase Orders > Buyer’s Workbench\n1. Enter Business Unit (BU), Workbench ID, click Add.\n2. Enter PO ID, click Search.\n3. Enter Description, select PO Number, click Close.\n4. Click PO Number in Not Qualified column.\n5. Click arrow icon (to push to Qualified column).\n6. Click Yes.\n7. Click Budget Check.\n8. Click Yes.\n\nRefer to Job Aid \"Closing a Purchase Order (PO) to Release Encumbrance Balance 1.0.\"\n\nNOTE: POs can be closed even if a Receipt or Voucher has not been created.\nNOTE: the encumbrance balance will be liquidated when the Budget Check is run on the closed PO.\nNOTE: if the report ZZ_ENCUMBRANCE_STATUS_NEW shows the encumbered amount > expensed amount, the Sales/Use Tax, misc. charges, or freight, was probably encumbered on the PO but not paid on the Voucher.\n\nTo verify that PO(s) closed and disencumbered successfully, navigate to:\n\nMain Menu > Purchasing > Purchase Orders > Review PO Information > PO\n\nRefer to Job Aid FI\\$Cal.362 and Job Aid FI\\$Cal.243 at: <a href=\"http://www.fiscal.ca.gov/access-fiscal/procurementjobaids.html\">http://www.fiscal.ca.gov/access-fiscal/procurementjobaids.html</a>"
               }
             ],
             "response_type": "text",
@@ -10336,7 +10336,7 @@
           {
             "values": [
               {
-                "text": "To view the Financials Worklist:\n\n1. Navigate to http://www.fiscal.ca.gov.\n2. Click on Access FI\\$Cal.\n3. Click on Access the FI\\$Cal Application.\n4. Click on Agree to terms and conditions.\n5. Enter Username.\n6. Enter Password.\n7. Enter OTP code (if required for user ID).\n*The Employee portal opens (https://portal.fiscal.ca.gov/psp/psppd1/EMPLOYEE/EMPL/h/?tab=ZZ_FISCAL)\n8. Click on PeopleSoft link on Employee portal.\n*The Financials portal opens (https://financials.fiscal.ca.gov/psp/psfpd1/EMPLOYEE/ERP/h/?tab=DEFAULT)\n9. Click on Worklist link on Financials portal.\n\nNOTE: An empty worklist may indicate you are viewing a \"Portal worklist.\"\n\nTo receive Worklist Items:\n\nMain Menu > My System Profile.\n1. Select “Worklist User\"\" checkbox.\n2. Click Save."
+                "text": "To view the Financials Worklist:\n\n1. Navigate to <a href=\"http://www.fiscal.ca.gov\" target=\"_blank\">http://www.fiscal.ca.gov</a>.\n2. Click on Access FI\\$Cal.\n3. Click on Access the FI\\$Cal Application.\n4. Click on Agree to terms and conditions.\n5. Enter Username.\n6. Enter Password.\n7. Enter OTP code (if required for user ID).\n*The Employee portal opens (<a href=\"https://portal.fiscal.ca.gov/psp/psppd1/EMPLOYEE/EMPL/h/?tab=ZZ_FISCAL\" target=\"_blank\">https://portal.fiscal.ca.gov/psp/psppd1/EMPLOYEE/EMPL/h/?tab=ZZ_FISCAL</a>)\n8. Click on PeopleSoft link on Employee portal.\n*The Financials portal opens (<a href=\"https://financials.fiscal.ca.gov/psp/psfpd1/EMPLOYEE/ERP/h/?tab=DEFAULT\" target=\"_blank\">https://financials.fiscal.ca.gov/psp/psfpd1/EMPLOYEE/ERP/h/?tab=DEFAULT</a>)\n9. Click on Worklist link on Financials portal.\n\nNOTE: An empty worklist may indicate you are viewing a \"Portal worklist.\"\n\nTo receive Worklist Items:\n\nMain Menu > My System Profile.\n1. Select “Worklist User\"\" checkbox.\n2. Click Save."
               }
             ],
             "response_type": "text",
@@ -10357,7 +10357,7 @@
           {
             "values": [
               {
-                "text": "To request an enhancement to FI\\$Cal, complete a Request For Change (RFC) form, then deliver the RFC to your Department Authority/Designee (DAD).\n\nRFC Form: https://fiscal.ca.gov/user-support/fiscal-service-center/"
+                "text": "To request an enhancement to FI\\$Cal, complete a Request For Change (RFC) form, then deliver the RFC to your Department Authority/Designee (DAD).\n\nRFC Form: <a href=\"https://fiscal.ca.gov/user-support/fiscal-service-center/\" target=\"_blank\">https://fiscal.ca.gov/user-support/fiscal-service-center/</a>"
               }
             ],
             "response_type": "text",
@@ -10378,7 +10378,7 @@
           {
             "values": [
               {
-                "text": "To assign dual/conflicting roles to a single user, a Secondary ID is created.\n\nEXAMPLE: Processor and Approver roles cannot be simultaneously assigned to a single user ID.\nNOTE: Secondary IDs are identified at the department level via a unique email address.\nNOTE: To request a Secondary ID the Departmental Authority/Designee (DAD) submits a Multi-User Access Request Form (MARF) to the FI\\$Cal Service Center.\n\nSee Access FAQs at: https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/User_Access_Request_FAQs_Feb_2016.pdf\n"
+                "text": "To assign dual/conflicting roles to a single user, a Secondary ID is created.\n\nEXAMPLE: Processor and Approver roles cannot be simultaneously assigned to a single user ID.\nNOTE: Secondary IDs are identified at the department level via a unique email address.\nNOTE: To request a Secondary ID the Departmental Authority/Designee (DAD) submits a Multi-User Access Request Form (MARF) to the FI\\$Cal Service Center.\n\nSee Access FAQs at: <a href=\"https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/User_Access_Request_FAQs_Feb_2016.pdf\" target=\"_blank\">https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/User_Access_Request_FAQs_Feb_2016.pdf\n</a>"
               }
             ],
             "response_type": "text",
@@ -10420,7 +10420,7 @@
           {
             "values": [
               {
-                "text": "To refresh PO encumbrance balance after editing a PO, Save and Budget Check the PO.\n"
+                "text": "To refresh PO encumbrance balance after editing a PO, Save and Budget Check the PO."
               }
             ],
             "response_type": "text",
@@ -10441,7 +10441,7 @@
           {
             "values": [
               {
-                "text": "To check if a Voucher has been created from a PO, refer to the Document Status link and the Activity Summary links visible on the Add/Update PO page.\n\nNOTE: Information related to Vouchers, Receipts Created, Payments, and Matching will also be available via these links.\n"
+                "text": "To check if a Voucher has been created from a PO, refer to the Document Status link and the Activity Summary links visible on the Add/Update PO page.\n\nNOTE: Information related to Vouchers, Receipts Created, Payments, and Matching will also be available via these links."
               }
             ],
             "response_type": "text",
@@ -10483,7 +10483,7 @@
           {
             "values": [
               {
-                "text": "To resolve a ticket the FI\\$Cal Service Center (FSC) will need:\n\n*a detailed explanation of the issue\n*steps required to recreate the issue\n*relevant screenshots (including navigation or breadcrumbs) to allow the FSC to see exactly where you were in the system and what you were doing when the issue occurred\n*Business Unit (BU) ID\n*identifying information (e.g., Voucher ID, PO ID, transaction number, User ID , etc.)\n"
+                "text": "To resolve a ticket the FI\\$Cal Service Center (FSC) will need:\n\n*a detailed explanation of the issue\n*steps required to recreate the issue\n*relevant screenshots (including navigation or breadcrumbs) to allow the FSC to see exactly where you were in the system and what you were doing when the issue occurred\n*Business Unit (BU) ID\n*identifying information (e.g., Voucher ID, PO ID, transaction number, User ID , etc.)"
               }
             ],
             "response_type": "text",
@@ -10504,7 +10504,7 @@
           {
             "values": [
               {
-                "text": "To view Job Aids: https://fiscal.ca.gov/user-support/job-aids/\n"
+                "text": "To view Job Aids: <a href=\"https://fiscal.ca.gov/user-support/job-aids/\" target=\"_blank\">https://fiscal.ca.gov/user-support/job-aids/</a>"
               }
             ],
             "response_type": "text",
@@ -10546,7 +10546,7 @@
           {
             "values": [
               {
-                "text": "When an LPA Contract has been selected on the PO, the Acquisition Type defaults to the Acquisition Type specified on the LPA contract.\n"
+                "text": "When an LPA Contract has been selected on the PO, the Acquisition Type defaults to the Acquisition Type specified on the LPA contract."
               }
             ],
             "response_type": "text",
@@ -10609,7 +10609,7 @@
           {
             "values": [
               {
-                "text": "To attach an invoice or receipt to a P-Card statement:\n\nSee P-Card FAQ \\#42 \"SCO Audit denied my P-Card voucher ID because the incorrect invoice/receipt had been attached. How do I correct this?\" at:\nhttp://www.fiscal.ca.gov/faqs/HowToFAQs.html\n"
+                "text": "To attach an invoice or receipt to a P-Card statement:\n\nSee P-Card FAQ \\#42 \"SCO Audit denied my P-Card voucher ID because the incorrect invoice/receipt had been attached. How do I correct this?\" at:\n<a href=\"http://www.fiscal.ca.gov/faqs/HowToFAQs.html\" target=\"_blank\">http://www.fiscal.ca.gov/faqs/HowToFAQs.html</a>"
               }
             ],
             "response_type": "text",
@@ -10651,7 +10651,7 @@
           {
             "values": [
               {
-                "text": "To attach a document to P-Card transactions:\n\nRefer to P-Card FAQ \\#35 at: https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/P-Card_FAQs_1.0.docx"
+                "text": "To attach a document to P-Card transactions:\n\nRefer to P-Card FAQ \\#35 at: <a href=\"https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/P-Card_FAQs_1.0.docx\" target=\"_blank\">https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/P-Card_FAQs_1.0.docx</a>"
               }
             ],
             "response_type": "text",
@@ -10756,7 +10756,7 @@
           {
             "values": [
               {
-                "text": "To enable email notifications:\n\nMain Menu > My System Profile\n\nVerify that Email User and Worklist User are checked.\n"
+                "text": "To enable email notifications:\n\nMain Menu > My System Profile\n\nVerify that Email User and Worklist User are checked."
               }
             ],
             "response_type": "text",
@@ -10798,7 +10798,7 @@
           {
             "values": [
               {
-                "text": "To edit PO terms and conditions on Purchase Orders, e.g., Buyers/PO Processors see FAQ \\#1 in Procurement FAQs at: https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/Purchase_Order_FAQs_1.0.docx"
+                "text": "To edit PO terms and conditions on Purchase Orders, e.g., Buyers/PO Processors see FAQ \\#1 in Procurement FAQs at: <a href=\"https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/Purchase_Order_FAQs_1.0.docx\" target=\"_blank\">https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/Purchase_Order_FAQs_1.0.docx</a>"
               }
             ],
             "response_type": "text",
@@ -10861,7 +10861,7 @@
           {
             "values": [
               {
-                "text": "US Bank sends the P-Card transaction statements with the level of detail the merchants send them.\n"
+                "text": "US Bank sends the P-Card transaction statements with the level of detail the merchants send them."
               }
             ],
             "response_type": "text",
@@ -10903,7 +10903,7 @@
           {
             "values": [
               {
-                "text": "Disallowed: consolidation of multiple Requisitions into a single PO.\n\nRefer to FAQ \\#38 - \"I copied my Requisition into a PO in error. Could I source/copy my Requisition into a new PO?\" at: http://fiscal.ca.gov/faqs/documents/RequisitionFAQs1.0.docx\""
+                "text": "Disallowed: consolidation of multiple Requisitions into a single PO.\n\nRefer to FAQ \\#38 - \"I copied my Requisition into a PO in error. Could I source/copy my Requisition into a new PO?\" at: <a href=\"http://fiscal.ca.gov/faqs/documents/RequisitionFAQs1.0.docx\" target=_blank\">http://fiscal.ca.gov/faqs/documents/RequisitionFAQs1.0.docx</a>"
               }
             ],
             "response_type": "text",
@@ -10924,7 +10924,7 @@
           {
             "values": [
               {
-                "text": "To create a PO Receipt:\n\n1. PO status must be \"Dispatched.\"\n2. Budget Check status must be \"Valid.\"\n3. The quantity/amount to be received from the PO must be greater than zero.\n"
+                "text": "To create a PO Receipt:\n\n1. PO status must be \"Dispatched.\"\n2. Budget Check status must be \"Valid.\"\n3. The quantity/amount to be received from the PO must be greater than zero."
               }
             ],
             "response_type": "text",
@@ -10945,7 +10945,7 @@
           {
             "values": [
               {
-                "text": "This is a warning message. You are unable to change the adjustment. Ignore the warning message and continue with your transaction.  \n"
+                "text": "This is a warning message. You are unable to change the adjustment. Ignore the warning message and continue with your transaction. "
               }
             ],
             "response_type": "text",
@@ -10966,7 +10966,7 @@
           {
             "values": [
               {
-                "text": "To add Freight Charges to a Purchase Order, see Job Aid .330 \"Adding Freight Charges to a Purchase Order at Line Level\";  https://fiscal.ca.gov/fiswp/?mdocs-file=2414\n Also refer to ServiceNow Knowledge Article KB0062072."
+                "text": "To add Freight Charges to a Purchase Order, see Job Aid .330 \"Adding Freight Charges to a Purchase Order at Line Level\";  <a href=\"https://fiscal.ca.gov/fiswp/?mdocs-file=2414\" target=\"_blank\">https://fiscal.ca.gov/fiswp/?mdocs-file=2414</a>\n Also refer to ServiceNow Knowledge Article KB0062072."
               }
             ],
             "response_type": "text",
@@ -10987,7 +10987,7 @@
           {
             "values": [
               {
-                "text": "Thank you for chatting! To speak to a live agent, please contact the FI\\$Cal Service Center via ServiceNow, by phone or email: \n\nFI\\$Cal Service Center\nPhone: (855) 347-2250\nEmail: fiscalservicecenter\\@fiscal.ca.gov\nMonday through Friday\n7:30 a.m. — 5:30 p.m., Pacific Time\n\nFind job aids at www.fiscal.ca.gov"
+                "text": "Thank you for chatting! To speak to a live agent, please contact the FI\\$Cal Service Center via ServiceNow, by phone or email: \n\nFI\\$Cal Service Center\nPhone: (855) 347-2250\nEmail: fiscalservicecenter\\@fiscal.ca.gov\nMonday through Friday\n7:30 a.m. — 5:30 p.m., Pacific Time\n\nFind job aids at <a href=\"http://www.fiscal.ca.gov\" target=\"_blank\">www.fiscal.ca.gov</a>"
               }
             ],
             "response_type": "text",
@@ -11029,7 +11029,7 @@
           {
             "values": [
               {
-                "text": "After paying for a P-Card transaction using the SCO paper claim process, the:\n\nDepartment P-Card Reconciler or cardholder will -\n1. follow the P-Card reconciliation process, per Job Aid \"P-Card Transaction Reconciliation Process in FI\\$Cal\" at: https://fiscal.ca.gov/fiswp/?mdocs-file=2182\n\nAccounting Department will -\n2. delete the system-generated Voucher corresponding to the P-Card transactions just approved and vouchered.\n3. enter a comment about deleting the Voucher.\n4. record the payment (P-Card expenditure) in AP using the second AP User ID."
+                "text": "After paying for a P-Card transaction using the SCO paper claim process, the:\n\nDepartment P-Card Reconciler or cardholder will -\n1. follow the P-Card reconciliation process, per Job Aid \"P-Card Transaction Reconciliation Process in FI\\$Cal\" at: <a href=\"https://fiscal.ca.gov/fiswp/?mdocs-file=2182\" target=\"_blank\">https://fiscal.ca.gov/fiswp/?mdocs-file=2182</a>\n\nAccounting Department will -\n2. delete the system-generated Voucher corresponding to the P-Card transactions just approved and vouchered.\n3. enter a comment about deleting the Voucher.\n4. record the payment (P-Card expenditure) in AP using the second AP User ID."
               }
             ],
             "response_type": "text",
@@ -11050,7 +11050,7 @@
           {
             "values": [
               {
-                "text": "\"Exemption Code\" is not a required field and may be left blank on a PO.\n"
+                "text": "\"Exemption Code\" is not a required field and may be left blank on a PO."
               }
             ],
             "response_type": "text",
@@ -11071,7 +11071,7 @@
           {
             "values": [
               {
-                "text": "To view Event Approver(s):\n\nMain Menu > Sourcing > Maintain Events > Event Workbench\n1. Enter Business Unit (BU) and Event ID.\n2. click Search.\n3a. (scroll to right) select \"Approval Status\" OR\n3b. (scroll down) select \"View Approvals\"\n\nNOTE: To re-trigger the approval process, submit a new version of the Event.\n"
+                "text": "To view Event Approver(s):\n\nMain Menu > Sourcing > Maintain Events > Event Workbench\n1. Enter Business Unit (BU) and Event ID.\n2. click Search.\n3a. (scroll to right) select \"Approval Status\" OR\n3b. (scroll down) select \"View Approvals\"\n\nNOTE: To re-trigger the approval process, submit a new version of the Event."
               }
             ],
             "response_type": "text",
@@ -11113,7 +11113,7 @@
           {
             "values": [
               {
-                "text": "To view reports for Requisition, Purchase Orders, P-Card, Receipts, Sourcing, Procurement contracts and Suppliers:\n\nJob Aid Fiscal.080 \"PO Reports within the FISCal System\": https://fiscal.ca.gov/fiswp/?mdocs-file=3337"
+                "text": "To view reports for Requisition, Purchase Orders, P-Card, Receipts, Sourcing, Procurement contracts and Suppliers:\n\nJob Aid Fiscal.080 \"PO Reports within the FISCal System\": <a href=\"https://fiscal.ca.gov/fiswp/?mdocs-file=3337\" target=\"_blank\">https://fiscal.ca.gov/fiswp/?mdocs-file=3337</a>"
               }
             ],
             "response_type": "text",
@@ -11176,7 +11176,7 @@
           {
             "values": [
               {
-                "text": "To remove a user's access to FI\\$Cal, submit the respective access form and transfer all active transactions (e.g., POs associated with the user/Buyer) to another departmental user.\n"
+                "text": "To remove a user's access to FI\\$Cal, submit the respective access form and transfer all active transactions (e.g., POs associated with the user/Buyer) to another departmental user."
               }
             ],
             "response_type": "text",
@@ -11218,7 +11218,7 @@
           {
             "values": [
               {
-                "text": "To classify an Asset refer to Job Aid \"Correctly Classifying Items As Assets in FI\\$Cal\" at: https://fiscal.ca.gov/fiswp/?mdocs-file=1077"
+                "text": "To classify an Asset refer to Job Aid \"Correctly Classifying Items As Assets in FI\\$Cal\" at: <a href=\"https://fiscal.ca.gov/fiswp/?mdocs-file=1077\" target=\"_blank\">https://fiscal.ca.gov/fiswp/?mdocs-file=1077</a>"
               }
             ],
             "response_type": "text",
@@ -11239,7 +11239,7 @@
           {
             "values": [
               {
-                "text": "To view Procurement-related policies, see: http://www.dgs.ca.gov/pd/Resources/publications/SCMFI\\$Cal.aspx"
+                "text": "To view Procurement-related policies, see: <a href=\"http://www.dgs.ca.gov/pd/Resources/publications/SCMFI\\$Cal.aspx\" target=\"_blank\">http://www.dgs.ca.gov/pd/Resources/publications/SCMFI\\$Cal.aspx</a>"
               }
             ],
             "response_type": "text",
@@ -11260,7 +11260,7 @@
           {
             "values": [
               {
-                "text": "To request a WebEx Session with a technician:\n\n(1) a ticket must be generated.\n(2) the Service Technician must contact you.\n"
+                "text": "To request a WebEx Session with a technician:\n\n(1) a ticket must be generated.\n(2) the Service Technician must contact you."
               }
             ],
             "response_type": "text",
@@ -11281,7 +11281,7 @@
           {
             "values": [
               {
-                "text": "\"To request information about future FI\\$Cal forums, call or email the FI\\$Cal Change Management Office (CMO) at:\n\nEmail: fiscal.cmo\\@fiscal.ca.gov\nClient Communications: (916) 576-1250\n\nNOTE: Information about previous forums can be found at: https://fiscal.ca.gov/events/\"\n"
+                "text": "To request information about future FI\\$Cal forums, call or email the FI\\$Cal Change Management Office (CMO) at:\n\nEmail: fiscal.cmo\\@fiscal.ca.gov\nClient Communications: (916) 576-1250\n\nNOTE: Information about previous forums can be found at: <a href=\"https://fiscal.ca.gov/events/\" target=_blank\">https://fiscal.ca.gov/events/</a>"
               }
             ],
             "response_type": "text",
@@ -11323,7 +11323,7 @@
           {
             "values": [
               {
-                "text": "To create a Contract (new version), refer to ServiceNow Knowledge Article KB0062069.\n\nNOTE: Once approved, open the PO and set the contract version to the most recently approved version, and Save the PO.\n"
+                "text": "To create a Contract (new version), refer to ServiceNow Knowledge Article KB0062069.\n\nNOTE: Once approved, open the PO and set the contract version to the most recently approved version, and Save the PO."
               }
             ],
             "response_type": "text",
@@ -11386,7 +11386,7 @@
           {
             "values": [
               {
-                "text": "To request a change, an SFTP request form must be submited by the Departmental Authority/Designee (DAD) requesting the change.\n"
+                "text": "To request a change, an SFTP request form must be submited by the Departmental Authority/Designee (DAD) requesting the change."
               }
             ],
             "response_type": "text",
@@ -11428,7 +11428,7 @@
           {
             "values": [
               {
-                "text": "To edit a PO (Chart Fields) with encumbrance remaining:\n\nNOTE: For PO payments already made, Chart Fields cannot be modified.\n\nOPTION 1\n1. Create a new PO.\n2. Assign the desired Chart Fields to the remaining encumbrance.\n3. Close the original PO to release the encumbrance. \n\nOPTION 2\n1. Add a line to the original PO.\n2. Assign the desired Chart Fields to the remaining encumbrance.\n"
+                "text": "To edit a PO (Chart Fields) with encumbrance remaining:\n\nNOTE: For PO payments already made, Chart Fields cannot be modified.\n\nOPTION 1\n1. Create a new PO.\n2. Assign the desired Chart Fields to the remaining encumbrance.\n3. Close the original PO to release the encumbrance. \n\nOPTION 2\n1. Add a line to the original PO.\n2. Assign the desired Chart Fields to the remaining encumbrance."
               }
             ],
             "response_type": "text",
@@ -11449,7 +11449,7 @@
           {
             "values": [
               {
-                "text": "To edit a Supplier refer to Job Aid \"Completing the Supplier Update Request Form\" at: https://fiscal.ca.gov/fiswp/?mdocs-file=1730"
+                "text": "To edit a Supplier refer to Job Aid \"Completing the Supplier Update Request Form\" at: <a href=\"https://fiscal.ca.gov/fiswp/?mdocs-file=1730\" target=\"_blank\">https://fiscal.ca.gov/fiswp/?mdocs-file=1730</a>"
               }
             ],
             "response_type": "text",
@@ -11470,7 +11470,7 @@
           {
             "values": [
               {
-                "text": "To approve a CSCR Event, see: http://www.fiscal.ca.gov/upk/PO383_v2.1.0/html/tpc/a6a0f490-33ad-4e32-8d8e-6cba628cb01f/topic.html\n\nTo view CSCR Event approval details:\n\nMain Menu > Sourcing > Maintain Events > Event Workbench\n1. click Inquiry.\n\nNOTE: the Inquiry hyperlink only appears if Event status is “Pending Approval.\"\n"
+                "text": "To approve a CSCR Event, see: <a href=\"http://www.fiscal.ca.gov/upk/PO383_v2.1.0/html/tpc/a6a0f490-33ad-4e32-8d8e-6cba628cb01f/topic.html\" target=\"_blank\">http://www.fiscal.ca.gov/upk/PO383_v2.1.0/html/tpc/a6a0f490-33ad-4e32-8d8e-6cba628cb01f/topic.html</a>\n\nTo view CSCR Event approval details:\n\nMain Menu > Sourcing > Maintain Events > Event Workbench\n1. click Inquiry.\n\nNOTE: the Inquiry hyperlink only appears if Event status is “Pending Approval.\""
               }
             ],
             "response_type": "text",
@@ -11554,7 +11554,7 @@
           {
             "values": [
               {
-                "text": "To enable Speed Charts (local) the department/agency Accounting team must:\n\n*Enter the desired Speed Charts into the system.\n*Configure the SetID to your Business Unit (not \"STATE\").\n*Set the security option to \"Universal\" (All Users).\n\nReference Job Aid \\#114: https://fiscal.ca.gov/fiswp/?mdocs-file=2126"
+                "text": "To enable Speed Charts (local) the department/agency Accounting team must:\n\n*Enter the desired Speed Charts into the system.\n*Configure the SetID to your Business Unit (not \"STATE\").\n*Set the security option to \"Universal\" (All Users).\n\nReference Job Aid \\#114: <a href=\"https://fiscal.ca.gov/fiswp/?mdocs-file=2126\" target=\"_blank\">https://fiscal.ca.gov/fiswp/?mdocs-file=2126</a>"
               }
             ],
             "response_type": "text",
@@ -11596,7 +11596,7 @@
           {
             "values": [
               {
-                "text": "To view attachments in a PO, click on the \"Add Comments and Attachments\" link. You will be able to view or add new attachments.\n"
+                "text": "To view attachments in a PO, click on the \"Add Comments and Attachments\" link. You will be able to view or add new attachments."
               }
             ],
             "response_type": "text",
@@ -11638,7 +11638,7 @@
           {
             "values": [
               {
-                "text": "To reset your password during login, select the “Forgot your password” link that appears after entering your username.\n"
+                "text": "To reset your password during login, select the “Forgot your password” link that appears after entering your username."
               }
             ],
             "response_type": "text",
@@ -11680,7 +11680,7 @@
           {
             "values": [
               {
-                "text": "To view a PO in \"Canceled\" or \"Completed /Pending Cancel\" status:\n\nMain Menu > Purchasing > POs > Review PO Information\n"
+                "text": "To view a PO in \"Canceled\" or \"Completed /Pending Cancel\" status:\n\nMain Menu > Purchasing > POs > Review PO Information"
               }
             ],
             "response_type": "text",
@@ -11701,7 +11701,7 @@
           {
             "values": [
               {
-                "text": "To edit a CSCR Event that has been \"Approved\" and \"Posted\" (e.g., change Event Date):\n\nMain Menu > Sourcing > Maintain Events > Event Workbench\n1. create a new version of the Event\n2. make the desired changes to the new version\n3. submit the Event for approval\n*status of original Event is set to \"Inactive\", status of new Event (version) is set to \"Posted.\"\n\nNOTE: the Acquisition Type cannot be edited if the event has been \"Posted.\"\nNOTE: the published date remains the same as the previous version.\nNOTE: inactive Bidders must be removed and the Event saved, otherwise the message \"Bidder No Longer Available\" will result, and the Buyer will be unable to save the Event.\n\nTo create a new CSCR Event, refer to Job Aid: http://www.fiscal.ca.gov/upk/PO383_v2.1.0/html/tpc/fcfa13b3-1079-40f1-9321-c935dbd02517/topic.html\nTo edit a CSCR Event email Address; refer to Knowledge Article KB0062058"
+                "text": "To edit a CSCR Event that has been \"Approved\" and \"Posted\" (e.g., change Event Date):\n\nMain Menu > Sourcing > Maintain Events > Event Workbench\n1. create a new version of the Event\n2. make the desired changes to the new version\n3. submit the Event for approval\n*status of original Event is set to \"Inactive\", status of new Event (version) is set to \"Posted.\"\n\nNOTE: the Acquisition Type cannot be edited if the event has been \"Posted.\"\nNOTE: the published date remains the same as the previous version.\nNOTE: inactive Bidders must be removed and the Event saved, otherwise the message \"Bidder No Longer Available\" will result, and the Buyer will be unable to save the Event.\n\nTo create a new CSCR Event, refer to Job Aid: <a href=\"http://www.fiscal.ca.gov/upk/PO383_v2.1.0/html/tpc/fcfa13b3-1079-40f1-9321-c935dbd02517/topic.html\" target=\"_blank\">http://www.fiscal.ca.gov/upk/PO383_v2.1.0/html/tpc/fcfa13b3-1079-40f1-9321-c935dbd02517/topic.html</a> \nTo edit a CSCR Event email Address; refer to Knowledge Article KB0062058"
               }
             ],
             "response_type": "text",
@@ -11743,7 +11743,7 @@
           {
             "values": [
               {
-                "text": "To edit a PO line amount on a Dispatched PO:\n\n1. Create a Change Order\n2. Edit the desired PO line amount and/or miscellaneous amounts.\n\nNOTE: the PO must be \"Open.\" Once a PO is \"Approved\" or \"Dispatched,\" it can only be re-opened via a Change Order.\nNOTE: any changes to quantity or amount on a PO will retrigger the approval workflow.\n\nSee Job Aid FI\\$Cal.290 at: https://fiscal.ca.gov/fiswp/?mdocs-file=2362"
+                "text": "To edit a PO line amount on a Dispatched PO:\n\n1. Create a Change Order\n2. Edit the desired PO line amount and/or miscellaneous amounts.\n\nNOTE: the PO must be \"Open.\" Once a PO is \"Approved\" or \"Dispatched,\" it can only be re-opened via a Change Order.\nNOTE: any changes to quantity or amount on a PO will retrigger the approval workflow.\n\nSee Job Aid FI\\$Cal.290 at: <a href=\"https://fiscal.ca.gov/fiswp/?mdocs-file=2362\" target=\"_blank\">https://fiscal.ca.gov/fiswp/?mdocs-file=2362</a>"
               }
             ],
             "response_type": "text",
@@ -11764,7 +11764,7 @@
           {
             "values": [
               {
-                "text": "To close a ticket:\n\n1. The request has been fulfilled and requires no further action.\n2. No user response after 3+ contact attempts by FI\\$Cal Service Center (FSC) staff.\n3. FSC receives user confirmation that the issue is resolved.\n"
+                "text": "To close a ticket:\n\n1. The request has been fulfilled and requires no further action.\n2. No user response after 3+ contact attempts by FI\\$Cal Service Center (FSC) staff.\n3. FSC receives user confirmation that the issue is resolved."
               }
             ],
             "response_type": "text",
@@ -11827,7 +11827,7 @@
           {
             "values": [
               {
-                "text": "When the \"Allow Open Item Reference\" checkbox is checked on a contract, the system will not allow more than one contract created for the same Supplier and begin date.\n"
+                "text": "When the \"Allow Open Item Reference\" checkbox is checked on a contract, the system will not allow more than one contract created for the same Supplier and begin date."
               }
             ],
             "response_type": "text",
@@ -11848,7 +11848,7 @@
           {
             "values": [
               {
-                "text": "To edit a Department Authority/Designee (DAD), see: https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/FISCal_DAD_PROD_v4.2.pdf\n"
+                "text": "To edit a Department Authority/Designee (DAD), see: <a href=\"https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/FISCal_DAD_PROD_v4.2.pdf\" target=\"_blank\">https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/FISCal_DAD_PROD_v4.2.pdf</a>"
               }
             ],
             "response_type": "text",
@@ -11869,7 +11869,7 @@
           {
             "values": [
               {
-                "text": "To create/alter managing accounts and cardholders:\n\n1. Department P-Card Maintainer will provide new managing account information to FSC.\n2. FSC will work with US Bank to add the new managing account to the monthly transaction file.\n3. Department Authority/Designee (DAD) will request P-Card roles for the new cardholders.\n4. Department P-Card Maintainer will update existing cardholder profiles or create new cardholder profiles for the new managing account and new card numbers in FI\\$Cal.\n\nRefer to Job Aid \"Creating a Cardholder Profile and Adding Designated Departmental Proxies\" at: https://fiscal.ca.gov/fiswp/?mdocs-file=2350\n"
+                "text": "To create/alter managing accounts and cardholders:\n\n1. Department P-Card Maintainer will provide new managing account information to FSC.\n2. FSC will work with US Bank to add the new managing account to the monthly transaction file.\n3. Department Authority/Designee (DAD) will request P-Card roles for the new cardholders.\n4. Department P-Card Maintainer will update existing cardholder profiles or create new cardholder profiles for the new managing account and new card numbers in FI\\$Cal.\n\nRefer to Job Aid \"Creating a Cardholder Profile and Adding Designated Departmental Proxies\" at: <a href=\"https://fiscal.ca.gov/fiswp/?mdocs-file=2350\" target=\"_blank\">https://fiscal.ca.gov/fiswp/?mdocs-file=2350</a>"
               }
             ],
             "response_type": "text",
@@ -11911,7 +11911,7 @@
           {
             "values": [
               {
-                "text": " To cancel a Requisition (or multiple Requisitions):\n\n> Requestor's Workbench\n1. enter the (range of) Requisition ID(s)\n2. select Search\n3. select the ID(s) to Cancel.\n\nNOTE: To release funds from a Requisition, said Requisition must be Canceled and Budget Checked.\nNOTE: Once created, a Requisition may be Canceled, but not Deleted.\nNOTE: Once a Requisition is Canceled, it will no longer display in the Search pages.\n"
+                "text": " To cancel a Requisition (or multiple Requisitions):\n\n> Requestor's Workbench\n1. enter the (range of) Requisition ID(s)\n2. select Search\n3. select the ID(s) to Cancel.\n\nNOTE: To release funds from a Requisition, said Requisition must be Canceled and Budget Checked.\nNOTE: Once created, a Requisition may be Canceled, but not Deleted.\nNOTE: Once a Requisition is Canceled, it will no longer display in the Search pages."
               }
             ],
             "response_type": "text",
@@ -11932,7 +11932,7 @@
           {
             "values": [
               {
-                "text": "\"Approver\" is a role in FI\\$Cal. Access is based on the role set up in the system. Requests for access to FI\\$Cal must come from the Department Authority/Designee (DAD).\n\nThe form for this can be found at: https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/CustomerSetUpForm20170629.xls\n"
+                "text": "\"Approver\" is a role in FI\\$Cal. Access is based on the role set up in the system. Requests for access to FI\\$Cal must come from the Department Authority/Designee (DAD).\n\nThe form for this can be found at: <a href=\"https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/CustomerSetUpForm20170629.xls\" target=\"_blank\">https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/CustomerSetUpForm20170629.xls</a>"
               }
             ],
             "response_type": "text",
@@ -11953,7 +11953,7 @@
           {
             "values": [
               {
-                "text": "To resolve browser issues (choose one):\n\nINTERNET EXPLORER: press Alt+X to open your browser’s settings. Select Internet Options. Under Browsing History, click on “Delete\" and check “Cookies and Website Data.” Finally, click on Delete.\nGOOGLE CHROME: Press Ctrl+Shift+Delete on your keyboard. Check “Cookies and other site data” as well as “Cached images and files.” Finally, click Clear Data. \nMOZILLA FIREFOX: Press Ctrl+Shift+Delete on your keyboard. Select time range. Check Cookies and Cache. Finally, click Clear Now.\n\nAdditional information at: https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/Browser_Delete_Cache_Help_Guide.pdf\n"
+                "text": "To resolve browser issues (choose one):\n\nINTERNET EXPLORER: press Alt+X to open your browser’s settings. Select Internet Options. Under Browsing History, click on “Delete\" and check “Cookies and Website Data.” Finally, click on Delete.\nGOOGLE CHROME: Press Ctrl+Shift+Delete on your keyboard. Check “Cookies and other site data” as well as “Cached images and files.” Finally, click Clear Data. \nMOZILLA FIREFOX: Press Ctrl+Shift+Delete on your keyboard. Select time range. Check Cookies and Cache. Finally, click Clear Now.\n\nAdditional information at: <a href=\"https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/Browser_Delete_Cache_Help_Guide.pdf\" target=\"_blank\">https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/Browser_Delete_Cache_Help_Guide.pdf</a>"
               }
             ],
             "response_type": "text",
@@ -11974,7 +11974,7 @@
           {
             "values": [
               {
-                "text": "To resolve P-Card transactions failing Budget Check, verify that:\n\na. ENY = current FY\nb. Required COAs are present (see below)\nb.1 Approp Reference\nb.2 Fund\nb.3 ENY\nb.4 Account/Alt Account\nb.5 Program\nb.6 Reporting Structure (only required if department/agency uses transactional reporting)\n"
+                "text": "To resolve P-Card transactions failing Budget Check, verify that:\n\na. ENY = current FY\nb. Required COAs are present (see below)\nb.1 Approp Reference\nb.2 Fund\nb.3 ENY\nb.4 Account/Alt Account\nb.5 Program\nb.6 Reporting Structure (only required if department/agency uses transactional reporting)"
               }
             ],
             "response_type": "text",
@@ -12016,7 +12016,7 @@
           {
             "values": [
               {
-                "text": "To view tickets submitted to the FI\\$Cal Service Center (FSC):\n\n1. Login to FI\\$Cal (do not click on \"PeopleSoft\").\n2. Click on \"Access FSC\"\" (top-right).\n"
+                "text": "To view tickets submitted to the FI\\$Cal Service Center (FSC):\n\n1. Login to FI\\$Cal (do not click on \"PeopleSoft\").\n2. Click on \"Access FSC\"\" (top-right)."
               }
             ],
             "response_type": "text",
@@ -12037,7 +12037,7 @@
           {
             "values": [
               {
-                "text": "Disallowed: the creation of multiple contracts for the same Supplier with the same start and end date or allowing two or more contracts to have \"Open Item\" checked.\nCheck the following:\n\n1. Check the Supplier ID on the Procurement contract.\n2. Check whether there is another Procurement contract open for the same Supplier and with the same start and end date as provided in the current contract.\n3. If \"Open Item\" is already checked on another contract for the same Supplier with the same start date and end date, it will need to be unchecked for this contract.\n"
+                "text": "Disallowed: the creation of multiple contracts for the same Supplier with the same start and end date or allowing two or more contracts to have \"Open Item\" checked.\nCheck the following:\n\n1. Check the Supplier ID on the Procurement contract.\n2. Check whether there is another Procurement contract open for the same Supplier and with the same start and end date as provided in the current contract.\n3. If \"Open Item\" is already checked on another contract for the same Supplier with the same start date and end date, it will need to be unchecked for this contract."
               }
             ],
             "response_type": "text",
@@ -12058,7 +12058,7 @@
           {
             "values": [
               {
-                "text": "The status of a Receipt changes from \"Received\" to \"Moved\" once it has been successfully processed. \n"
+                "text": "The status of a Receipt changes from \"Received\" to \"Moved\" once it has been successfully processed."
               }
             ],
             "response_type": "text",
@@ -12121,7 +12121,7 @@
           {
             "values": [
               {
-                "text": "Sorry I couldn’t solve your problem. If you’re looking for “how to” information, try visiting the job aids page http://fiscal.ca.gov/user-support/job-aids/.  You can also get help from a live agent in the FI\\$Cal Service Center. \nPhone: (855) 347-2250\nEmail: fiscalservicecenter\\@fiscal.ca.gov\nMonday through Friday\n7:30 a.m. — 5:30 p.m., Pacific Time\nServiceNow is available 24 hours a day to report issues or make a request to the FSC."
+                "text": "Sorry I couldn’t solve your problem. If you’re looking for “how to” information, try visiting the job aids page <a href=\"http://fiscal.ca.gov/user-support/job-aids/\" target=\"_blank\">http://fiscal.ca.gov/user-support/job-aids/</a>.  You can also get help from a live agent in the FI\\$Cal Service Center. \nPhone: (855) 347-2250\nEmail: fiscalservicecenter\\@fiscal.ca.gov\nMonday through Friday\n7:30 a.m. — 5:30 p.m., Pacific Time\nServiceNow is available 24 hours a day to report issues or make a request to the FSC."
               }
             ],
             "response_type": "text",
@@ -12142,7 +12142,7 @@
           {
             "values": [
               {
-                "text": "To create a PO from a Requisition and have the P-Card automatically flow to the PO, the same P-Card holder must create the Requisition, then use \"Copy from Requisition\" to create the PO.\n\nRefer to P-Card FAQ Job Aid \\#346, item \\#30 - \"Will the P-Card info flow to the PO?\" at: http://fiscal.ca.gov/faqs/documents/RequisitionFAQs1.0.docx"
+                "text": "To create a PO from a Requisition and have the P-Card automatically flow to the PO, the same P-Card holder must create the Requisition, then use \"Copy from Requisition\" to create the PO.\n\nRefer to P-Card FAQ Job Aid \\#346, item \\#30 - \"Will the P-Card info flow to the PO?\" at: <a href=\"http://fiscal.ca.gov/faqs/documents/RequisitionFAQs1.0.docx\" target=\"_blank\">http://fiscal.ca.gov/faqs/documents/RequisitionFAQs1.0.docx</a>"
               }
             ],
             "response_type": "text",
@@ -12163,7 +12163,7 @@
           {
             "values": [
               {
-                "text": "The Voucher stage and Voucher build processes for P-Card transactions run nightly.\n"
+                "text": "The Voucher stage and Voucher build processes for P-Card transactions run nightly."
               }
             ],
             "response_type": "text",
@@ -12184,7 +12184,7 @@
           {
             "values": [
               {
-                "text": "There are some distribution lines whose budget status is either in warning or error, is a warning only, and may be ignored with no affect on future PO actions.\n"
+                "text": "There are some distribution lines whose budget status is either in warning or error, is a warning only, and may be ignored with no affect on future PO actions."
               }
             ],
             "response_type": "text",
@@ -12205,7 +12205,7 @@
           {
             "values": [
               {
-                "text": "To edit a Contract that is “Approved,” or edit a Supplier on a Contract with Contract lines:\n\n1. Create a new version of the Contract.\n2. Make the desired edits on the new version of the Contract.\n\nNOTE: a Contract that is not “Approved” may be edited.\nNOTE: a Supplier on a Contract with no Contract lines may be edited.\nNOTE: it is not possible to change the Contract ID for a Contract once it has been created.\nNOTE: to create a new version of a Contract, refer to Knowledge Article KB0062069\n"
+                "text": "To edit a Contract that is “Approved,” or edit a Supplier on a Contract with Contract lines:\n\n1. Create a new version of the Contract.\n2. Make the desired edits on the new version of the Contract.\n\nNOTE: a Contract that is not “Approved” may be edited.\nNOTE: a Supplier on a Contract with no Contract lines may be edited.\nNOTE: it is not possible to change the Contract ID for a Contract once it has been created.\nNOTE: to create a new version of a Contract, refer to Knowledge Article KB0062069"
               }
             ],
             "response_type": "text",
@@ -12226,7 +12226,7 @@
           {
             "values": [
               {
-                "text": "This report lists all Bidders (named and anonymous) who logged into the Cal eProcure system. Anonymous (public user) Bidders are unidentifiable.\n"
+                "text": "This report lists all Bidders (named and anonymous) who logged into the Cal eProcure system. Anonymous (public user) Bidders are unidentifiable."
               }
             ],
             "response_type": "text",
@@ -12268,7 +12268,7 @@
           {
             "values": [
               {
-                "text": "To view a PO from the \"\"Financials Worklist\"\":\n\n*The PO status must be \"Approved\" (by an Approver other than the viewer).\n*Open the \"Financials Worklist\" not the \"Portal worklist.\"\n*The User ID of the viewer must be configured to receive Worklist Items.\n\nNOTE:  POs that are partially approved will not show a value in the field \"PO Last Approved By.\"\n"
+                "text": "To view a PO from the \"Financials Worklist\":\n\n*The PO status must be \"Approved\" (by an Approver other than the viewer).\n*Open the \"Financials Worklist\" not the \"Portal worklist.\"\n*The User ID of the viewer must be configured to receive Worklist Items.\n\nNOTE:  POs that are partially approved will not show a value in the field \"PO Last Approved By.\""
               }
             ],
             "response_type": "text",
@@ -12310,7 +12310,7 @@
           {
             "values": [
               {
-                "text": "email: \"Contract Hold\" notifications are sent to a Buyer on a Contract that an Approver has put on \"Hold.\"\n\nNOTE: contract approval comments may describe why the contract is on hold.\n"
+                "text": "email: \"Contract Hold\" notifications are sent to a Buyer on a Contract that an Approver has put on \"Hold.\"\n\nNOTE: contract approval comments may describe why the contract is on hold."
               }
             ],
             "response_type": "text",
@@ -12352,7 +12352,7 @@
           {
             "values": [
               {
-                "text": "To create/alter cardholder and P-Card profiles the department P-Card Maintainer(s) may navigate to:\n\nMain Menu > Purchasing > Procurement Cards > Definitions > Cardholder Profile\n\nRefer to Job Aid \"Creating a Cardholder Profile and Adding Designated Departmental Proxies\" at: https://fiscal.ca.gov/fiswp/?mdocs-file=2350\n"
+                "text": "To create/alter cardholder and P-Card profiles the department P-Card Maintainer(s) may navigate to:\n\nMain Menu > Purchasing > Procurement Cards > Definitions > Cardholder Profile\n\nRefer to Job Aid \"Creating a Cardholder Profile and Adding Designated Departmental Proxies\" at: https://fiscal.ca.gov/fiswp/?mdocs-file=2350"
               }
             ],
             "response_type": "text",
@@ -12373,7 +12373,7 @@
           {
             "values": [
               {
-                "text": "\"Tech736\" Form is for departments that were on boarded as part of the 2017 Release.\n"
+                "text": "\"Tech736\" Form is for departments that were on boarded as part of the 2017 Release."
               }
             ],
             "response_type": "text",
@@ -12394,7 +12394,7 @@
           {
             "values": [
               {
-                "text": "An email notification that US Bank statement(s) have been loaded is sent to:\n\n*Department P-Card PO user\n*Department P-Card Req user\n*Department P-Card Reconciler\n*Department P-Card Maintainer\n"
+                "text": "An email notification that US Bank statement(s) have been loaded is sent to:\n\n*Department P-Card PO user\n*Department P-Card Req user\n*Department P-Card Reconciler\n*Department P-Card Maintainer"
               }
             ],
             "response_type": "text",
@@ -12415,7 +12415,7 @@
           {
             "values": [
               {
-                "text": "Check if the browser in use has a pop-up blocker setting turned off. If the settings cannot be changed, work with the local IT department for assistance on updating this feature to be compatible with the FI\\$Cal application.\n"
+                "text": "Check if the browser in use has a pop-up blocker setting turned off. If the settings cannot be changed, work with the local IT department for assistance on updating this feature to be compatible with the FI\\$Cal application."
               }
             ],
             "response_type": "text",
@@ -12457,7 +12457,7 @@
           {
             "values": [
               {
-                "text": "To edit the authorized list of Contract Buyers, the Department Authority/Designee (DAD) will submit:\nhttps://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/CustomerSetUpForm20170629.xls\n\nNOTE: An Error Message may occur because the buyer of the contract is not listed on your authorized list of Contract Buyer Preferences. Access is based on the role set up in the system."
+                "text": "To edit the authorized list of Contract Buyers, the Department Authority/Designee (DAD) will submit:\n<a href=\"https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/CustomerSetUpForm20170629.xls\" target=\"_blank\">https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/CustomerSetUpForm20170629.xls</a>\n\nNOTE: An Error Message may occur because the buyer of the contract is not listed on your authorized list of Contract Buyer Preferences. Access is based on the role set up in the system."
               }
             ],
             "response_type": "text",
@@ -12478,7 +12478,7 @@
           {
             "values": [
               {
-                "text": "To edit a Requisition that has been \"\"Approved,\" the Requisition status must not be \"Complete.\"\n\nNOTE: if changes are made, the Requisition must be re-submitted for approval.\n\nRefer to \"PO112 - Processing Requisitions WBT\" at: https://fiscal.netdimensions.com/ekp/servlet/ekp?TX=WIDGETCONTAINERPAGE"
+                "text": "To edit a Requisition that has been \"\"Approved,\" the Requisition status must not be \"Complete.\"\n\nNOTE: if changes are made, the Requisition must be re-submitted for approval.\n\nRefer to \"PO112 - Processing Requisitions WBT\" at: <a href=\"https://fiscal.netdimensions.com/ekp/servlet/ekp?TX=WIDGETCONTAINERPAGE\" target=\"_blank\">https://fiscal.netdimensions.com/ekp/servlet/ekp?TX=WIDGETCONTAINERPAGE</a>"
               }
             ],
             "response_type": "text",
@@ -12499,7 +12499,7 @@
           {
             "values": [
               {
-                "text": "To request access to FI\\$Cal the Department Authority/Designee (DAD) must submit the form: https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/CustomerSetUpForm20170629.xls"
+                "text": "To request access to FI\\$Cal the Department Authority/Designee (DAD) must submit the form: <a href=\"https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/CustomerSetUpForm20170629.xls\" target=\"_blank\">https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/CustomerSetUpForm20170629.xls</a>"
               }
             ],
             "response_type": "text",
@@ -12520,7 +12520,7 @@
           {
             "values": [
               {
-                "text": "To remove Sales/Use Tax from a PO line:\n\n1. select \"Item is Exempt”\n2. click Save.\n\nNOTE: a Change Order will be created and the Sales/Use Tax will be removed from the PO line.\n\nJob Aid Fiscal.345 \"Purchase Order FAQs\": https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/Purchase_Order_FAQs_1.0.docx"
+                "text": "To remove Sales/Use Tax from a PO line:\n\n1. select \"Item is Exempt”\n2. click Save.\n\nNOTE: a Change Order will be created and the Sales/Use Tax will be removed from the PO line.\n\nJob Aid Fiscal.345 \"Purchase Order FAQs\": <a href=\"https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/Purchase_Order_FAQs_1.0.docx\" target=_blank\">https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/Purchase_Order_FAQs_1.0.docx</a>"
               }
             ],
             "response_type": "text",
@@ -12541,7 +12541,7 @@
           {
             "values": [
               {
-                "text": "\"Allow Open Item References\" must be selected to:\n\n*Purchase items not specified on a contract\n*Reference the contract for any Requisition and PO item ordered from a Supplier\n*Add price adjustments to open-items on a contract\n*Create a PO with additional items not specified in the contract\n"
+                "text": "\"Allow Open Item References\" must be selected to:\n\n*Purchase items not specified on a contract\n*Reference the contract for any Requisition and PO item ordered from a Supplier\n*Add price adjustments to open-items on a contract\n*Create a PO with additional items not specified in the contract"
               }
             ],
             "response_type": "text",
@@ -12583,7 +12583,7 @@
           {
             "values": [
               {
-                "text": "To liquidate encumbered funds the Buyer must Budget Check the PO.\n\nNOTE: A remaining balance on the ZZ_ENCUMBRANCE_STATUS_NEW report means that Budget Check was not done at the time of PO closure or cancellation. \n\nRefer to FAQ \\#33 - \"I ran the ZZ_ENCUMBRANCE_STATUS_NEW report and all my Canceled, pending Canceled and completed PO IDs still show a remaining balance\" at: https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/Purchase_Order_FAQs_1.0.docx"
+                "text": "To liquidate encumbered funds the Buyer must Budget Check the PO.\n\nNOTE: A remaining balance on the ZZ_ENCUMBRANCE_STATUS_NEW report means that Budget Check was not done at the time of PO closure or cancellation. \n\nRefer to FAQ \\#33 - \"I ran the ZZ_ENCUMBRANCE_STATUS_NEW report and all my Canceled, pending Canceled and completed PO IDs still show a remaining balance\" at: <a href=\"https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/Purchase_Order_FAQs_1.0.docx\" target=\"_blank\">https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/Purchase_Order_FAQs_1.0.docx</a>"
               }
             ],
             "response_type": "text",
@@ -12604,7 +12604,7 @@
           {
             "values": [
               {
-                "text": "To create/alter Receipts the Department Receiving Processor has two options: \n\nOPTION 1: Main Menu > eProcurement > Buyer Center > Receipts > Add/Update Receipts \nOPTION 2: Main Menu > Purchasing > Receipts > Add/Update Receipts\n"
+                "text": "To create/alter Receipts the Department Receiving Processor has two options: \n\nOPTION 1: Main Menu > eProcurement > Buyer Center > Receipts > Add/Update Receipts \nOPTION 2: Main Menu > Purchasing > Receipts > Add/Update Receipts"
               }
             ],
             "response_type": "text",
@@ -12646,7 +12646,7 @@
           {
             "values": [
               {
-                "text": "\"University of FI\\$Cal\":\n\n*is located at: https://fiscal.netdimensions.com/ekp/servlet/ekp?TX=WIDGETCONTAINERPAGE\n*is accessible to all FI\\$Cal users (excluding SCPRS/CSCR-only users).\n*password reset instructions: https://fiscal.netdimensions.com/ekp/servlet/ekp?TX=WIDGETCONTAINERPAGE\n*credit is earned when the course survey is completed.\n"
+                "text": "University of FI\\$Cal\":\n\n*is located at: <a href=\"https://fiscal.netdimensions.com/ekp/servlet/ekp?TX=WIDGETCONTAINERPAGE\" target=\"_blank\">https://fiscal.netdimensions.com/ekp/servlet/ekp?TX=WIDGETCONTAINERPAGE</a>\n*is accessible to all FI\\$Cal users (excluding SCPRS/CSCR-only users).\n*password reset instructions: <a href=\"https://fiscal.netdimensions.com/ekp/servlet/ekp?TX=WIDGETCONTAINERPAGE\" target=\"_blank\">https://fiscal.netdimensions.com/ekp/servlet/ekp?TX=WIDGETCONTAINERPAGE</a>\n*credit is earned when the course survey is completed."
               }
             ],
             "response_type": "text",
@@ -12709,7 +12709,7 @@
           {
             "values": [
               {
-                "text": "To copy a PO directly to a Voucher, the Receiving Required option must be set to \"Do Not Receive\" or \"Optional.\"\nTo check if a PO can be copied to a Voucher:\n\n1. Navigate to Main Menu > Purchasing > Purchase Orders > Add/Update PO.\n2. Enter the business unit and the PO ID.\n3. Click on the Receiving tab in the Lines section.\n4. Confirm that the value in the field Receiving Required is either \"Do Not Receive\" or \"Optional.\"\n\nNOTE: If Receiving Required is set to \"Required,\" a Receipt must be created from the PO that will be copied to a Voucher.\n"
+                "text": "To copy a PO directly to a Voucher, the Receiving Required option must be set to \"Do Not Receive\" or \"Optional.\"\nTo check if a PO can be copied to a Voucher:\n\n1. Navigate to Main Menu > Purchasing > Purchase Orders > Add/Update PO.\n2. Enter the business unit and the PO ID.\n3. Click on the Receiving tab in the Lines section.\n4. Confirm that the value in the field Receiving Required is either \"Do Not Receive\" or \"Optional.\"\n\nNOTE: If Receiving Required is set to \"Required,\" a Receipt must be created from the PO that will be copied to a Voucher."
               }
             ],
             "response_type": "text",
@@ -12751,7 +12751,7 @@
           {
             "values": [
               {
-                "text": "To set P-Card as the Requisition payment method:\n\nJob Aid 348, Requisition FAQ \\#29 Could I mark my Requisition that P-Card will be the payment method?:  http://fiscal.ca.gov/faqs/documents/RequisitionFAQs1.0.docx"
+                "text": "To set P-Card as the Requisition payment method:\n\nJob Aid 348, Requisition FAQ \\#29 Could I mark my Requisition that P-Card will be the payment method?:  <a href=\"http://fiscal.ca.gov/faqs/documents/RequisitionFAQs1.0.docx\" target=\"_blank\">http://fiscal.ca.gov/faqs/documents/RequisitionFAQs1.0.docx</a>"
               }
             ],
             "response_type": "text",
@@ -12772,7 +12772,7 @@
           {
             "values": [
               {
-                "text": "US Bank typically closes the billing cycle on the 22nd of each month unless the 22nd falls on a weekend or a holiday. In that case, US Bank will close the cycle on the next business day.\n"
+                "text": "US Bank typically closes the billing cycle on the 22nd of each month unless the 22nd falls on a weekend or a holiday. In that case, US Bank will close the cycle on the next business day."
               }
             ],
             "response_type": "text",
@@ -12814,7 +12814,7 @@
           {
             "values": [
               {
-                "text": "To edit a Buyer on a PO, please contact the FI\\$Cal Service Center.\n\nNOTE: all Buyers in a department may view all departmental POs.\nNOTE: \"No Add-Update Access\" error will occur when one Buyer attempts to edit a PO assigned to another Buyer (e.g., on vacation, has left the department, changed roles, etc.).\nNOTE: when a Buyer leaves a department, no other Buyer is allowed to create or save receipts to POs created by the departed Buyer.\n"
+                "text": "To edit a Buyer on a PO, please contact the FI\\$Cal Service Center.\n\nNOTE: all Buyers in a department may view all departmental POs.\nNOTE: \"No Add-Update Access\" error will occur when one Buyer attempts to edit a PO assigned to another Buyer (e.g., on vacation, has left the department, changed roles, etc.).\nNOTE: when a Buyer leaves a department, no other Buyer is allowed to create or save receipts to POs created by the departed Buyer."
               }
             ],
             "response_type": "text",
@@ -12856,7 +12856,7 @@
           {
             "values": [
               {
-                "text": "To attach a document to a Receipt:\n\nMain Menu> Purchasing > Receipt > Add/Update Receipt\n1. Click on Find and Existing value.\n2. Enter Business Unit and Receipt ID.\n3. Click on link \"\"Add Header Comments.\n4. Attach the document and click OK.\n5. Click on Save button\n"
+                "text": "To attach a document to a Receipt:\n\nMain Menu> Purchasing > Receipt > Add/Update Receipt\n1. Click on Find and Existing value.\n2. Enter Business Unit and Receipt ID.\n3. Click on link \"\"Add Header Comments.\n4. Attach the document and click OK.\n5. Click on Save button"
               }
             ],
             "response_type": "text",
@@ -12877,7 +12877,7 @@
           {
             "values": [
               {
-                "text": "To edit Chart Fields already linked to a P-Card transaction, alter the Chart Fields on the PO and re-link the P-Card transaction.\n"
+                "text": "To edit Chart Fields already linked to a P-Card transaction, alter the Chart Fields on the PO and re-link the P-Card transaction."
               }
             ],
             "response_type": "text",
@@ -12898,7 +12898,7 @@
           {
             "values": [
               {
-                "text": "To resolve the issue “no approvals are required,\" re-trigger the workflow as follows:\n\n1. Open PO.\n2. Change the amount or price of any PO line item.\n3. Save.\n4. Restore the original amount or price to the PO line item.\n5. Save.\n"
+                "text": "To resolve the issue “no approvals are required,\" re-trigger the workflow as follows:\n\n1. Open PO.\n2. Change the amount or price of any PO line item.\n3. Save.\n4. Restore the original amount or price to the PO line item.\n5. Save."
               }
             ],
             "response_type": "text",
@@ -12919,7 +12919,7 @@
           {
             "values": [
               {
-                "text": "Thank you for chatting! You can find additional information like job aids and how to videos at fiscal.ca.gov. If you'd like to ask another question, click \"clear\" and start over."
+                "text": "Thank you for chatting! You can find additional information like job aids and how to videos at <a href=\"http://fiscal.ca.gov\" target=\"_blank\">http://fiscal.ca.gov</a>. If you'd like to ask another question, click \"clear\" and start over."
               }
             ],
             "response_type": "text",
@@ -12961,7 +12961,7 @@
           {
             "values": [
               {
-                "text": "To edit a PO (Chart Fields) Alt Account, Account line:\n\n1. Open the PO and navigate to the Chart Fields.\n2. Clear the value in “Alt Account” field.\n3. Click in the “Account” field and search for the desired value of account.\n"
+                "text": "To edit a PO (Chart Fields) Alt Account, Account line:\n\n1. Open the PO and navigate to the Chart Fields.\n2. Clear the value in “Alt Account” field.\n3. Click in the “Account” field and search for the desired value of account."
               }
             ],
             "response_type": "text",
@@ -12982,7 +12982,7 @@
           {
             "values": [
               {
-                "text": "To create a PO/Requisition with a P-Card, DGS policy specifies that only the cardholder can create Requisitions and POs using his/her P-Card as the payment method. \n"
+                "text": "To create a PO/Requisition with a P-Card, DGS policy specifies that only the cardholder can create Requisitions and POs using his/her P-Card as the payment method. "
               }
             ],
             "response_type": "text",
@@ -13003,7 +13003,7 @@
           {
             "values": [
               {
-                "text": "To clear the error message \"Missing Business unit setup\" while trying to Save the contract, use the PO Defaults Link on the Contract Entry page:\n\n1. click on the PO Defaults link\n2. specify the Business Unit\n3. select Save (to save the contract).\n"
+                "text": "To clear the error message \"Missing Business unit setup\" while trying to Save the contract, use the PO Defaults Link on the Contract Entry page:\n\n1. click on the PO Defaults link\n2. specify the Business Unit\n3. select Save (to save the contract)."
               }
             ],
             "response_type": "text",
@@ -13045,7 +13045,7 @@
           {
             "values": [
               {
-                "text": "To search for closed P-Card transactions on the Reconcile Statement search page, clear all search fields, enter the Employee ID, and choose \"Closed\" in the Statement Status field.\n"
+                "text": "To search for closed P-Card transactions on the Reconcile Statement search page, clear all search fields, enter the Employee ID, and choose \"Closed\" in the Statement Status field."
               }
             ],
             "response_type": "text",
@@ -13066,7 +13066,7 @@
           {
             "values": [
               {
-                "text": "To search on the LPA/Departmental Contracts search page for the desired contract type, use the checkboxes for \"Show LPAs\" and \"Show Expired Contracts.\"\n"
+                "text": "To search on the LPA/Departmental Contracts search page for the desired contract type, use the checkboxes for \"Show LPAs\" and \"Show Expired Contracts.\""
               }
             ],
             "response_type": "text",
@@ -13087,7 +13087,7 @@
           {
             "values": [
               {
-                "text": "To close a PO, see \"Understanding the Close Purchase Orders Process\" at:\nhttps://docs.oracle.com/cd/E16365_01/fscm91pbr0/eng/psbooks/spog/chapter.htm?File=spog/htm/spog40.htm\n"
+                "text": "To close a PO, see \"Understanding the Close Purchase Orders Process\" at:\n<a href=\"https://docs.oracle.com/cd/E16365_01/fscm91pbr0/eng/psbooks/spog/chapter.htm?File=spog/htm/spog40.htm\" target=\"_blank\">https://docs.oracle.com/cd/E16365_01/fscm91pbr0/eng/psbooks/spog/chapter.htm?File=spog/htm/spog40.htm</a>"
               }
             ],
             "response_type": "text",
@@ -13108,7 +13108,7 @@
           {
             "values": [
               {
-                "text": "To edit a Requisition (add line item(s)):\n\n(1) Save each line item to your cart\n(2) click Checkout\n"
+                "text": "To edit a Requisition (add line item(s)):\n\n(1) Save each line item to your cart\n(2) click Checkout"
               }
             ],
             "response_type": "text",
@@ -13129,7 +13129,7 @@
           {
             "values": [
               {
-                "text": "To view \"PO Disposition Details\" report (for a specific BU and timeframe), see: https://fiscal.ca.gov/fiswp/?mdocs-file=2364"
+                "text": "To view \"PO Disposition Details\" report (for a specific BU and timeframe), see: <a href=\"https://fiscal.ca.gov/fiswp/?mdocs-file=2364\" target=\"_blank\">https://fiscal.ca.gov/fiswp/?mdocs-file=2364</a>"
               }
             ],
             "response_type": "text",
@@ -13150,7 +13150,7 @@
           {
             "values": [
               {
-                "text": "There are numerous reasons why P-Card transactions cannot be searched/viewed on the Reconcile Statement page.\n\n* The search criteria used is not correct. Use the Clear button to remove defaults and verify the search criteria (use the Employee ID on the Cardholder Profile).\n* The P-Card number used does not exist or was keyed incorrectly in FI\\\\$Cal. Contact the P-Card Maintainer to resolve.\n* The P-Card transaction is for a new Managing Account (MA).  US Bank does not automatically begin delivering statement electronically until they are ordered by FSC P-Card team.  Contact the FI\\\\$Cal Service Desk and open a case to add a new MA to the P-Card Cycle.\n* Proxy/permission to view the transactions does not exist. Check the proxies for \"\"P- card Reconciler\"\" for the card whose statement is being reconciled. Contact the P-Card Maintainer to resolve.\n* Another Reconciler may have already reconciled the P-Card transactions."
+                "text": "There are numerous reasons why P-Card transactions cannot be searched/viewed on the Reconcile Statement page.\n\n* The search criteria used is not correct. Use the Clear button to remove defaults and verify the search criteria (use the Employee ID on the Cardholder Profile).\n* The P-Card number used does not exist or was keyed incorrectly in FI\\$Cal. Contact the P-Card Maintainer to resolve.\n* The P-Card transaction is for a new Managing Account (MA).  US Bank does not automatically begin delivering statement electronically until they are ordered by FSC P-Card team.  Contact the FI\\$Cal Service Desk and open a case to add a new MA to the P-Card Cycle.\n* Proxy/permission to view the transactions does not exist. Check the proxies for \"P- card Reconciler\" for the card whose statement is being reconciled. Contact the P-Card Maintainer to resolve.\n* Another Reconciler may have already reconciled the P-Card transactions."
               }
             ],
             "response_type": "text",
@@ -13171,7 +13171,7 @@
           {
             "values": [
               {
-                "text": "\"Configuration Modification Request\" (CMR) form is:\n\n*used to manage Role assignments, Ship To addresses, Account Code(s), approval signatures, Business Unit (BU) workflow, etc.\n*completed and signed by the Requestor and department Approver.\n*submitted by the Department Authority/Designee (DAD) to the FI\\$Cal Service Center (FSC).\n*located at: http://165.235.0.10/access-fiscal/fiscal_service_center/CMR.html\n\nNOTE: Roles may also be requested through the Identity Self-Service (ISS) Portal, at: https://sso.iam.fiscal.ca.gov/identity/\nNOTE: each request is processed by the FSC module team that owns the configuration.\n\nConfiguration Ownership Matrix: https://fiscal.ca.gov/user-support/fiscal-service-center/configuration-modification-requests/\n"
+                "text": "\"Configuration Modification Request\" (CMR) form is:\n\n*used to manage Role assignments, Ship To addresses, Account Code(s), approval signatures, Business Unit (BU) workflow, etc.\n*completed and signed by the Requestor and department Approver.\n*submitted by the Department Authority/Designee (DAD) to the FI\\$Cal Service Center (FSC).\n*located at: <a href=\"http://165.235.0.10/access-fiscal/fiscal_service_center/CMR.html\" target=\"_blank\">http://165.235.0.10/access-fiscal/fiscal_service_center/CMR.html</a>\n\nNOTE: Roles may also be requested through the Identity Self-Service (ISS) Portal, at: <a href=\"https://sso.iam.fiscal.ca.gov/identity/\" target=\"_blank\">https://sso.iam.fiscal.ca.gov/identity/</a>\nNOTE: each request is processed by the FSC module team that owns the configuration.\n\nConfiguration Ownership Matrix: <a href=\"https://fiscal.ca.gov/user-support/fiscal-service-center/configuration-modification-requests/\" target=\"_blank\">https://fiscal.ca.gov/user-support/fiscal-service-center/configuration-modification-requests/</a>"
               }
             ],
             "response_type": "text",
@@ -13192,7 +13192,7 @@
           {
             "values": [
               {
-                "text": "To view Supplier reports, refer to Job Aid \"PO Reports Within the FI\\$Cal System\" at: https://fiscal.ca.gov/fiswp/?mdocs-file=3337\n"
+                "text": "To view Supplier reports, refer to Job Aid \"PO Reports Within the FI\\$Cal System\" at: <a href=\"https://fiscal.ca.gov/fiswp/?mdocs-file=3337\" target=\"_blank\">https://fiscal.ca.gov/fiswp/?mdocs-file=3337</a>"
               }
             ],
             "response_type": "text",
@@ -13234,7 +13234,7 @@
           {
             "values": [
               {
-                "text": "To view attachments (by an Approver), upload the attachments to each line.\n\nJob Aid Fiscal.115 \"Approval Role Access to Attachments\": https://fiscal.ca.gov/fiswp/?mdocs-file=2128\nTo view attachments (by an Approver), upload the attachments to each line.\n\nJob Aid Fiscal.115 \"Approval Role Access to Attachments\": https://fiscal.ca.gov/fiswp/?mdocs-file=2128"
+                "text": "To view attachments (by an Approver), upload the attachments to each line.\n\nJob Aid Fiscal.115 \"Approval Role Access to Attachments\": <a href=\"https://fiscal.ca.gov/fiswp/?mdocs-file=2128\" target=\"_blank\">https://fiscal.ca.gov/fiswp/?mdocs-file=2128</a>\nTo view attachments (by an Approver), upload the attachments to each line.\n\nJob Aid Fiscal.115 \"Approval Role Access to Attachments\": <a href=\"https://fiscal.ca.gov/fiswp/?mdocs-file=2128\" target=\"_blank\">https://fiscal.ca.gov/fiswp/?mdocs-file=2128</a>"
               }
             ],
             "response_type": "text",
@@ -13276,7 +13276,7 @@
           {
             "values": [
               {
-                "text": "When a PO is closed, it will not be available on the Add/Update POs page. Use the following navigation to view closed POs:\n\nMain Menu > Purchasing > Purchase Orders > Review PO Information > Purchase Orders\n"
+                "text": "When a PO is closed, it will not be available on the Add/Update POs page. Use the following navigation to view closed POs:\n\nMain Menu > Purchasing > Purchase Orders > Review PO Information > Purchase Orders"
               }
             ],
             "response_type": "text",
@@ -13297,7 +13297,7 @@
           {
             "values": [
               {
-                "text": "To search for a PO on the Reconcile Statement/Procurement Card Transaction page:\n\n*The cardholder must click \"OK\" twice (2x) after selecting the card number.\n*The PO must be approved.\n"
+                "text": "To search for a PO on the Reconcile Statement/Procurement Card Transaction page:\n\n*The cardholder must click \"OK\" twice (2x) after selecting the card number.\n*The PO must be approved."
               }
             ],
             "response_type": "text",
@@ -13339,7 +13339,7 @@
           {
             "values": [
               {
-                "text": "To resolve P-Card transactions (offset associated/disputed) into one Voucher ID, the department P-Card Reconciler and/or actual Cardholder must reconcile and get approval for both transactions - on the same day.\n\nNOTE: If there is any difference between the total disputed charge and credit amount, only the difference will be paid to US Bank.\nNOTE: NEVER reconcile the disputed and credit transactions separately - this can potentially create a zero or negative amount Voucher. This zero or negative amount Voucher ID will not be picked up by the SCO Pay Cycle and will require additional work from the Accounting staff.\n\nRefer to FAQ\\# 47 \"I received my credit for the disputed P-Card transaction. What is my next step?\" at: https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/Purchase_Order_FAQs_1.0.docx"
+                "text": "To resolve P-Card transactions (offset associated/disputed) into one Voucher ID, the department P-Card Reconciler and/or actual Cardholder must reconcile and get approval for both transactions - on the same day.\n\nNOTE: If there is any difference between the total disputed charge and credit amount, only the difference will be paid to US Bank.\nNOTE: NEVER reconcile the disputed and credit transactions separately - this can potentially create a zero or negative amount Voucher. This zero or negative amount Voucher ID will not be picked up by the SCO Pay Cycle and will require additional work from the Accounting staff.\n\nRefer to FAQ\\# 47 \"I received my credit for the disputed P-Card transaction. What is my next step?\" at: <a href=\"https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/Purchase_Order_FAQs_1.0.docx\" target=\"_blank\">https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/Purchase_Order_FAQs_1.0.docx</a>"
               }
             ],
             "response_type": "text",
@@ -13360,7 +13360,7 @@
           {
             "values": [
               {
-                "text": "To create a Requisition only use the eProcurement module.\n\nWARNING: A Requisition created through the Purchasing module will NOT be routed to the department Requisition Approver(s), and custom fields such as the \"Acquisition Type\" and \"Acquisition Method\" are NOT configured (for Requisitions) outside the eProcurement Module.\n\nRefer to FAQ \\#15 -\"Should I create my Requisition through Purchasing or eProcurement?\" at: http://fiscal.ca.gov/faqs/documents/RequisitionFAQs1.0.docx"
+                "text": "To create a Requisition only use the eProcurement module.\n\nWARNING: A Requisition created through the Purchasing module will NOT be routed to the department Requisition Approver(s), and custom fields such as the \"Acquisition Type\" and \"Acquisition Method\" are NOT configured (for Requisitions) outside the eProcurement Module.\n\nRefer to FAQ \\#15 -\"Should I create my Requisition through Purchasing or eProcurement?\" at: <a href=\"http://fiscal.ca.gov/faqs/documents/RequisitionFAQs1.0.docx\" target=\"_blank\">http://fiscal.ca.gov/faqs/documents/RequisitionFAQs1.0.docx</a>"
               }
             ],
             "response_type": "text",
@@ -13423,7 +13423,7 @@
           {
             "values": [
               {
-                "text": "For the required work station specifications to access FI\\$Cal, please see the Workstation Configuration guide:  https://fiscal.ca.gov/user-support/fiscal-service-center."
+                "text": "For the required work station specifications to access FI\\$Cal, please see the Workstation Configuration guide:  <a href=\"https://fiscal.ca.gov/user-support/fiscal-service-center\" target=\"_blank\">https://fiscal.ca.gov/user-support/fiscal-service-center</a>."
               }
             ],
             "response_type": "text",
@@ -13444,7 +13444,7 @@
           {
             "values": [
               {
-                "text": "To view a Contract (that is missing), include \"Draft\" or \"Expired\" in the search criteria.\n"
+                "text": "To view a Contract (that is missing), include \"Draft\" or \"Expired\" in the search criteria."
               }
             ],
             "response_type": "text",
@@ -13486,7 +13486,7 @@
           {
             "values": [
               {
-                "text": "To request assistance with SCPRS data entry or the upload process (on-boarding, template, troubleshooting, etc.), contact the DGS-PD SUPER Team at:\n\nEMAIL: eprocure\\@dgs.ca.gov\nWEB: http://www.dgs.ca.gov/pd/Programs/caleprocure/caleprocurebuyers/SUPER.aspx"
+                "text": "To request assistance with SCPRS data entry or the upload process (on-boarding, template, troubleshooting, etc.), contact the DGS-PD SUPER Team at:\n\nEMAIL: eprocure\\@dgs.ca.gov\nWEB: <a href=\"http://www.dgs.ca.gov/pd/Programs/caleprocure/caleprocurebuyers/SUPER.aspx\" target=\"_blank\">http://www.dgs.ca.gov/pd/Programs/caleprocure/caleprocurebuyers/SUPER.aspx</a>"
               }
             ],
             "response_type": "text",
@@ -13507,7 +13507,7 @@
           {
             "values": [
               {
-                "text": "To edit a Contract version:\n\nMain Menu > Purchasing > Purchase Orders > Add/Update PO\n1. Enter the Business Unit and PO ID.\n2. Click on Contract tab on the lines.\n3. Click on Contract Version and select the correct version displayed in the search and Save the PO.\n\nNOTE: the error message \"New contract version is available\" is displayed when the contract specified on the PO line has undergone an amendment and a new contract version is available. \n"
+                "text": "To edit a Contract version:\n\nMain Menu > Purchasing > Purchase Orders > Add/Update PO\n1. Enter the Business Unit and PO ID.\n2. Click on Contract tab on the lines.\n3. Click on Contract Version and select the correct version displayed in the search and Save the PO.\n\nNOTE: the error message \"New contract version is available\" is displayed when the contract specified on the PO line has undergone an amendment and a new contract version is available. "
               }
             ],
             "response_type": "text",
@@ -13549,7 +13549,7 @@
           {
             "values": [
               {
-                "text": "To copy a Chart Fields string to multiple P-Card transactions:\n\nrefer to FAQ \\#50 \"What is the Distribution Template hyperlink on the Reconcile Statement page for?\" at: http://www.fiscal.ca.gov/faqs/"
+                "text": "To copy a Chart Fields string to multiple P-Card transactions:\n\nrefer to FAQ \\#50 \"What is the Distribution Template hyperlink on the Reconcile Statement page for?\" at: <a href=\"http://www.fiscal.ca.gov/faqs/\" target=\"_blank\">http://www.fiscal.ca.gov/faqs/</a>"
               }
             ],
             "response_type": "text",
@@ -13591,7 +13591,7 @@
           {
             "values": [
               {
-                "text": "To access Statewide Procurement Training: https://fiscal.ca.gov/user-support/university-of-fiscal/\n"
+                "text": "To access Statewide Procurement Training: <a href=\"https://fiscal.ca.gov/user-support/university-of-fiscal/\" target=\"_blank\">https://fiscal.ca.gov/user-support/university-of-fiscal/</a>"
               }
             ],
             "response_type": "text",
@@ -13633,7 +13633,7 @@
           {
             "values": [
               {
-                "text": "To view a PO Encumbrance balance, navigate to the Activity Summary page.\n\nNOTE: the PO must have been Budget Checked and have a \"Valid\" status.\n"
+                "text": "To view a PO Encumbrance balance, navigate to the Activity Summary page.\n\nNOTE: the PO must have been Budget Checked and have a \"Valid\" status."
               }
             ],
             "response_type": "text",
@@ -13654,7 +13654,7 @@
           {
             "values": [
               {
-                "text": "To view Receipt status (paid/unpaid):\n\nMain Menu > Purchasing > Receipts > Reports > Receipts Summary\n\nNOTE: unpaid Receipts will show a status of “To Match.”\n"
+                "text": "To view Receipt status (paid/unpaid):\n\nMain Menu > Purchasing > Receipts > Reports > Receipts Summary\n\nNOTE: unpaid Receipts will show a status of “To Match.”"
               }
             ],
             "response_type": "text",
@@ -13675,7 +13675,7 @@
           {
             "values": [
               {
-                "text": "To view information about the departments using FI\\$Cal, see: https://fiscal.ca.gov/library/resources/\n"
+                "text": "To view information about the departments using FI\\$Cal, see: <a href=\"https://fiscal.ca.gov/library/resources/\" target=\"_blank\">https://fiscal.ca.gov/library/resources/</a>"
               }
             ],
             "response_type": "text",
@@ -13696,7 +13696,7 @@
           {
             "values": [
               {
-                "text": "To receive/invoice against a closed and liquidated PO, the PO must be re-opened.\n"
+                "text": "To receive/invoice against a closed and liquidated PO, the PO must be re-opened."
               }
             ],
             "response_type": "text",
@@ -13759,7 +13759,7 @@
           {
             "values": [
               {
-                "text": "To view the list of available roles in FI\\$Cal refer to: https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/FISCalEnd-UserRoleDescriptionHandbook2.2.pdf\n"
+                "text": "To view the list of available roles in FI\\$Cal refer to: <a href=\"https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/FISCalEnd-UserRoleDescriptionHandbook2.2.pdf\" target=\"_blank\">https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/FISCalEnd-UserRoleDescriptionHandbook2.2.pdf</a>"
               }
             ],
             "response_type": "text",
@@ -13780,7 +13780,7 @@
           {
             "values": [
               {
-                "text": "The SRRF form is for Wave 1, Wave 2 and 2016 departments.\n"
+                "text": "The SRRF form is for Wave 1, Wave 2 and 2016 departments."
               }
             ],
             "response_type": "text",
@@ -13801,7 +13801,7 @@
           {
             "values": [
               {
-                "text": "To encumber funds using the \"\"Encumbrance Only\"\" Acquisition Type should only be used for the following transactions:\n\n*Court Orders/Settlements\n*Debt Services\n*Grants (that satisfy SCM Volume 1, Section 4.06)\n*Payroll Estimates\n*Retirement Cash-Out/Payout\n*Travel /CalATERS\n*Workers Compensation Claims\n"
+                "text": "To encumber funds using the \"Encumbrance Only\" Acquisition Type should only be used for the following transactions:\n\n*Court Orders/Settlements\n*Debt Services\n*Grants (that satisfy SCM Volume 1, Section 4.06)\n*Payroll Estimates\n*Retirement Cash-Out/Payout\n*Travel /CalATERS\n*Workers Compensation Claims"
               }
             ],
             "response_type": "text",
@@ -13822,7 +13822,7 @@
           {
             "values": [
               {
-                "text": "To view P-Card Statements:\n\nMain Menu > Purchasing > Procurement Cards > Reconcile > Reconcile Statement\n\nNOTE: the system will load P-Card transaction files from US Bank the day after the billing cycle ends; generally, the night of the 23rd. If the billing cycle ends on a weekend or holiday, the system will load the files on the next nightly batch.\n"
+                "text": "To view P-Card Statements:\n\nMain Menu > Purchasing > Procurement Cards > Reconcile > Reconcile Statement\n\nNOTE: the system will load P-Card transaction files from US Bank the day after the billing cycle ends; generally, the night of the 23rd. If the billing cycle ends on a weekend or holiday, the system will load the files on the next nightly batch."
               }
             ],
             "response_type": "text",
@@ -13864,7 +13864,7 @@
           {
             "values": [
               {
-                "text": "To avoid the threshold exceeded warning message, the Buyer must ensure that all purchases meet the thresholds noted in SCM-F Chapter 8, at: http://www.dgs.ca.gov/pd/Resources/publications/SCMFI\\$Cal.aspx\n"
+                "text": "To avoid the threshold exceeded warning message, the Buyer must ensure that all purchases meet the thresholds noted in SCM-F Chapter 8, at: <a href=\"http://www.dgs.ca.gov/pd/Resources/publications/SCMFI\\$Cal.aspx\" target=\"_blank\">http://www.dgs.ca.gov/pd/Resources/publications/SCMFI\\$Cal.aspx</a>"
               }
             ],
             "response_type": "text",
@@ -13885,7 +13885,7 @@
           {
             "values": [
               {
-                "text": "\"FI\\$Cal P-Card Billing Cycle\" runs from the 23rd of the current month to the 22nd of the following month.\n"
+                "text": "\"FI\\$Cal P-Card Billing Cycle\" runs from the 23rd of the current month to the 22nd of the following month."
               }
             ],
             "response_type": "text",
@@ -13906,7 +13906,7 @@
           {
             "values": [
               {
-                "text": "WebEx is an internet-based meeting. There is nothing that needs to be set up prior to the meeting. Once a technician sets up a meeting, you will receive an email with the instructions and links necessary to join the meeting.\n"
+                "text": "WebEx is an internet-based meeting. There is nothing that needs to be set up prior to the meeting. Once a technician sets up a meeting, you will receive an email with the instructions and links necessary to join the meeting."
               }
             ],
             "response_type": "text",
@@ -13927,7 +13927,7 @@
           {
             "values": [
               {
-                "text": "The Workbench ID is a freeform field.\n"
+                "text": "The Workbench ID is a freeform field."
               }
             ],
             "response_type": "text",
@@ -13990,7 +13990,7 @@
           {
             "values": [
               {
-                "text": "To copy the screen, go to the Start Menu and type \"Snipping tool.\"  Select the relevant area and Save the image. \n"
+                "text": "To copy the screen, go to the Start Menu and type \"Snipping tool.\"  Select the relevant area and Save the image. "
               }
             ],
             "response_type": "text",
@@ -14011,7 +14011,7 @@
           {
             "values": [
               {
-                "text": "To re-dispatch a PO (and print):\nhttp://www.fiscal.ca.gov/access-fiscal/procurementjobaids.html\nhttp://www.fiscal.ca.gov/access-fiscal/documents/job_aids_and_training_tips/Re-Dispatching_a_PO_1.0.docx\n"
+                "text": "To re-dispatch a PO (and print):\n<a href=\"http://www.fiscal.ca.gov/access-fiscal/procurementjobaids.html\" target=\"_blank\">http://www.fiscal.ca.gov/access-fiscal/procurementjobaids.html</a>\n<a href=\"http://www.fiscal.ca.gov/access-fiscal/documents/job_aids_and_training_tips/Re-Dispatching_a_PO_1.0.docx\" target=\"_blank\">http://www.fiscal.ca.gov/access-fiscal/documents/job_aids_and_training_tips/Re-Dispatching_a_PO_1.0.docx</a>\n"
               }
             ],
             "response_type": "text",
@@ -14032,7 +14032,7 @@
           {
             "values": [
               {
-                "text": "To reconcile a P-Card, the department/agency P-Card Reconciler and/or Cardholder must scan and attach supporting documents/receipts/invoices to the P-Card transaction.\n\nNOTE: The paper packet is no longer required by SCO.\n"
+                "text": "To reconcile a P-Card, the department/agency P-Card Reconciler and/or Cardholder must scan and attach supporting documents/receipts/invoices to the P-Card transaction.\n\nNOTE: The paper packet is no longer required by SCO."
               }
             ],
             "response_type": "text",
@@ -14095,7 +14095,7 @@
           {
             "values": [
               {
-                "text": "To identify the PO of a Requisition:\n\nJob Aid 346 Pcard FAQ \\#12 \"How do I find the PO associated to my Requisition?\":  http://fiscal.ca.gov/faqs/documents/RequisitionFAQs1.0.docx"
+                "text": "To identify the PO of a Requisition:\n\nJob Aid 346 Pcard FAQ \\#12 \"How do I find the PO associated to my Requisition?\":  <a href=\"http://fiscal.ca.gov/faqs/documents/RequisitionFAQs1.0.docx\" target=\"_blank\">http://fiscal.ca.gov/faqs/documents/RequisitionFAQs1.0.docx</a>"
               }
             ],
             "response_type": "text",
@@ -14179,7 +14179,7 @@
           {
             "values": [
               {
-                "text": "There is a maximum amount on the contract header. A PO cannot be created for more than the maximum amount of the contract. If a PO of maximum amount has already been created from a contract, then the contract would not be available to be copied into another PO. In this case, create a new version of the contract to increase its max amount:\n\n1. Navigate to Main Menu > Procurement contracts > LPA/Departmental Contract Search.\n2. Open the Contract in edit mode.\n3. Click on New Version.\n4. Increase the maximum amount and make any other changes as per your requirement.\n5. Save and submit the contract for approval. Once the Contract is approved it will be available to be copied in a PO.\n"
+                "text": "There is a maximum amount on the contract header. A PO cannot be created for more than the maximum amount of the contract. If a PO of maximum amount has already been created from a contract, then the contract would not be available to be copied into another PO. In this case, create a new version of the contract to increase its max amount:\n\n1. Navigate to Main Menu > Procurement contracts > LPA/Departmental Contract Search.\n2. Open the Contract in edit mode.\n3. Click on New Version.\n4. Increase the maximum amount and make any other changes as per your requirement.\n5. Save and submit the contract for approval. Once the Contract is approved it will be available to be copied in a PO."
               }
             ],
             "response_type": "text",
@@ -14221,7 +14221,7 @@
           {
             "values": [
               {
-                "text": "Thank you for chatting! To speak to a live agent, please contact the FI\\$Cal Service Center.\nFI\\$Cal Service Center\nPhone: (855) 347-2250\nEmail: fiscalservicecenter\\@fiscal.ca.gov\nMonday through Friday\n7:30 a.m. — 5:30 p.m., Pacific Time\nServiceNow is available 24 hours a day to report issues or make a request to the FSC.\nFind job aids and more information at www.fiscal.ca.gov"
+                "text": "Thank you for chatting! To speak to a live agent, please contact the FI\\$Cal Service Center.\nFI\\$Cal Service Center\nPhone: (855) 347-2250\nEmail: fiscalservicecenter\\@fiscal.ca.gov\nMonday through Friday\n7:30 a.m. — 5:30 p.m., Pacific Time\nServiceNow is available 24 hours a day to report issues or make a request to the FSC.\nFind job aids and more information at <a href=\"http://www.fiscal.ca.gov\" target=\"_blank\">www.fiscal.ca.gov</a>"
               }
             ],
             "response_type": "text",
@@ -14242,7 +14242,7 @@
           {
             "values": [
               {
-                "text": "An email notification is sent to department P-Card Approvers and P-Card Maintainer when P-Card transactions are ready for approval.\n\nJob Aid \"FI\\$Cal P-Card\", FAQ \\#23:  https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/P-Card_FAQs_1.0.docx"
+                "text": "An email notification is sent to department P-Card Approvers and P-Card Maintainer when P-Card transactions are ready for approval.\n\nJob Aid \"FI\\$Cal P-Card\", FAQ \\#23: <a href=\"https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/P-Card_FAQs_1.0.docx\" target=\"_blank\">https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/P-Card_FAQs_1.0.docx</a>"
               }
             ],
             "response_type": "text",
@@ -14263,7 +14263,7 @@
           {
             "values": [
               {
-                "text": "To copy a Requisition to a PO, the Requisition:\n\n*cannot be in \"Canceled\", \"Closed\" or \"Open\" status.\n*must be approved and Budget Checked.\n*\"Document Status\" must indicate that no other PO has been created from the Requisition.\n*encumbrance balance must be zero.\n\nNOTE: A non-zero balance indicates that the Requisition is already linked to a PO and assignment to multiple POs is not allowed.\nNOTE: a Requisition line can only be used to create a PO once; additional Requisition lines are employed to create additional POs, such as to different Suppliers.\n"
+                "text": "To copy a Requisition to a PO, the Requisition:\n\n*cannot be in \"Canceled\", \"Closed\" or \"Open\" status.\n*must be approved and Budget Checked.\n*\"Document Status\" must indicate that no other PO has been created from the Requisition.\n*encumbrance balance must be zero.\n\nNOTE: A non-zero balance indicates that the Requisition is already linked to a PO and assignment to multiple POs is not allowed.\nNOTE: a Requisition line can only be used to create a PO once; additional Requisition lines are employed to create additional POs, such as to different Suppliers."
               }
             ],
             "response_type": "text",
@@ -14284,7 +14284,7 @@
           {
             "values": [
               {
-                "text": "Information regarding who last uploaded/modified a PDF file is not Saved in the system.\n"
+                "text": "Information regarding who last uploaded/modified a PDF file is not Saved in the system."
               }
             ],
             "response_type": "text",
@@ -14305,7 +14305,7 @@
           {
             "values": [
               {
-                "text": "Sorry I don’t understand your question. Please try rephrasing. If you’re looking for “how to” information, try visiting the job aids page http://fiscal.ca.gov/user-support/job-aids/.  You can also get help from a live agent in the FI\\$Cal Service Center. \nPhone: (855) 347-2250\nEmail: fiscalservicecenter\\@fiscal.ca.gov\nMonday through Friday\n7:30 a.m. — 5:30 p.m., Pacific Time\nServiceNow is available 24 hours a day to report issues or make a request to the FSC."
+                "text": "Sorry I don’t understand your question. Please try rephrasing. If you’re looking for “how to” information, try visiting the job aids page <a href=\"http://fiscal.ca.gov/user-support/job-aids/\" target=\"_blank\">http://fiscal.ca.gov/user-support/job-aids/</a>.  You can also get help from a live agent in the FI\\$Cal Service Center. \nPhone: (855) 347-2250\nEmail: fiscalservicecenter\\@fiscal.ca.gov\nMonday through Friday\n7:30 a.m. — 5:30 p.m., Pacific Time\nServiceNow is available 24 hours a day to report issues or make a request to the FSC."
               }
             ],
             "response_type": "text",
@@ -14326,7 +14326,7 @@
           {
             "values": [
               {
-                "text": "\"Awaiting Third Party Action\" means the analyst requires input from an external source to fulfill/resolve the ticket.\n"
+                "text": "\"Awaiting Third Party Action\" means the analyst requires input from an external source to fulfill/resolve the ticket."
               }
             ],
             "response_type": "text",
@@ -14347,7 +14347,7 @@
           {
             "values": [
               {
-                "text": "To edit a PO line description on a non-Dispatched PO:\n\nMain Menu > Purchasing > Purchase Orders > Add/Update PO's\n\nRefer to ServiceNow Knowledge Article KB0059793\nNOTE: edits to a Dispatched PO require a Change Order.\n"
+                "text": "To edit a PO line description on a non-Dispatched PO:\n\nMain Menu > Purchasing > Purchase Orders > Add/Update PO's\n\nRefer to ServiceNow Knowledge Article KB0059793\nNOTE: edits to a Dispatched PO require a Change Order."
               }
             ],
             "response_type": "text",
@@ -14368,7 +14368,7 @@
           {
             "values": [
               {
-                "text": "To attach documents to a PO:\n\nRefer to FAQ \\#18 \"How do I attach the supporting and other required documents to my PO?\" at:\nhttp://fiscal.ca.gov/faqs/documents/Purchase_Order_FAQs_1.0.docx"
+                "text": "To attach documents to a PO:\n\nRefer to FAQ \\#18 \"How do I attach the supporting and other required documents to my PO?\" at:\n<a href=\"http://fiscal.ca.gov/faqs/documents/Purchase_Order_FAQs_1.0.docx\" target=\"_blank\">http://fiscal.ca.gov/faqs/documents/Purchase_Order_FAQs_1.0.docx</a>"
               }
             ],
             "response_type": "text",
@@ -14431,7 +14431,7 @@
           {
             "values": [
               {
-                "text": "To request access to a large variety of roles for users who are only going to be purchasing in FI\\$Cal, use the Statewide Procurement Multi-User Access Request Form (MARF).\nhttps://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/User_Access_Request_FAQs_Feb_2016.pdf\n"
+                "text": "To request access to a large variety of roles for users who are only going to be purchasing in FI\\$Cal, use the Statewide Procurement Multi-User Access Request Form (MARF).\n<a href=\"https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/User_Access_Request_FAQs_Feb_2016.pdf\" target=\"_blank\">https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/User_Access_Request_FAQs_Feb_2016.pdf</a>"
               }
             ],
             "response_type": "text",
@@ -14452,7 +14452,7 @@
           {
             "values": [
               {
-                "text": "To edit an approved P-Card transaction, a department P-Card Approver or Maintainer must make the changes the same day as approval, and prior to the overnight processing of Voucher State and Voucher Build.\n"
+                "text": "To edit an approved P-Card transaction, a department P-Card Approver or Maintainer must make the changes the same day as approval, and prior to the overnight processing of Voucher State and Voucher Build."
               }
             ],
             "response_type": "text",
@@ -14473,7 +14473,7 @@
           {
             "values": [
               {
-                "text": "To split a P-Card Transaction:\n\n*PO EXISTS: Department P-Card Reconciler and/or Cardholder links the PO ID to the P-Card transaction. The system will automatically split the P-Card transaction into the respective PO line(s).\n*NO PO EXISTS: Department P-Card Reconciler manually splits the P-Card transaction.\n\nNOTE: The amount entered for all lines must equal the total from US Bank.\n\nRefer to P-Card FAQ \\#34, \"Who will be splitting the P-Card transactions?\" at: https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/P-Card_FAQs_1.0.docx\n"
+                "text": "To split a P-Card Transaction:\n\n*PO EXISTS: Department P-Card Reconciler and/or Cardholder links the PO ID to the P-Card transaction. The system will automatically split the P-Card transaction into the respective PO line(s).\n*NO PO EXISTS: Department P-Card Reconciler manually splits the P-Card transaction.\n\nNOTE: The amount entered for all lines must equal the total from US Bank.\n\nRefer to P-Card FAQ \\#34, \"Who will be splitting the P-Card transactions?\" at: <a href=\"https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/P-Card_FAQs_1.0.docx\" target=\"_blank\">https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/P-Card_FAQs_1.0.docx</a>"
               }
             ],
             "response_type": "text",
@@ -14494,7 +14494,7 @@
           {
             "values": [
               {
-                "text": "To edit a Supplier on a created Contract is NOT allowed, instead:\n\n1. Cancel the created Contract.\n2. Create a new Contract with the desired information.\n"
+                "text": "To edit a Supplier on a created Contract is NOT allowed, instead:\n\n1. Cancel the created Contract.\n2. Create a new Contract with the desired information."
               }
             ],
             "response_type": "text",
@@ -14515,7 +14515,7 @@
           {
             "values": [
               {
-                "text": "To manage access to a CSCR Event: \n\n> Invite Bidders\n1a. select \"Post to CSCR\" (viewable in Cal eProcure) OR\n1b. select \"Public Event\" (viewable by anyone/the public - without logging into the portal)\n\nNOTE: to view an Event on Cal eProcure, the Event status must be \"Posted\"\nNOTE: the publish date of an Event is either the approval date or preview date, whichever is latest.\nNOTE: to view Event viewers, refer to ServiceNow Knowledge Article KB0062206\n"
+                "text": "To manage access to a CSCR Event: \n\n> Invite Bidders\n1a. select \"Post to CSCR\" (viewable in Cal eProcure) OR\n1b. select \"Public Event\" (viewable by anyone/the public - without logging into the portal)\n\nNOTE: to view an Event on Cal eProcure, the Event status must be \"Posted\"\nNOTE: the publish date of an Event is either the approval date or preview date, whichever is latest.\nNOTE: to view Event viewers, refer to ServiceNow Knowledge Article KB0062206"
               }
             ],
             "response_type": "text",
@@ -14599,7 +14599,7 @@
           {
             "values": [
               {
-                "text": "This is a warning message the system displays when you change the price amount on your PO line once the PO has been approved and/or Dispatched.  You can click through the message and proceed with the changes.\n"
+                "text": "This is a warning message the system displays when you change the price amount on your PO line once the PO has been approved and/or Dispatched.  You can click through the message and proceed with the changes."
               }
             ],
             "response_type": "text",
@@ -14641,7 +14641,7 @@
           {
             "values": [
               {
-                "text": "To access FI\\$Cal:\n\nForms to request access to FI\\$Cal can be found at: https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/CustomerSetUpForm20170629.xls\n"
+                "text": "To access FI\\$Cal:\n\nForms to request access to FI\\$Cal can be found at: <a href=\"https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/CustomerSetUpForm20170629.xls\" target=\"_blank\">https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/CustomerSetUpForm20170629.xls</a>\n"
               }
             ],
             "response_type": "text",
@@ -14662,7 +14662,7 @@
           {
             "values": [
               {
-                "text": "To re-open a PO (closed):\n\nRefer to FAQ \\#35 \"How do I re-open my closed Purchase Order ID?\" at: https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/Purchase_Order_FAQs_1.0.docx"
+                "text": "To re-open a PO (closed):\n\nRefer to FAQ \\#35 \"How do I re-open my closed Purchase Order ID?\" at: <a href=\"https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/Purchase_Order_FAQs_1.0.docx\" target=\"_blank\">https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/Purchase_Order_FAQs_1.0.docx</a>"
               }
             ],
             "response_type": "text",
@@ -14683,7 +14683,7 @@
           {
             "values": [
               {
-                "text": "To edit a Contract (Base Price):\n\n1. Create a new version of the contract.\n2. At contract line details, add the correct base price.\n3. Submit contract for approval.\n\nNOTE: \\$0 amount on a PO line, check the contract line Base Price. If the contract line Base Price is not set, it will appear on the PO as \\$0 merchandise amount.\n"
+                "text": "To edit a Contract (Base Price):\n\n1. Create a new version of the contract.\n2. At contract line details, add the correct base price.\n3. Submit contract for approval.\n\nNOTE: \\$0 amount on a PO line, check the contract line Base Price. If the contract line Base Price is not set, it will appear on the PO as \\$0 merchandise amount."
               }
             ],
             "response_type": "text",
@@ -14704,7 +14704,7 @@
           {
             "values": [
               {
-                "text": "To view PO payment status:\n\nRefer to FAQ \\#14 \"How do I tell if a PO has been paid and is ready to close out?\" at: https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/Purchase_Order_FAQs_1.0.docx"
+                "text": "To view PO payment status:\n\nRefer to FAQ \\#14 \"How do I tell if a PO has been paid and is ready to close out?\" at: <a href=\"https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/Purchase_Order_FAQs_1.0.docx\"> target=\"_blank\">https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/Purchase_Order_FAQs_1.0.docx</a>"
               }
             ],
             "response_type": "text",
@@ -14725,7 +14725,7 @@
           {
             "values": [
               {
-                "text": "To view POs per FY (fiscal-year) execute query RSY_FSC_PO_HDR.\n"
+                "text": "To view POs per FY (fiscal-year) execute query RSY_FSC_PO_HDR."
               }
             ],
             "response_type": "text",
@@ -14746,7 +14746,7 @@
           {
             "values": [
               {
-                "text": "To dispute/review P-Card transaction(s):\n\nFAQ \\#45 - \"How do I dispute my P-Card transaction in FI\\$Cal?\" at: http://www.fiscal.ca.gov/access-fiscal/procurementjobaids.html\nFAQ \\#46 - \"How do I review my disputed P-Card transactions in FI\\$Cal?\" at: https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/P-Card_FAQs_1.0.docx\nFAQ \\#49 - \"How do I verify that my credit has been marked as collected on my disputed P-Card transaction?\" at: https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/P-Card_FAQs_1.0.docx"
+                "text": "To dispute/review P-Card transaction(s):\n\nFAQ \\#45 - \"How do I dispute my P-Card transaction in FI\\$Cal?\" at: <a href=\"http://www.fiscal.ca.gov/access-fiscal/procurementjobaids.html\" target=\"_blank\">http://www.fiscal.ca.gov/access-fiscal/procurementjobaids.html</a>\nFAQ \\#46 - \"How do I review my disputed P-Card transactions in FI\\$Cal?\" at: <a href=\"https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/P-Card_FAQs_1.0.docx\" target=\"_blank\">https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/P-Card_FAQs_1.0.docx</a>\nFAQ \\#49 - \"How do I verify that my credit has been marked as collected on my disputed P-Card transaction?\" at: <a href=https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/P-Card_FAQs_1.0.docx\" target=\"_blank\">https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/P-Card_FAQs_1.0.docx</a>"
               }
             ],
             "response_type": "text",
@@ -14767,7 +14767,7 @@
           {
             "values": [
               {
-                "text": "\"Business Unit\" (BU) is an organizational unit with a balanced set of books that segregate GL reports and processing. Access to the use of BUs can be controlled with security configuration. FI\\$Cal BUs are defined as the Organization Codes to which departmental appropriations are made. Currently, each department has at least one assigned BU.\n"
+                "text": "\"Business Unit\" (BU) is an organizational unit with a balanced set of books that segregate GL reports and processing. Access to the use of BUs can be controlled with security configuration. FI\\$Cal BUs are defined as the Organization Codes to which departmental appropriations are made. Currently, each department has at least one assigned BU."
               }
             ],
             "response_type": "text",
@@ -14788,7 +14788,7 @@
           {
             "values": [
               {
-                "text": "To re-dispatch or re-print a Dispatched PO, follow the steps described at:\n\nhttp://www.fiscal.ca.gov/access-fiscal/documents/job_aids_and_training_tips/Re-Dispatching_a_PO_1.0.docx\n"
+                "text": "To re-dispatch or re-print a Dispatched PO, follow the steps described at:\n\na href=\"http://www.fiscal.ca.gov/access-fiscal/documents/job_aids_and_training_tips/Re-Dispatching_a_PO_1.0.docx\" target=\"_blank\">http://www.fiscal.ca.gov/access-fiscal/documents/job_aids_and_training_tips/Re-Dispatching_a_PO_1.0.docx</a>"
               }
             ],
             "response_type": "text",
@@ -14830,7 +14830,7 @@
           {
             "values": [
               {
-                "text": "Sales/Use Tax is calculated on the P-Card Reconciliation page, as follows:\n\n*if the P-Card transaction is linked to a PO ID, then the Sales/Use Tax info from the PO line will carry over to the P-Card transaction. \n*if the PO ID has multiple PO lines, then the system will automatically split the summary P-Card transaction into the corresponding PO lines, and Sales/Use Tax will carry over to the newly split P-Card transaction lines.\n*if there is no PO ID, then department P-Card Reconciler must manually split the summary P-Card transaction into multiple lines. The Reconciler will need to include the unit cost of each line plus the Sales/Use Tax, and enter that amount on each split line. The total split amount must equal 100% of the summary total amount which is the original amount that came from US Bank.\n\nNOTE: Sales/Use Tax that carried over from the PO ID or was manually calculated on P-Card transactions will not flow to the P-Card Voucher ID. All system-generated P-Card Voucher IDs are created as Tax Exempt.\n"
+                "text": "Sales/Use Tax is calculated on the P-Card Reconciliation page, as follows:\n\n*if the P-Card transaction is linked to a PO ID, then the Sales/Use Tax info from the PO line will carry over to the P-Card transaction. \n*if the PO ID has multiple PO lines, then the system will automatically split the summary P-Card transaction into the corresponding PO lines, and Sales/Use Tax will carry over to the newly split P-Card transaction lines.\n*if there is no PO ID, then department P-Card Reconciler must manually split the summary P-Card transaction into multiple lines. The Reconciler will need to include the unit cost of each line plus the Sales/Use Tax, and enter that amount on each split line. The total split amount must equal 100% of the summary total amount which is the original amount that came from US Bank.\n\nNOTE: Sales/Use Tax that carried over from the PO ID or was manually calculated on P-Card transactions will not flow to the P-Card Voucher ID. All system-generated P-Card Voucher IDs are created as Tax Exempt."
               }
             ],
             "response_type": "text",
@@ -14851,7 +14851,7 @@
           {
             "values": [
               {
-                "text": "To create an employee Supplier, see Job Aid \"Creating an Employee Supplier\" at: https://fiscal.ca.gov/fiswp/?mdocs-file=1952"
+                "text": "To create an employee Supplier, see Job Aid \"Creating an Employee Supplier\" at: <a href=\"https://fiscal.ca.gov/fiswp/?mdocs-file=1952\" target=\"_blank\">https://fiscal.ca.gov/fiswp/?mdocs-file=1952</a>"
               }
             ],
             "response_type": "text",
@@ -14872,7 +14872,7 @@
           {
             "values": [
               {
-                "text": "Thank you for chatting! You can find additional information like job aids and how to videos at fiscal.ca.gov. "
+                "text": "Thank you for chatting! You can find additional information like job aids and how to videos at <a href=\"http://fiscal.ca.gov\" target=\"_blank\">http://fiscal.ca.gov</a>. "
               }
             ],
             "response_type": "text",
@@ -14893,7 +14893,7 @@
           {
             "values": [
               {
-                "text": "To access the Identity Self Service (ISS) Job Aid: https://fiscal.ca.gov/user-support/job-aids/"
+                "text": "To access the Identity Self Service (ISS) Job Aid: <a href=\"https://fiscal.ca.gov/user-support/job-aids/\" target=\"_blank\">https://fiscal.ca.gov/user-support/job-aids/</a>"
               }
             ],
             "response_type": "text",
@@ -14914,7 +14914,7 @@
           {
             "values": [
               {
-                "text": "To cancel a Receipt:\n\nMain Menu > Purchasing > Receipts > Add/Update Receipts\n1. Click on the “Find and Existing Value”\n2. Enter the Business Unit and Receipt ID.\n3. Click on the red X (the Cancel icon next to Receipt Status).\n4. Click Save.\n\nNOTE: To Cancel a Receipt, all associated Vouchers must first be Deleted.\n\nJob Aid Fiscal.347,\"Receiving FAQs\": https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/Receiving_FAQs_1.0.docx"
+                "text": "To cancel a Receipt:\n\nMain Menu > Purchasing > Receipts > Add/Update Receipts\n1. Click on the “Find and Existing Value”\n2. Enter the Business Unit and Receipt ID.\n3. Click on the red X (the Cancel icon next to Receipt Status).\n4. Click Save.\n\nNOTE: To Cancel a Receipt, all associated Vouchers must first be Deleted.\n\nJob Aid Fiscal.347,\"Receiving FAQs\": <a href=\"https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/Receiving_FAQs_1.0.docx\" target=\"_blank\">https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/Receiving_FAQs_1.0.docx</a>"
               }
             ],
             "response_type": "text",
@@ -14956,7 +14956,7 @@
           {
             "values": [
               {
-                "text": "To request assistance with UNSPSC categories, contact DGS at:\n\nEMAIL: helpUNSPSC\\@dgs.ca.gov.\nWEB: https://www.dgs.ca.gov/pd/Programs/caleprocure/UNSPSC.aspx\n\nNOTE: To create a UNSPSC \"cheat-sheet,\" refer to: https://www.documents.dgs.ca.gov/eprocure/unspscuserguide.pdf"
+                "text": "To request assistance with UNSPSC categories, contact DGS at:\n\nEMAIL: helpUNSPSC\\@dgs.ca.gov.\nWEB: <a href=\"https://www.dgs.ca.gov/pd/Programs/caleprocure/UNSPSC.aspx\" target=\"_blank\">https://www.dgs.ca.gov/pd/Programs/caleprocure/UNSPSC.aspx</a>\n\nNOTE: To create a UNSPSC \"cheat-sheet,\" refer to: <a href=\"https://www.documents.dgs.ca.gov/eprocure/unspscuserguide.pdf\" target=_blank\">https://www.documents.dgs.ca.gov/eprocure/unspscuserguide.pdf</a>"
               }
             ],
             "response_type": "text",
@@ -14977,7 +14977,7 @@
           {
             "values": [
               {
-                "text": "To edit PO Chartfields, create a Change Order for the PO.\nTo edit Chartfields on a Contract, create a new version of the Contract.\n"
+                "text": "To edit PO Chartfields, create a Change Order for the PO.\nTo edit Chartfields on a Contract, create a new version of the Contract."
               }
             ],
             "response_type": "text",
@@ -14998,7 +14998,7 @@
           {
             "values": [
               {
-                "text": "To maintain an active account a FI\\$Cal user must log into the system at least one time every 180 days.\n"
+                "text": "To maintain an active account a FI\\$Cal user must log into the system at least one time every 180 days."
               }
             ],
             "response_type": "text",
@@ -15061,7 +15061,7 @@
           {
             "values": [
               {
-                "text": "Your security image is based on your email address.  If you are not seeing your expected image, it means that you incorrectly entered your email address when trying to log in.\n"
+                "text": "Your security image is based on your email address.  If you are not seeing your expected image, it means that you incorrectly entered your email address when trying to log in."
               }
             ],
             "response_type": "text",
@@ -15082,7 +15082,7 @@
           {
             "values": [
               {
-                "text": "To edit a PO (Project ID) no Receipt or Voucher can exist for the PO.\n"
+                "text": "To edit a PO (Project ID) no Receipt or Voucher can exist for the PO."
               }
             ],
             "response_type": "text",
@@ -15103,7 +15103,7 @@
           {
             "values": [
               {
-                "text": "To pay P-Card purchases, only use standard purchase documents whenever the purchase meets the thresholds noted in SCM-F Chapter 8.\n\nRefer to: http://www.dgs.ca.gov/pd/Resources/publications/SCMFI\\$Cal.aspx\n"
+                "text": "To pay P-Card purchases, only use standard purchase documents whenever the purchase meets the thresholds noted in SCM-F Chapter 8.\n\nRefer to: <a href=\"http://www.dgs.ca.gov/pd/Resources/publications/SCMFI\\$Cal.aspx\" target=\"_blank\">http://www.dgs.ca.gov/pd/Resources/publications/SCMFI\\$Cal.aspx</a>"
               }
             ],
             "response_type": "text",
@@ -15124,7 +15124,7 @@
           {
             "values": [
               {
-                "text": "\"Awaiting Evidence\" means that the request has been fulfilled as per the analyst; however, the ticket remains open until the user confirms that the issue is resolved.\n"
+                "text": "\"Awaiting Evidence\" means that the request has been fulfilled as per the analyst; however, the ticket remains open until the user confirms that the issue is resolved."
               }
             ],
             "response_type": "text",
@@ -15145,7 +15145,7 @@
           {
             "values": [
               {
-                "text": "To edit a PO Supplier ID on a Dispatched and/or Approved PO:\n\n1. Cancel the PO\n2. Create a new PO with the desired Supplier ID\n"
+                "text": "To edit a PO Supplier ID on a Dispatched and/or Approved PO:\n\n1. Cancel the PO\n2. Create a new PO with the desired Supplier ID"
               }
             ],
             "response_type": "text",
@@ -15208,7 +15208,7 @@
           {
             "values": [
               {
-                "text": "To create a PO discounted amount with the Sales/Use Tax calculated on the original amount, follow these steps:\n\n1. Create a PO with two PO lines.\n2. In the first line put the original amount of the item and apply Sales/Use Tax on it. The system will calculate the Sales/Use Tax on the original item.\n3. In the second line provide the discount given by the Supplier as a negative amount and make this line as \"Item Exempt.\"\n\nEXAMPLE: Your item's cost is \\$100 and the Sales/Use Tax is 8.75%. The Supplier has provided you with a discount of \\$20. Create a PO with two PO lines. Enter the first line as \\$100 and the system will calculate the appropriate 8.75% Sales/Use Tax. In the second line put the amount as \\$-20, and check line 2 as \"Item exempt\" (making line 2 non-taxable). The PO calculates Sales/Use Tax amount of \\$8.75 and the merchandise amount \\$80.\n"
+                "text": "To create a PO discounted amount with the Sales/Use Tax calculated on the original amount, follow these steps:\n\n1. Create a PO with two PO lines.\n2. In the first line put the original amount of the item and apply Sales/Use Tax on it. The system will calculate the Sales/Use Tax on the original item.\n3. In the second line provide the discount given by the Supplier as a negative amount and make this line as \"Item Exempt.\"\n\nEXAMPLE: Your item's cost is \\$100 and the Sales/Use Tax is 8.75%. The Supplier has provided you with a discount of \\$20. Create a PO with two PO lines. Enter the first line as \\$100 and the system will calculate the appropriate 8.75% Sales/Use Tax. In the second line put the amount as \\$-20, and check line 2 as \"Item exempt\" (making line 2 non-taxable). The PO calculates Sales/Use Tax amount of \\$8.75 and the merchandise amount \\$80."
               }
             ],
             "response_type": "text",
@@ -15250,7 +15250,7 @@
           {
             "values": [
               {
-                "text": "To edit a Receipt amount to something other than the amount on the PO line, mark the PO line as an \"Amount only.\"\n"
+                "text": "To edit a Receipt amount to something other than the amount on the PO line, mark the PO line as an \"Amount only.\""
               }
             ],
             "response_type": "text",
@@ -15292,7 +15292,7 @@
           {
             "values": [
               {
-                "text": "The Warrant sent by the State Controllers Office to US Bank is issued by the Managing Account, not by individual P-Card statement. \n"
+                "text": "The Warrant sent by the State Controllers Office to US Bank is issued by the Managing Account, not by individual P-Card statement. "
               }
             ],
             "response_type": "text",
@@ -15313,7 +15313,7 @@
           {
             "values": [
               {
-                "text": "Disallowed: cancel a Change Order.\n\nNOTE: If a Change Order alters the amount only, the original amount may be restored. \n"
+                "text": "Disallowed: cancel a Change Order.\n\nNOTE: If a Change Order alters the amount only, the original amount may be restored. "
               }
             ],
             "response_type": "text",
@@ -15334,7 +15334,7 @@
           {
             "values": [
               {
-                "text": "To view a PO that is Dispatched:\n\nMain Menu > Purchasing > Purchase Orders > Add/update POs\n1. select \"Find an Existing Value\"\n2. select \"Dispatched\" PO status\n3. click Search\n"
+                "text": "To view a PO that is Dispatched:\n\nMain Menu > Purchasing > Purchase Orders > Add/update POs\n1. select \"Find an Existing Value\"\n2. select \"Dispatched\" PO status\n3. click Search"
               }
             ],
             "response_type": "text",
@@ -15376,7 +15376,7 @@
           {
             "values": [
               {
-                "text": "To override the standard approval workflow the Business Unit (BU) will assign an \"Ad Hoc Approver(s)\" as needed (per document, Requisition, PO, Contract, etc.).\n\nRefer to FI\\$Cal University training, \"PO112 - Processing Requisitions WBT\" at: https://fiscal.netdimensions.com/ekp/servlet/ekp?TX=WIDGETCONTAINERPAGE\n\nNOTE: To setup Ad Hoc Approver(s) roles, contact the FI\\$Cal Service Center (FSC).\n"
+                "text": "To override the standard approval workflow the Business Unit (BU) will assign an \"Ad Hoc Approver(s)\" as needed (per document, Requisition, PO, Contract, etc.).\n\nRefer to FI\\$Cal University training, \"PO112 - Processing Requisitions WBT\" at: <a href=\"https://fiscal.netdimensions.com/ekp/servlet/ekp?TX=WIDGETCONTAINERPAGE\" target=\"_blank\">https://fiscal.netdimensions.com/ekp/servlet/ekp?TX=WIDGETCONTAINERPAGE</a>\n\nNOTE: To setup Ad Hoc Approver(s) roles, contact the FI\\$Cal Service Center (FSC)."
               }
             ],
             "response_type": "text",
@@ -15439,7 +15439,7 @@
           {
             "values": [
               {
-                "text": "After paying for a P-Card transaction using the ORF paper claim process:  \n\nStep 1: Dept. P-Card Reconciler or cardholder will need to follow the P-Card reconciliation process in FI\\$Cal explained in the Job Aid, \"P-Card Transaction Reconciliation Process in FI\\$Cal\" found at this link:  https://fiscal.ca.gov/user-support/job-aids/\n\nStep 2: Once the system has generated the voucher from the P-Card reconciliation the BU will have to go in and check the “ORF Replenishment” Box on the Voucher (If the P-Card Voucher does not have any negative lines.) The BU will also need to check the “Automatically Apply to Prepayment” on the Voucher attributes page.\n\nStep 3: The system will automatically apply the prepaid payment from the ORF against the newly system-generated P-Card voucher and pay US Bank the difference if other P-Card transactions were on the same voucher ID.\n"
+                "text": "After paying for a P-Card transaction using the ORF paper claim process:  \n\nStep 1: Dept. P-Card Reconciler or cardholder will need to follow the P-Card reconciliation process in FI\\$Cal explained in the Job Aid, \"P-Card Transaction Reconciliation Process in FI\\$Cal\" found at this link:  https://fiscal.ca.gov/user-support/job-aids/\n\nStep 2: Once the system has generated the voucher from the P-Card reconciliation the BU will have to go in and check the “ORF Replenishment” Box on the Voucher (If the P-Card Voucher does not have any negative lines.) The BU will also need to check the “Automatically Apply to Prepayment” on the Voucher attributes page.\n\nStep 3: The system will automatically apply the prepaid payment from the ORF against the newly system-generated P-Card voucher and pay US Bank the difference if other P-Card transactions were on the same voucher ID."
               }
             ],
             "response_type": "text",
@@ -15460,7 +15460,7 @@
           {
             "values": [
               {
-                "text": "To add Vendor/Supplier shipping instructions:\n\nRefer to Purchasing FAQ \\#09 \"How do I enter shipping instructions to the vendors/suppliers?\" at: https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/Purchase_Order_FAQs_1.0.docx"
+                "text": "To add Vendor/Supplier shipping instructions:\n\nRefer to Purchasing FAQ \\#09 \"How do I enter shipping instructions to the vendors/suppliers?\" at: <a href=\"https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/Purchase_Order_FAQs_1.0.docx\" target=_blank\">https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/Purchase_Order_FAQs_1.0.docx</a>"
               }
             ],
             "response_type": "text",
@@ -15481,7 +15481,7 @@
           {
             "values": [
               {
-                "text": "To create a PO with P-Card as the payment method, refer to: https://fiscal.ca.gov/fiswp/?mdocs-file=2162\n"
+                "text": "To create a PO with P-Card as the payment method, refer to: <a href=\"https://fiscal.ca.gov/fiswp/?mdocs-file=2162\" target=\"_blank\">https://fiscal.ca.gov/fiswp/?mdocs-file=2162</a>"
               }
             ],
             "response_type": "text",
@@ -15502,7 +15502,7 @@
           {
             "values": [
               {
-                "text": "To view all PO lines (no duplicates), go to the PO Inquiry page.\n"
+                "text": "To view all PO lines (no duplicates), go to the PO Inquiry page."
               }
             ],
             "response_type": "text",
@@ -15523,7 +15523,7 @@
           {
             "values": [
               {
-                "text": "To view the Suppliers who have accessed a bid in the Cal eProcure website, refer to ServiceNow Knowledge Article KB0062206.\n"
+                "text": "To view the Suppliers who have accessed a bid in the Cal eProcure website, refer to ServiceNow Knowledge Article KB0062206."
               }
             ],
             "response_type": "text",
@@ -15544,7 +15544,7 @@
           {
             "values": [
               {
-                "text": "To view a PO (available balance):\n\nMain Menu > Purchasing > Purchase Orders > Add/update POs\n1. select \"Activity Summary\"\n*the merchandise matching will display.\n\nNOTE: the amount already paid is displayed on the document status.\n"
+                "text": "To view a PO (available balance):\n\nMain Menu > Purchasing > Purchase Orders > Add/update POs\n1. select \"Activity Summary\"\n*the merchandise matching will display.\n\nNOTE: the amount already paid is displayed on the document status."
               }
             ],
             "response_type": "text",
@@ -15586,7 +15586,7 @@
           {
             "values": [
               {
-                "text": "To view Voucher IDs for P-Card transactions:\n\nJob Aid \\#346 \"P-Card FAQs\": https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/P-Card_FAQs_1.0.docx"
+                "text": "To view Voucher IDs for P-Card transactions:\n\nJob Aid \\#346 \"P-Card FAQs\": <a href=\"https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/P-Card_FAQs_1.0.docx\" target=\"_blank\">https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/P-Card_FAQs_1.0.docx</a>"
               }
             ],
             "response_type": "text",
@@ -15607,7 +15607,7 @@
           {
             "values": [
               {
-                "text": "To edit a PO (Account Date):\n\nNOTE: No changes can be saved on a PO with an Account Date in a Closed period.\n\n1. Open PO.\n2. Click on Header Details.\n3. Set the Accounting Date equal to the current date, click OK. \n4. Click Save.\n\nSee Job Aid \"Amending a Purchase Order that has a Closed Accounting Period\" at: https://fiscal.ca.gov/fiswp/?mdocs-file=1936\n"
+                "text": "To edit a PO (Account Date):\n\nNOTE: No changes can be saved on a PO with an Account Date in a Closed period.\n\n1. Open PO.\n2. Click on Header Details.\n3. Set the Accounting Date equal to the current date, click OK. \n4. Click Save.\n\nSee Job Aid \"Amending a Purchase Order that has a Closed Accounting Period\" at: <a href=\"https://fiscal.ca.gov/fiswp/?mdocs-file=1936\" target=\"_blank\">https://fiscal.ca.gov/fiswp/?mdocs-file=1936</a>"
               }
             ],
             "response_type": "text",
@@ -15628,7 +15628,7 @@
           {
             "values": [
               {
-                "text": "To view PO status (Approval/Denial):\n\n1. Click \"View Approval.\"\n2. Click \"Comment History.\"\n3. Click links presented.\n"
+                "text": "To view PO status (Approval/Denial):\n\n1. Click \"View Approval.\"\n2. Click \"Comment History.\"\n3. Click links presented."
               }
             ],
             "response_type": "text",
@@ -15649,7 +15649,7 @@
           {
             "values": [
               {
-                "text": "To assign a P-Card Reconciler (or multiple Reconcilers) to a cardholder (or multiple cardholders), use the Assign Proxies page.\n\nJob Aid Fiscal.346 \"P-Card FAQs\" \\#25 \"Can many department P-Card Reconcilers reconcile for one department P-Card Cardholder\": https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/P-Card_FAQs_1.0.docx"
+                "text": "To assign a P-Card Reconciler (or multiple Reconcilers) to a cardholder (or multiple cardholders), use the Assign Proxies page.\n\nJob Aid Fiscal.346 \"P-Card FAQs\" \\#25 \"Can many department P-Card Reconcilers reconcile for one department P-Card Cardholder\": <a href=\"https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/P-Card_FAQs_1.0.docx\" target=\"_blank\">https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/P-Card_FAQs_1.0.docx</a>"
               }
             ],
             "response_type": "text",
@@ -15670,7 +15670,7 @@
           {
             "values": [
               {
-                "text": "There are numerous reasons why P-Card transactions cannot be searched/viewed on the Reconcile Statement page.\n\n* The search criteria used is not correct. Use the Clear button to remove defaults and verify the search criteria (use the Employee ID on the Cardholder Profile).\n* The P-Card number used does not exist or was keyed incorrectly in FI\\$Cal. Contact the P-Card Maintainer to resolve.\n* The P-Card transaction is for a new Managing Account (MA).  US Bank does not automatically begin delivering statement electronically until they are ordered by FSC P-Card team.  Contact the FI\\\\$Cal Service Desk and open a case to add a new MA to the P-Card Cycle.\n* Proxy/permission to view the transactions does not exist. Check the proxies for \"P- card Reconciler\" for the card whose statement is being reconciled. Contact the P-Card Maintainer to resolve.\n* Another Reconciler may have already reconciled the P-Card transactions."
+                "text": "There are numerous reasons why P-Card transactions cannot be searched/viewed on the Reconcile Statement page.\n\n* The search criteria used is not correct. Use the Clear button to remove defaults and verify the search criteria (use the Employee ID on the Cardholder Profile).\n* The P-Card number used does not exist or was keyed incorrectly in FI\\$Cal. Contact the P-Card Maintainer to resolve.\n* The P-Card transaction is for a new Managing Account (MA).  US Bank does not automatically begin delivering statement electronically until they are ordered by FSC P-Card team.  Contact the FI\\$Cal Service Desk and open a case to add a new MA to the P-Card Cycle.\n* Proxy/permission to view the transactions does not exist. Check the proxies for \"P- card Reconciler\" for the card whose statement is being reconciled. Contact the P-Card Maintainer to resolve.\n* Another Reconciler may have already reconciled the P-Card transactions."
               }
             ],
             "response_type": "text",
@@ -15691,7 +15691,7 @@
           {
             "values": [
               {
-                "text": "To create a PO from an existing PO:\n\nMaintain PO > Copy From\n\n1. Choose Purchase Order\n\nNOTE: This action will overwrite anything typed into the new PO with the information from the existing PO. A warning will appear asking to Continue? Select Continue to proceed with this change.\n"
+                "text": "To create a PO from an existing PO:\n\nMaintain PO > Copy From\n\n1. Choose Purchase Order\n\nNOTE: This action will overwrite anything typed into the new PO with the information from the existing PO. A warning will appear asking to Continue? Select Continue to proceed with this change."
               }
             ],
             "response_type": "text",
@@ -15775,7 +15775,7 @@
           {
             "values": [
               {
-                "text": "An account can get disabled for one of the following reasons:\n\na.  Password needs to be reset\nb.  A request to disable the account was received by the FI\\$Cal Service Center\nc.  User has not logged in for more than 180 days\n"
+                "text": "An account can get disabled for one of the following reasons:\n\na.  Password needs to be reset\nb.  A request to disable the account was received by the FI\\$Cal Service Center\nc.  User has not logged in for more than 180 days"
               }
             ],
             "response_type": "text",
@@ -15796,7 +15796,7 @@
           {
             "values": [
               {
-                "text": "To liquidate the encumbrance balance of a closed PO, the PO must be Budget Checked.\nTo view a closed PO from the Buyer's Workbench, select \"\"Include Closed\"\" on the Buyer's Workbench search page.\n"
+                "text": "To liquidate the encumbrance balance of a closed PO, the PO must be Budget Checked.\nTo view a closed PO from the Buyer's Workbench, select \"\"Include Closed\"\" on the Buyer's Workbench search page."
               }
             ],
             "response_type": "text",
@@ -15817,7 +15817,7 @@
           {
             "values": [
               {
-                "text": "To view a Requisition:\n\nMain Menu > eProcurement > Manage Requisition\n1. Press the \"Clear\" button.\n2. Enter the Business Unit and Requisition ID (including the leading zeros).\n3. Click Search.\n"
+                "text": "To view a Requisition:\n\nMain Menu > eProcurement > Manage Requisition\n1. Press the \"Clear\" button.\n2. Enter the Business Unit and Requisition ID (including the leading zeros).\n3. Click Search."
               }
             ],
             "response_type": "text",
@@ -15838,7 +15838,7 @@
           {
             "values": [
               {
-                "text": "This message means that a new version of the contract has been created and approved. Refer to PO Job Aid \\#345, FAQ \\#27 to understand this error message: https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/Purchase_Order_FAQs_1.0.docx"
+                "text": "This message means that a new version of the contract has been created and approved. Refer to PO Job Aid \\#345, FAQ \\#27 to understand this error message: <a href=\"https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/Purchase_Order_FAQs_1.0.docx\" target=_blank\">https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/Purchase_Order_FAQs_1.0.docx</a>"
               }
             ],
             "response_type": "text",
@@ -15880,7 +15880,7 @@
           {
             "values": [
               {
-                "text": "To view the distribution Chart Fields on the Dispatched PO pdf, select \"View Printable Version.\"\n"
+                "text": "To view the distribution Chart Fields on the Dispatched PO pdf, select \"View Printable Version.\""
               }
             ],
             "response_type": "text",
@@ -15901,7 +15901,7 @@
           {
             "values": [
               {
-                "text": "To return unused PO funds to the Procurement Contract:\n\n*PO NOT PAID:\n1. Cancel the PO (encumbrance is returned to the contract).\n\n*PO PAID:\n1. Create a PO Change Order.\n2. Reduce the PO amount to the amount already paid.\n3. Close the PO (remaining encumbrance is returned to the contract).\n\nRefer to ServiceNow Knowledge Article KB0054766\n"
+                "text": "To return unused PO funds to the Procurement Contract:\n\n*PO NOT PAID:\n1. Cancel the PO (encumbrance is returned to the contract).\n\n*PO PAID:\n1. Create a PO Change Order.\n2. Reduce the PO amount to the amount already paid.\n3. Close the PO (remaining encumbrance is returned to the contract).\n\nRefer to ServiceNow Knowledge Article KB0054766"
               }
             ],
             "response_type": "text",
@@ -15922,7 +15922,7 @@
           {
             "values": [
               {
-                "text": "To edit a Contract (Draft):\n\nIf the New Version button is greyed out, there is already a new version created. If you are not able to find it, please select the version status as \"Draft\" and search for it \n"
+                "text": "To edit a Contract (Draft):\n\nIf the New Version button is greyed out, there is already a new version created. If you are not able to find it, please select the version status as \"Draft\" and search for it."
               }
             ],
             "response_type": "text",
@@ -15943,7 +15943,7 @@
           {
             "values": [
               {
-                "text": "To edit a PO (re-open, Pending Cancel):\n\nOnce the PO is in \"Pending Cancel\" status, the system cannot change its status to “Open.” In order to re-open the PO, Budget Check the PO and Dispatch it so that it shows a status of \"Canceled\" and the funds are disencumbered.\n"
+                "text": "To edit a PO (re-open, Pending Cancel):\n\nOnce the PO is in \"Pending Cancel\" status, the system cannot change its status to “Open.” In order to re-open the PO, Budget Check the PO and Dispatch it so that it shows a status of \"Canceled\" and the funds are disencumbered."
               }
             ],
             "response_type": "text",
@@ -15964,7 +15964,7 @@
           {
             "values": [
               {
-                "text": "To edit a PO Acquisition Type and Method on a Dispatched PO:\n\n1. Create a new PO from the Dispatched PO using \"copy from PO\" with the desired Acquisition Type and Method.\n2. Cancel all Receipts created from the canceled PO (if any exist).\n3. Cancel the Dispatched PO.\n4. Make the desired edits.\n"
+                "text": "To edit a PO Acquisition Type and Method on a Dispatched PO:\n\n1. Create a new PO from the Dispatched PO using \"copy from PO\" with the desired Acquisition Type and Method.\n2. Cancel all Receipts created from the canceled PO (if any exist).\n3. Cancel the Dispatched PO.\n4. Make the desired edits."
               }
             ],
             "response_type": "text",
@@ -15985,7 +15985,7 @@
           {
             "values": [
               {
-                "text": "\"To edit Voucher Sales/Use Tax:\n\n*If the Sales/Use Tax did not copy onto the Voucher directly, but only the Line Amount was copied onto the Voucher, then the AP Processor must manually add the Sales/Use Tax onto the Voucher.\n*If the PO does not have taxes defined and the invoice has added Sales/Use Tax, a Change Order will need to be created for the PO. Once the Change Order has been created, create the Receipt(s) to avoid Voucher Match Exceptions.\"\n"
+                "text": "To edit Voucher Sales/Use Tax:\n\n*If the Sales/Use Tax did not copy onto the Voucher directly, but only the Line Amount was copied onto the Voucher, then the AP Processor must manually add the Sales/Use Tax onto the Voucher.\n*If the PO does not have taxes defined and the invoice has added Sales/Use Tax, a Change Order will need to be created for the PO. Once the Change Order has been created, create the Receipt(s) to avoid Voucher Match Exceptions."
               }
             ],
             "response_type": "text",
@@ -16027,7 +16027,7 @@
           {
             "values": [
               {
-                "text": "To edit a PO (reduce amount):\n\n1. change the Contract \"minimum amount.\"\n2. reduce the amount on the PO.\n\nNOTE: \"Order Amount is below the per order minimum amount at contract\" indicates that the minimum amount on the contract is greater than the amount to which you are reducing the PO line.\n"
+                "text": "To edit a PO (reduce amount):\n\n1. change the Contract \"minimum amount.\"\n2. reduce the amount on the PO.\n\nNOTE: \"Order Amount is below the per order minimum amount at contract\" indicates that the minimum amount on the contract is greater than the amount to which you are reducing the PO line."
               }
             ],
             "response_type": "text",
@@ -16132,7 +16132,7 @@
           {
             "values": [
               {
-                "text": "To view Purchasing-related FAQs: \n\nJob Aid Fiscal.345 \"Purchase Order FAQs\": https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/Purchase_Order_FAQs_1.0.docx"
+                "text": "To view Purchasing-related FAQs: \n\nJob Aid Fiscal.345 \"Purchase Order FAQs\": <a href=\"https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/Purchase_Order_FAQs_1.0.docx\" target=\"_blank\">https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/Purchase_Order_FAQs_1.0.docx</a>"
               }
             ],
             "response_type": "text",
@@ -16153,7 +16153,7 @@
           {
             "values": [
               {
-                "text": "To edit LPA Contracts in SCPRS documents, the following must be true:\n\n*SCPRS Purchase document and LPA Contract Supplier ID is the same.\n*SCPRS Purchase document Acquisition Type and Method matches the LPA Contract.\n*SCPRS Purchase document Acquisition Method is Contract Type: \"LPA Contract.\"\n*SCPRS Purchase Date falls between the start and end date of the LPA Contract.\n"
+                "text": "To edit LPA Contracts in SCPRS documents, the following must be true:\n\n*SCPRS Purchase document and LPA Contract Supplier ID is the same.\n*SCPRS Purchase document Acquisition Type and Method matches the LPA Contract.\n*SCPRS Purchase document Acquisition Method is Contract Type: \"LPA Contract.\"\n*SCPRS Purchase Date falls between the start and end date of the LPA Contract."
               }
             ],
             "response_type": "text",
@@ -16174,7 +16174,7 @@
           {
             "values": [
               {
-                "text": "To print a PO report of POs for a specific year, run the PO Activity report:\nMain Menu > Purchasing > Purchase Orders > Reports > Activity\n\nTo print a PO report of POs created by a particular Buyer, run the PO Listings report:\nMain Menu > Purchasing > Purchase Orders > Reports > Listings\n\nJob Aid FISCAL.080 \"PO Reports Within the Fiscal System\":  https://fiscal.ca.gov/fiswp/?mdocs-file=3337"
+                "text": "To print a PO report of POs for a specific year, run the PO Activity report:\nMain Menu > Purchasing > Purchase Orders > Reports > Activity\n\nTo print a PO report of POs created by a particular Buyer, run the PO Listings report:\nMain Menu > Purchasing > Purchase Orders > Reports > Listings\n\nJob Aid FISCAL.080 \"PO Reports Within the Fiscal System\":  <a href=\"https://fiscal.ca.gov/fiswp/?mdocs-file=3337\" target=\"_blank\">https://fiscal.ca.gov/fiswp/?mdocs-file=3337</a>"
               }
             ],
             "response_type": "text",
@@ -16216,7 +16216,7 @@
           {
             "values": [
               {
-                "text": "To assign P-Card ENY:\n\n*If the P-Card transaction date is the prior fiscal-year (FY) then the ENY is the prior year.\n\nNOTE: all P-Card transactions from 6/23-30 (every year) will appear on the July statement.\nNOTE: the July statement is generated the first accounting month of the current FY.\n"
+                "text": "To assign P-Card ENY:\n\n*If the P-Card transaction date is the prior fiscal-year (FY) then the ENY is the prior year.\n\nNOTE: all P-Card transactions from 6/23-30 (every year) will appear on the July statement.\nNOTE: the July statement is generated the first accounting month of the current FY."
               }
             ],
             "response_type": "text",
@@ -16237,7 +16237,7 @@
           {
             "values": [
               {
-                "text": "\"Separation of Duties\" (SOD) form is the document that is used to request role assignments that would otherwise conflict in FI\\$Cal (e.g., being a PO Buyer and PO Approver). \n"
+                "text": "\"Separation of Duties\" (SOD) form is the document that is used to request role assignments that would otherwise conflict in FI\\$Cal (e.g., being a PO Buyer and PO Approver). "
               }
             ],
             "response_type": "text",
@@ -16258,7 +16258,7 @@
           {
             "values": [
               {
-                "text": "To link a contract to a PO, create a PO by copying it from the contract.\nIf a PO was not created from contract, then the system does not allow linkage between them.\n"
+                "text": "To link a contract to a PO, create a PO by copying it from the contract.\nIf a PO was not created from contract, then the system does not allow linkage between them."
               }
             ],
             "response_type": "text",
@@ -16279,7 +16279,7 @@
           {
             "values": [
               {
-                "text": "To setup a User Support Lab (USL) session, submit a completed USL Request form to the FI\\$Cal Service Center.\n\nThe form can be found at: https://fiscal.ca.gov/fiswp/wp-content/uploads/2018/10/OSSO-USL-Request-Form-20181016.pdf\n"
+                "text": "To setup a User Support Lab (USL) session, submit a completed USL Request form to the FI\\$Cal Service Center.\n\nThe form can be found at: <a href=\"https://fiscal.ca.gov/fiswp/wp-content/uploads/2018/10/OSSO-USL-Request-Form-20181016.pdf\" target=\"_blank\">https://fiscal.ca.gov/fiswp/wp-content/uploads/2018/10/OSSO-USL-Request-Form-20181016.pdf</a>"
               }
             ],
             "response_type": "text",
@@ -16300,7 +16300,7 @@
           {
             "values": [
               {
-                "text": "To resolve \"PO date not between LPA contract dates\" error, the PO Date must lie between the LPA Contract Begin Date and End Date.\n\nNOTE: LPA Contract Begin and End Date help can be found in the Cal eProcure portal.\n\nTo search LPA Contracts: \nhttp://www.fiscal.ca.gov/upk/PO391_v2.1.0/html/tpc/96fc1b1a-c8eb-4dd5-9fd3-60ec83c4a49a/topic.html"
+                "text": "To resolve \"PO date not between LPA contract dates\" error, the PO Date must lie between the LPA Contract Begin Date and End Date.\n\nNOTE: LPA Contract Begin and End Date help can be found in the Cal eProcure portal.\n\nTo search LPA Contracts: \na href=\"http://www.fiscal.ca.gov/upk/PO391_v2.1.0/html/tpc/96fc1b1a-c8eb-4dd5-9fd3-60ec83c4a49a/topic.html\" target=\"_blank\">http://www.fiscal.ca.gov/upk/PO391_v2.1.0/html/tpc/96fc1b1a-c8eb-4dd5-9fd3-60ec83c4a49a/topic.html</a>"
               }
             ],
             "response_type": "text",
@@ -16321,7 +16321,7 @@
           {
             "values": [
               {
-                "text": "Sorry I don’t understand your question. Please try rephrasing.\nIf you’re looking for “how to” information, try visiting the job aids page http://fiscal.ca.gov/user-support/job-aids/.  You can also get help from a live agent in the FI\\$Cal Service Center. \nPhone: (855) 347-2250\nEmail: fiscalservicecenter\\@fiscal.ca.gov\nMonday through Friday\n7:30 a.m. — 5:30 p.m., Pacific Time\nServiceNow is available 24 hours a day to report issues or make a request to the FSC."
+                "text": "Sorry I don’t understand your question. Please try rephrasing.\nIf you’re looking for “how to” information, try visiting the job aids page <a href=\"http://fiscal.ca.gov/user-support/job-aids/\" target=\"_blank\">http://fiscal.ca.gov/user-support/job-aids/</a>.  You can also get help from a live agent in the FI\\$Cal Service Center. \nPhone: (855) 347-2250\nEmail: fiscalservicecenter\\@fiscal.ca.gov\nMonday through Friday\n7:30 a.m. — 5:30 p.m., Pacific Time\nServiceNow is available 24 hours a day to report issues or make a request to the FSC."
               }
             ],
             "response_type": "text",
@@ -16343,7 +16343,7 @@
           {
             "values": [
               {
-                "text": "If you’re looking for “how to” information, try visiting the job aids page http://fiscal.ca.gov/user-support/job-aids/.  You can also get help from a live agent in the FI\\$Cal Service Center. \nPhone: (855) 347-2250\nEmail: fiscalservicecenter\\@fiscal.ca.gov\nMonday through Friday\n7:30 a.m. — 5:30 p.m., Pacific Time\nServiceNow is available 24 hours a day to report issues or make a request to the FSC."
+                "text": "If you’re looking for “how to” information, try visiting the job aids page <a href=\"http://fiscal.ca.gov/user-support/job-aids/\" target=\"_blank\">http://fiscal.ca.gov/user-support/job-aids/</a>.  You can also get help from a live agent in the FI\\$Cal Service Center. \nPhone: (855) 347-2250\nEmail: fiscalservicecenter\\@fiscal.ca.gov\nMonday through Friday\n7:30 a.m. — 5:30 p.m., Pacific Time\nServiceNow is available 24 hours a day to report issues or make a request to the FSC."
               }
             ],
             "response_type": "text",
@@ -16365,7 +16365,7 @@
           {
             "values": [
               {
-                "text": "To copy a Contract into a PO, the Contract must be \"Approved\" (e.g., not \"Canceled,\" \"Expired\" or \"Open\").\n"
+                "text": "To copy a Contract into a PO, the Contract must be \"Approved\" (e.g., not \"Canceled,\" \"Expired\" or \"Open\")."
               }
             ],
             "response_type": "text",
@@ -16428,7 +16428,7 @@
           {
             "values": [
               {
-                "text": "The Vouchers created for the P-Card transactions are sent to US Bank since US Bank has already paid the Suppliers.\n"
+                "text": "The Vouchers created for the P-Card transactions are sent to US Bank since US Bank has already paid the Suppliers."
               }
             ],
             "response_type": "text",
@@ -16449,7 +16449,7 @@
           {
             "values": [
               {
-                "text": "\"Defect\" refers to a feature that is not working as intended. \n"
+                "text": "\"Defect\" refers to a feature that is not working as intended. "
               }
             ],
             "response_type": "text",
@@ -16470,7 +16470,7 @@
           {
             "values": [
               {
-                "text": "To cancel a PO:\n\nMain Menu>Purchasing> Purchase Orders >Buyer's Workbench\n1. change PO status from \"Pending Cancel\" to \"Canceled\"\n2. dispatch the PO\n\nNOTE: a PO without any Receipts, Vouchers and/or Payments created from the PO may be Cancelled.\nNOTE: a PO with Receipts, Vouchers and/or Payments created from the PO may be Closed.\n\nAdditional information at: https://fiscal.ca.gov/fiswp/?mdocs-file=2450\n"
+                "text": "To cancel a PO:\n\nMain Menu>Purchasing> Purchase Orders >Buyer's Workbench\n1. change PO status from \"Pending Cancel\" to \"Canceled\"\n2. dispatch the PO\n\nNOTE: a PO without any Receipts, Vouchers and/or Payments created from the PO may be Cancelled.\nNOTE: a PO with Receipts, Vouchers and/or Payments created from the PO may be Closed.\n\nAdditional information at: <a href=\"https://fiscal.ca.gov/fiswp/?mdocs-file=2450\" target=\"_blank\">https://fiscal.ca.gov/fiswp/?mdocs-file=2450</a>"
               }
             ],
             "response_type": "text",
@@ -16491,7 +16491,7 @@
           {
             "values": [
               {
-                "text": "To view a PO:\n\nIF OPEN\nMain Menu > Purchasing > Purchase Orders > Add/Update POs\n0. select Find an Existing Value tab.\n1. enter BU and PO ID\n2. click Search.\n\nIF CLOSED, CANCELED, PENDING CANCEL\nMain Menu > Purchasing > Review PO Information > Purchase Orders\n1. enter BU and PO ID\n2. click Search.\n"
+                "text": "To view a PO:\n\nIF OPEN\nMain Menu > Purchasing > Purchase Orders > Add/Update POs\n0. select Find an Existing Value tab.\n1. enter BU and PO ID\n2. click Search.\n\nIF CLOSED, CANCELED, PENDING CANCEL\nMain Menu > Purchasing > Review PO Information > Purchase Orders\n1. enter BU and PO ID\n2. click Search."
               }
             ],
             "response_type": "text",
@@ -16512,7 +16512,7 @@
           {
             "values": [
               {
-                "text": "To request access to SFTP the Department Authority/Designee (DAD) must submit the form: https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/FISCal_SFTP_UARF_v41.pdf"
+                "text": "To request access to SFTP the Department Authority/Designee (DAD) must submit the form: <a href=\"https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/FISCal_SFTP_UARF_v41.pdf\" target=\"_blank\">https://fiscal.ca.gov/fiswp/wp-content/uploads/docs/user-support/FISCal_SFTP_UARF_v41.pdf</a>"
               }
             ],
             "response_type": "text",
@@ -16575,7 +16575,7 @@
           {
             "values": [
               {
-                "text": "There may be many state employees with the same name. If this is the case, reach out to your departmental labor distribution team to confirm the employee ID for the P-Card cardholder in your department. This will ensure that the cardholder profile is created for the correct Employee/Employee ID. \n"
+                "text": "There may be many state employees with the same name. If this is the case, reach out to your departmental labor distribution team to confirm the employee ID for the P-Card cardholder in your department. This will ensure that the cardholder profile is created for the correct Employee/Employee ID. "
               }
             ],
             "response_type": "text",
@@ -16617,7 +16617,7 @@
           {
             "values": [
               {
-                "text": "To approve a PO:\n\n>  Approver Worklist\n*PO must have a status of \"Pending Approval.\"\n*Approver should Budget Check the PO (to confirm the budget is valid).\n\nNOTE: Approvers are allowed to approve a PO even if the budget has not been checked or is in error.\nNOTE: The FI\\$Cal Service Center (FSC) does not have the authority to approve departmental POs.\n"
+                "text": "To approve a PO:\n\n>  Approver Worklist\n*PO must have a status of \"Pending Approval.\"\n*Approver should Budget Check the PO (to confirm the budget is valid).\n\nNOTE: Approvers are allowed to approve a PO even if the budget has not been checked or is in error.\nNOTE: The FI\\$Cal Service Center (FSC) does not have the authority to approve departmental POs."
               }
             ],
             "response_type": "text",
@@ -16638,7 +16638,7 @@
           {
             "values": [
               {
-                "text": "Disallowed: a PO cannot be re-opened once it is canceled.\n"
+                "text": "Disallowed: a PO cannot be re-opened once it is canceled."
               }
             ],
             "response_type": "text",
@@ -16659,7 +16659,7 @@
           {
             "values": [
               {
-                "text": "To attach a document to an Event in \"Posted\" status, a new version of the Event must be created (\"Open\" status), see:\nhttp://www.fiscal.ca.gov/upk/PO383_v2.1.0/html/tpc/fcfa13b3-1079-40f1-9321-c935dbd02517/topic.html\n"
+                "text": "To attach a document to an Event in \"Posted\" status, a new version of the Event must be created (\"Open\" status), see:\n<a href=\"http://www.fiscal.ca.gov/upk/PO383_v2.1.0/html/tpc/fcfa13b3-1079-40f1-9321-c935dbd02517/topic.html\" target=\"_blank\">http://www.fiscal.ca.gov/upk/PO383_v2.1.0/html/tpc/fcfa13b3-1079-40f1-9321-c935dbd02517/topic.html</a>"
               }
             ],
             "response_type": "text",
@@ -16680,7 +16680,7 @@
           {
             "values": [
               {
-                "text": "WARNING: Sales/Use Tax (Tax ID) is determined by the \"Ship to ID.\" Changes to the Ship To address may, therefore, cause a change to the default Tax ID.\n\nWarning: A message appears when changing the Ship To address that it will also change the default Tax ID to match the new \"Ship to ID\".  You can click OK on this message and proceed with further processing of the PO.\n"
+                "text": "WARNING: Sales/Use Tax (Tax ID) is determined by the \"Ship to ID.\" Changes to the Ship To address may, therefore, cause a change to the default Tax ID.\n\nWarning: A message appears when changing the Ship To address that it will also change the default Tax ID to match the new \"Ship to ID\".  You can click OK on this message and proceed with further processing of the PO."
               }
             ],
             "response_type": "text",
@@ -16743,7 +16743,7 @@
           {
             "values": [
               {
-                "text": "To re-submit a Contract for approval, change the status to \"Open\" and resubmit it for approval.\n"
+                "text": "To re-submit a Contract for approval, change the status to \"Open\" and resubmit it for approval."
               }
             ],
             "response_type": "text",
@@ -16764,7 +16764,7 @@
           {
             "values": [
               {
-                "text": "To Budget Check a PO, the PO status must be Approved (not \"Open\").\n"
+                "text": "To Budget Check a PO, the PO status must be Approved (not \"Open\")."
               }
             ],
             "response_type": "text",
@@ -16806,7 +16806,7 @@
           {
             "values": [
               {
-                "text": "To view Chart Fields definitions go to: http://www.dof.ca.gov/Budget/Fiscal_Resources_For_Budget/"
+                "text": "To view Chart Fields definitions go to: <a href=\"http://www.dof.ca.gov/Budget/Fiscal_Resources_For_Budget/\" target=\"_blank\">http://www.dof.ca.gov/Budget/Fiscal_Resources_For_Budget/</a>"
               }
             ],
             "response_type": "text",
@@ -16848,7 +16848,7 @@
           {
             "values": [
               {
-                "text": "To access the FI\\$Cal newsletter: https://fiscal.ca.gov/library/focus-newsletter/\n"
+                "text": "To access the FI\\$Cal newsletter: <a href=\"https://fiscal.ca.gov/library/focus-newsletter/\" target=\"_blank\">https://fiscal.ca.gov/library/focus-newsletter/</a>"
               }
             ],
             "response_type": "text",
@@ -16911,7 +16911,7 @@
           {
             "values": [
               {
-                "text": "To view progress of an Identity Self-Service (ISS) ticket through the ISS website, refer to: https://fiscal.ca.gov/fiswp/?mdocs-file=2398\n"
+                "text": "To view progress of an Identity Self-Service (ISS) ticket through the ISS website, refer to: <a href=\"https://fiscal.ca.gov/fiswp/?mdocs-file=2398\" target=\"_blank\">https://fiscal.ca.gov/fiswp/?mdocs-file=2398</a>"
               }
             ],
             "response_type": "text",
