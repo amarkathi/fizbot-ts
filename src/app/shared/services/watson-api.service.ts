@@ -3,31 +3,15 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import * as AssistantV1 from '../models/assistant/v1';
 import {MessageResponse} from '../models/assistant/v1';
 import {IExchange} from "../models/watson-models";
+import {environment} from '../../../environments/environment';
 
 @Injectable()
 export class WatsonAPIService {
-  private username = '33d979c4-fadd-4dd3-929d-0e3e65737e3e';
-  private password = 'r2JDBpg0TpwV';
+
   private version = '2018-09-20';
-  //private workspace_id = '91811fb6-6a47-4ada-bdb0-c7213e8aa1ed';
-  //private baseUrl = `https://gateway.watsonplatform.net/assistant/api/v1/workspaces/${this.workspace_id}`;
 
-
-  private workspace_id = 'b157af29-6936-4504-8eb4-ca5cd7234509';
+  private workspace_id = environment.workspace_id;
   private baseUrl = `https://gateway.watsonplatform.net/assistant/api/v1/workspaces/${this.workspace_id}`;
-
-
-  /*
-    private version = '2018-09-20';
-    private workspace_id = 'b157af29-6936-4504-8eb4-ca5cd7234509';
-    private baseUrl = `https://gateway.watsonplatform.net/assistant/api/v1/workspaces/${this.workspace_id}`;
-    FI$cal IBM Watson details
-
-    https://gateway.watsonplatform.net/assistant/api
-    apikey:Ag8N1MxqwmzzqOiQudpa6coWv7QsCrMAvPgE5eFnP2x4
-    workspaceid:b157af29-6936-4504-8eb4-ca5cd7234509
-  */
-
 
   private context: AssistantV1.Context;
 
@@ -38,7 +22,7 @@ export class WatsonAPIService {
 
     const headers = new HttpHeaders({
       'Content-Type': 'application/json',
-      'Authorization': 'Basic ' + window.btoa(`apikey:Ag8N1MxqwmzzqOiQudpa6coWv7QsCrMAvPgE5eFnP2x4`)
+      'Authorization': 'Basic ' + window.btoa(`apikey:`+environment.api_key)
     });
 
     const body = {
@@ -52,35 +36,47 @@ export class WatsonAPIService {
       this.http.post<MessageResponse>(
         `${this.baseUrl}/message?version=${this.version}`,
         body, {headers: headers}).toPromise()
-        .then((response: MessageResponse) => {
-          this.context = response.context;
+        .then((messageResponse: MessageResponse) => {
+          this.context = messageResponse.context;
 
           let intent: string = '';
-          console.log(JSON.stringify(response, null, 2));
+          let response: string = 'Sorry I don\’t understand your question. ' +
+            'Please try rephrasing. If you’re looking for \“how-to\” information, ' +
+            'try visiting the job aids page <a href=\"http://fiscal.ca.gov/user-support/job-aids/\" target=\"_blank\">http://fiscal.ca.gov/user-support/job-aids/</a>.  ' +
+            'You can also get help from a live agent in the FI$Cal Service Center. \n' +
+            'Phone: (855) 347-2250\n' +
+            'Email: fiscalservicecenter@fiscal.ca.gov\n' +
+            'Monday through Friday\n' +
+            '7:30 a.m. — 5:30 p.m., Pacific Time\n' +
+            'ServiceNow is available 24 hours a day to report issues or make a request to the FSC.\n';
+          //console.log(JSON.stringify(messageResponse, null, 2));
           // If an intent was detected, log it out to the console.
-          if (response.intents.length > 0) {
-            console.log('Response: ' + response.intents.length);
-            console.log('Detected intent: #' + response.intents[0].intent);
-            console.log('Confidence: ' + response.intents[0].confidence);
-            intent = response.intents[0].intent;
+          if (messageResponse.intents.length > 0) {
+            console.log('Response: ' + messageResponse.intents.length);
+            console.log('Detected intent: #' + messageResponse.intents[0].intent);
+
           }else{
-            if(response.output.generic.length >= 2){
-              console.log(response.output.generic[0].text+'\n'+response.output.generic[1].text);
+            if(messageResponse.output.generic.length >= 2){
+              console.log(messageResponse.output.generic[0].text+'\n'+messageResponse.output.generic[1].text);
             }
           }
 
-          if (response.output.generic.length !== 0) {
+          if (messageResponse.output.generic.length !== 0 &&  messageResponse.intents.length != 0) {
+            console.log('Confidence: ' + messageResponse.intents[0].confidence);
+            if(messageResponse.intents[0].confidence > 0.65){
+              response = messageResponse.output.generic[0].text;
+            }
             let exchange = {
-              message: response.input.text,
-              response: response.output.generic[0].text,
+              message: messageResponse.input.text,
+              response: response,
               intent: intent,
               time: new Date()
             };
             resolve(exchange);
           } else {
             let emptyExchange = {
-              message: response.input.text,
-              response: '',
+              message: messageResponse.input.text,
+              response: response,
               intent: intent,
               time: new Date()
             };

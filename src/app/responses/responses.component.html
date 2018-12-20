@@ -12,10 +12,7 @@
        </div>
       <div class="row" >
         <img src="/src/assets/images/chatbot-final.png" alt="FI$Bot" width="30" height="30" title="FI$bot">&nbsp;
-        <div class="response left" width="300px">{{ exchange.response }}</div>
-        <!--<div *ngIf="conversation.exchanges[conversation.exchanges.length-1].response == exchange.response">
-          <a class="fa fa-thumbs-o-down" width="30" style="float: bottom; cursor: pointer" title="Thumbs Down" (click)="processThumbsDown();"></a>
-        </div>-->
+        <div class="response left" width="300px" [innerHTML]="exchange.response"></div>
       </div>
     </li>
    </ul>
