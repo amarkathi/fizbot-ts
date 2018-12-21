@@ -31,7 +31,12 @@ export class WatsonAPIService {
       },
       context: this.context
     };
-
+    /*console.log('***************************');
+    this.http.post('http://10.8.35.47:8080/hello', body, {headers:headers})
+      .subscribe( data =>  {
+        console.log(data);
+      });
+    console.log('****************************');*/
     const promise = new Promise<IExchange>((resolve, reject) => {
       this.http.post<MessageResponse>(
         `${this.baseUrl}/message?version=${this.version}`,
@@ -49,7 +54,7 @@ export class WatsonAPIService {
             'Monday through Friday\n' +
             '7:30 a.m. — 5:30 p.m., Pacific Time\n' +
             'ServiceNow is available 24 hours a day to report issues or make a request to the FSC.\n';
-          //console.log(JSON.stringify(messageResponse, null, 2));
+           console.log(JSON.stringify(messageResponse, null, 2));
           // If an intent was detected, log it out to the console.
           if (messageResponse.intents.length > 0) {
             console.log('Response: ' + messageResponse.intents.length);
@@ -91,49 +96,5 @@ export class WatsonAPIService {
     return promise;
   }
 
-  createDialogNode(dialogeNodeName: string, responseText: string) {
-    const headers = new HttpHeaders({
-      'Content-Type': 'application/json',
-      'Authorization': 'Basic ' + window.btoa(`apikey:Ag8N1MxqwmzzqOiQudpa6coWv7QsCrMAvPgE5eFnP2x4`)
-    });
-
-    const body = {
-      dialog_node: dialogeNodeName,
-      conditions: '#' + dialogeNodeName,
-      output:
-        {
-          generic: [
-            {
-              response_type: 'text',
-              values: [
-                {
-                  text: responseText
-                }
-              ]
-            }
-          ]
-        },
-      title: dialogeNodeName
-
-    };
-    const promise = new Promise<string>((resolve, reject) => {
-      this.http.post<MessageResponse>(
-        `${this.baseUrl}/dialog_nodes?version=${this.version}`,
-        body, {headers: headers}).toPromise()
-        .then((response: MessageResponse) => {
-          this.context = response.context;
-
-          if (response.output.generic.length !== 0) {
-            console.log(JSON.stringify(response, null, 2));
-          } else {
-            resolve('');
-          }
-        })
-        .catch((error: any) => {
-          console.log(error);
-          reject(error);
-        });
-    });
-    return promise;
-  }
+  createDialogNode(dialogeNodeName: string, responseText: string) {}
 }
