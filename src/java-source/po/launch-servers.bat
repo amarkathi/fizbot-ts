@@ -1,0 +1,10 @@
+start cmd /k mvn spring-boot:run -Dspring-boot.run.arguments=--server.port=8080
+start cmd /k mvn spring-boot:run -Dspring-boot.run.arguments=--server.port=8081
+start cmd /k mvn spring-boot:run -Dspring-boot.run.arguments=--server.port=8082
+start cmd /k mvn spring-boot:run -Dspring-boot.run.arguments=--server.port=8083
+start cmd /k mvn spring-boot:run -Dspring-boot.run.arguments=--server.port=8084
+start cmd /k mvn spring-boot:run -Dspring-boot.run.arguments=--server.port=8085
+start cmd /k mvn spring-boot:run -Dspring-boot.run.arguments=--server.port=8086
+start cmd /k mvn spring-boot:run -Dspring-boot.run.arguments=--server.port=8087
+start cmd /k mvn spring-boot:run -Dspring-boot.run.arguments=--server.port=8088
+start cmd /k mvn spring-boot:run -Dspring-boot.run.arguments=--server.port=8089
