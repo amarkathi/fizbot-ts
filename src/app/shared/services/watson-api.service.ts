@@ -8,38 +8,25 @@ import {environment} from '../../../environments/environment';
 @Injectable()
 export class WatsonAPIService {
 
-  private version = '2018-09-20';
-
-  private workspace_id = environment.workspace_id;
-  private baseUrl = `https://gateway.watsonplatform.net/assistant/api/v1/workspaces/${this.workspace_id}`;
-
   private context: AssistantV1.Context;
 
   constructor(private http: HttpClient) {
   }
 
   sendMessage(message: string) {
-
     const headers = new HttpHeaders({
-      'Content-Type': 'application/json',
-      'Authorization': 'Basic ' + window.btoa(`apikey:`+environment.api_key)
+      'Content-Type': 'application/json'
     });
 
-    const body = {
+    let body = {
       input: {
         text: message
       },
       context: this.context
     };
-    /*console.log('***************************');
-    this.http.post('http://10.8.35.47:8080/hello', body, {headers:headers})
-      .subscribe( data =>  {
-        console.log(data);
-      });
-    console.log('****************************');*/
     const promise = new Promise<IExchange>((resolve, reject) => {
       this.http.post<MessageResponse>(
-        `${this.baseUrl}/message?version=${this.version}`,
+        `http://10.8.35.57:8080/fispo`,
         body, {headers: headers}).toPromise()
         .then((messageResponse: MessageResponse) => {
           this.context = messageResponse.context;
